@@ -76,6 +76,7 @@ $main-color: #2591C6;
 $body-color: #525252;
 $heading-color: #001430;
 $white-color: #ffffff;
+$off-white: #d8e0e8;
 $black-color: #000000;
 $light-black: #282828;
 $light-green: #eaf6fc;
@@ -384,7 +385,7 @@ Header Area Style
 				a {
 					color: $heading-color;
 					display: inline-block;
-
+					font-size: 12px;
 					i {
 						color: $white-color;
 						margin-right: 5px;
@@ -2155,10 +2156,10 @@ Subscribe Area Style
 Footer Top Area Style
 ======================================================*/
 .footer-top-area {
-	background-color: $heading-color;
+	background-color: $off-white;
 
 	&.f-bg {
-		// background-image: url(../../assets/img/footer-bg.jpg);
+		background-image: url(../img/footer-bg.png);
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -2226,7 +2227,7 @@ Footer Top Area Style
 
 	p {
 		margin-bottom: 0;
-		color: $white-color;
+		color: $black-color;
 	}
 
 	ul {
@@ -2240,11 +2241,11 @@ Footer Top Area Style
 			}
 
 			span {
-				color: $white-color;
+				color: $black-color;
 			}
 
 			a {
-				color: #c0cade;
+				color: $black-color;
 				transition: $transition;
 
 				i {
@@ -5130,22 +5131,22 @@ Hero Slider Area Style
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background-color: $heading-color;
-			opacity: 0.6;
+			// background-color: $heading-color;
+			// opacity: 0.6;
 			z-index: -1;
 		}
 
 		&.slider-item-bg-1 {
-			// background-image: url(../img/home-three/slider/1.jpg);
+			// background: linear-gradient(to top, transparent, $black-color 125%);
 		}
 
 		&.slider-item-bg-2 {
-			background: linear-gradient(to top, transparent, $black-color 200%), url(../img/home-three/slider/s2.jpg);
+			background: linear-gradient(to top, transparent, $black-color 125%), url(../img/home-three/slider/s2.jpg);
 			// background: url('../img/home-three/slider/s2.jpg');
 		}
 
 		&.slider-item-bg-3 {
-			background: linear-gradient(to top, transparent, $black-color 200%), url(../img/home-three/slider/s3.jpg);
+			background: linear-gradient(to top, transparent, $black-color 125%), url(../img/home-three/slider/s3.jpg);
 		}
 
 		.slider-text {
@@ -5528,15 +5529,16 @@ Operate Area Style
 	text-align: center;
 	background-color: #eaf6fc;
 	position: relative;
+	z-index: 9;
 
 	.operate-img {
 		position: absolute;
-		bottom: -137px;
+		bottom: -138px;
 		left: 0;
 	}
 
 	.default-btn {
-		padding: 25px 40px;
+		padding: 25px;
 		font-size: 20px;
 
 		i {
@@ -7527,10 +7529,12 @@ Page-navigation Area Style*/
 	}
 }
 
+/*************
+ More 
+ about us
+**************/
 
 .more-about-us {
-	background: $light-green;
-
 	.vision {
 		position: relative;
 		padding-left: 50px;
@@ -7557,4 +7561,70 @@ Page-navigation Area Style*/
 			z-index: -1;
 		}
 	}
+
+	.mission-div {
+		position: relative;
+		padding-left: 50px;
+		margin-bottom: 30px;
+
+		&::before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 30px;
+			height: 30px;
+			background-color: $main-color;
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			top: 5px;
+			left: 5px;
+			width: 30px;
+			height: 30px;
+			background-color: #a7ecf0;
+			z-index: -1;
+		}
+
+		.mission {
+			box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+			border: none;
+			background-color: $white-color;
+			padding: 30px;
+
+			h3 {
+				padding-top: 20px;
+				padding-bottom: 5px;
+			}
+
+			.btm-space {
+				padding-bottom: 28px;
+			}
+		}
+	}
+
 }
+
+.why-bnc {
+	background: $light-green;
+}
+
+.yt-video {
+   	overflow: hidden !important;
+    padding-bottom: 56.25% !important;
+    position: relative !important;
+    height: 0 !important;
+}
+
+.yt-video iframe {
+   	left: 0 !important;
+    top: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+    position: absolute !important;
+}
+
+
+

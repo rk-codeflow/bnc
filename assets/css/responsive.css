@@ -42,6 +42,9 @@
   }
   .header-area .top-header-area .header-content-left {
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   .header-area .top-header-area .header-content-left li {
     margin-bottom: 10px;
@@ -51,6 +54,8 @@
   }
   .header-area .top-header-area .header-content-right {
     float: unset;
+    display: flex;
+    justify-content: center;
   }
   .header-area .top-header-area .header-content-right li .option-item {
     display: none;
@@ -2074,7 +2079,7 @@
 
 @media only screen and (max-width: 991px) {
   .mean-container .mean-bar {
-    background-color: #25245e;
+    background-color: #fff;
     box-shadow: 0px 20px 20px 20px rgba(0, 0, 0, 0.05);
     height: 70px;
   }
@@ -2083,7 +2088,7 @@
     color: #ffffff;
   }
   .mean-container a.meanmenu-reveal span {
-    background-color: #ffffff;
+    background-color: #2591c6;
     position: relative;
     top: 8px;
     margin-top: -5px;

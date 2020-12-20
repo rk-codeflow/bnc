@@ -64,9 +64,10 @@
 								<li>
 									<a href="tel:+822456974">
 										<i class="bx bx-phone-call"></i>
-										Call Us: +977-23-542242/545566
+										Call Us: +977-23-542242, +977-23-545566
 									</a>
 								</li>
+								
 
 								<li>
 									<a href="mailto:hello@surety.com">
@@ -123,7 +124,7 @@
 					<!-- Menu For Mobile Device -->
 					<div class="mobile-nav">
 						<a href="index.php" class="logo">
-							<img src="assets/img/bnc--logo.png" width="280" alt="Logo">
+							<img src="assets/img/bnc--logo.png"  width="150" alt="Logo">
 						</a>
 					</div>
 

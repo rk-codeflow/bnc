@@ -9,41 +9,13 @@
 					<!-- <video autoplay loop>
 						<source src="assets/img/home-three/slider/vid2.mp4" type="video/mp4">
 					</video> -->
-					<div class="yt-video" style="opacity:0.7;background: #000;">
-						<iframe width="100%" height="800px"
-							src="https://www.youtube.com/embed/D98KJoIvnEc?controls=0&autoplay=1&mute=1" frameborder="0"
+					<div class="yt-video">
+						<iframe width="100%" height="auto"
+							src="https://www.youtube.com/embed/D98KJoIvnEc?controls=0&autoplay=1&mute=1&showinfo=0&loop=1" frameborder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 							allowfullscreen></iframe>
 					</div>
-					<div class="d-table">
-						<div class="d-table-cell">
-							<div class="container">
-								<div class="row align-items-center">
-									<div class="col-lg-9">
-										<div class="slider-text one">
-											<!-- <span class="top-title">Assessment Center & Testing</span> -->
-											<h1>Robust Infrastructure</h1>
-											<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil architecto
-												laborum eaque! Deserunt maxime, minus quas molestiae reiciendis esse natus
-												nisi iure.</p>
-
-											<div class="slider-btn">
-												<a class="default-btn" href="appointment.html">
-													Book An Appointment
-												</a>
-											</div>
-										</div>
-									</div>
-
-									<!-- <div class="col-lg-3">
-										<a href="https://youtu.be/LvkvCBTUwPw" class="video-btn popup-youtube">
-											<i class="flaticon-play-button-2"></i>
-										</a>
-									</div> -->
-								</div>
-							</div>
-						</div>
-					</div>
+					
 				</div>
 
 				<div class="slider-item slider-item-bg-2">
@@ -161,7 +133,7 @@
 					<!-- view more btn -->
 					<div class="view-more-btn">
 						<a href="#" class="default-btn">
-							View More
+							View More Services
 						</a>
 					</div>
 				</div>
@@ -208,7 +180,7 @@
 								Read More
 							</a>
 
-							<a href="about.html" class="mx-2 default-btn">
+							<a href="about.html" class="mx-lg-2 default-btn">
 								Book An Appointment
 							</a>
 						</div>
@@ -393,7 +365,7 @@
 					<div class="col-lg-3 col-sm-6">
 						<div class="single-doctors-two">
 							<div class="doctor-img">
-								<img src="assets/img/doctors/doc.jpg" alt="Image">
+								<img src="assets/img/doctors/01.jpg" alt="Image">
 
 								<ul class="doctors-link">
 									<li>
@@ -420,8 +392,8 @@
 							</div>
 
 							<div class="doctors-content">
-								<h3>Dr. Abishek Pokhrel</h3>
-								<span>Radiology-Doc</span>
+								<h6>Dr. Smrity Mool Joshi</h6>
+								<span>Gynecology & Obstetrics</span>
 							</div>
 						</div>
 					</div>
@@ -429,7 +401,7 @@
 					<div class="col-lg-3 col-sm-6">
 						<div class="single-doctors-two">
 							<div class="doctor-img">
-								<img src="assets/img/doctors/doc.jpg" alt="Image">
+								<img src="assets/img/doctors/02.jpg" alt="Image">
 
 								<ul class="doctors-link">
 									<li>
@@ -452,48 +424,16 @@
 							</div>
 
 							<div class="doctors-content">
-								<h3>Dr.Amit Kumar Shah</h3>
-								<span>Urologist</span>
+								<h6>Dr. BISHWAMBER THAPA</h6>
+								<span>Orthopedic</span>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-lg-3 col-sm-6 offset-sm-3 offset-lg-0">
+					<div class="col-lg-3 col-sm-6 offset-lg-0">
 						<div class="single-doctors-two">
 							<div class="doctor-img">
-								<img src="assets/img/doctors/doc.jpg" alt="Image">
-
-								<ul class="doctors-link">
-									<li>
-										<a href="#">
-											<i class="bx bxl-facebook"></i>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<i class="bx bxl-twitter"></i>
-										</a>
-									</li>
-
-									<li>
-										<a href="#">
-											<i class="bx bxl-instagram"></i>
-										</a>
-									</li>
-								</ul>
-							</div>
-
-							<div class="doctors-content">
-								<h3>Dr. Ashish Dhakal</h3>
-								<span>Psychiatric</span>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-3 col-sm-6 offset-sm-3 offset-lg-0">
-						<div class="single-doctors-two">
-							<div class="doctor-img">
-								<img src="assets/img/doctors/doc4.jpg" alt="Image">
+								<img src="assets/img/doctors/04.jpg" alt="Image">
 
 								<ul class="doctors-link">
 									<li>
@@ -520,11 +460,45 @@
 							</div>
 
 							<div class="doctors-content">
-								<h3>Dr. Bindu Adhikari</h3>
-								<span>Pathology DOC</span>
+								<h6>Dr. NIRU NEPAL</h6>
+								<span>Anesthesiology</span>
 							</div>
 						</div>
 					</div>
+
+					<div class="col-lg-3 col-sm-6 offset-lg-0">
+						<div class="single-doctors-two">
+							<div class="doctor-img">
+								<img src="assets/img/doctors/03.jpg" alt="Image">
+
+								<ul class="doctors-link">
+									<li>
+										<a href="#">
+											<i class="bx bxl-facebook"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="bx bxl-twitter"></i>
+										</a>
+									</li>
+
+									<li>
+										<a href="#">
+											<i class="bx bxl-instagram"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+
+							<div class="doctors-content">
+								<h6>Dr. UJWAL RAI</h6>
+								<span>Pathology Department</span>
+							</div>
+						</div>
+					</div>
+
+					
 
 					<!-- view more btn -->
 					<div class="view-more-btn">
@@ -570,7 +544,7 @@
 								<span class="odometer" data-count="50">00</span>
 								<span class="traget">+</span>
 							</h2>
-							<p>Doctrs and Nurses</p>
+							<p>Doctros and Nurses</p>
 						</div>
 					</div>
 					<div class="col-lg-3 col-sm-6">
@@ -812,13 +786,13 @@
 							<img src="assets/img/home-three/operate-img1.png" alt="Image">
 						</div>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-lg-5">
 						<div class="operate-text">
 							<h2>We operate 24 hours a day!</h2>
 							<p>Call us if you have any urgent help!</p>
 						</div>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-lg-3">
 						<div class="operate-btn">
 							<a href="tel:+882-456-889" class="default-btn">
 								<i class='bx bx-phone-call'></i>
@@ -848,7 +822,7 @@
 					<div class="col-lg-4 col-md-6">
 						<div class="single-blog">
 							<a href="blog-details.html">
-								<img src="assets/img/blog/1.jpg" alt="Image">
+								<img src="assets/img/blog/blog1.jpg" alt="Image">
 							</a>
 							<span>10 May 2020</span>
 							<div class="blog-content">
@@ -873,7 +847,7 @@
 					<div class="col-lg-4 col-md-6">
 						<div class="single-blog">
 							<a href="blog-details.html">
-								<img src="assets/img/blog/2.jpg" alt="Image">
+								<img src="assets/img/blog/blog2.jpg" alt="Image">
 							</a>
 							<span>11 May 2020</span>
 							<div class="blog-content">
@@ -895,10 +869,10 @@
 						</div>
 					</div>
 
-					<div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
+					<div class="col-lg-4 col-md-6  offset-lg-0">
 						<div class="single-blog">
 							<a href="blog-details.html">
-								<img src="assets/img/blog/3.jpg" alt="Image">
+								<img src="assets/img/blog/blog3.jpg" alt="Image">
 							</a>
 							<span>13 May 2020</span>
 							<div class="blog-content">
@@ -948,21 +922,21 @@
 					<div class="col-lg-12">
 						<div class="how-its-work-content">
 							<div class="row">
-								<div class="col-lg-4">
+								<div class="col-lg-4 col-md-4">
 									<div class="content-wrap">
 										<h3>Event One</h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 											incididunt ut labore et dolore magna aliqua. Quis ipsum</p>
 									</div>
 								</div>
-								<div class="col-lg-4">
+								<div class="col-lg-4 col-md-4">
 									<div class="content-wrap">
 										<h3>Event Two</h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 											incididunt ut labore et dolore magna aliqua. Quis ipsum</p>
 									</div>
 								</div>
-								<div class="col-lg-4">
+								<div class="col-lg-4 col-md-4">
 									<div class="content-wrap">
 										<h3>Event Three</h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor

@@ -90,7 +90,7 @@
 									<span class="right">6:00AM-10:00PM</span>
 								</li>
 								<li>
-									<span>Fry:</span>
+									<span>Fri:</span>
 									<span class="right">6:00AM-04:00PM</span>
 								</li>
 								<li>
@@ -122,10 +122,12 @@
 									</a>
 								</li>
 								
-								<li>
-									<i class="bx bx-location-plus"></i>
+								<li class="pl-0">
+									<a href="#">
+										<i class="bx bx-location-plus"></i>
 									<span>Address:</span> 
 									Birtamode-5, state no. 1, Nepal
+									</a>
 								</li>
 							</ul>
 						</div>

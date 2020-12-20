@@ -9,7 +9,7 @@
 					<ul>
 						<li>
 							<a href="index.html">
-								Home 
+								Home
 							</a>
 						</li>
 
@@ -60,13 +60,21 @@
 						<div class="about-content">
 							<span class="top-title">About Us</span>
 							<h2>We are The Best</h2>
-							<p>B & C Teaching Hospital, situated in the eastern part of Nepal is a multi-specialty 300 bedded hospital that offers preventive and curative health care services. It was established on 2071/11/18 BS with the slogan of commitment for education, health and employment.</p>
+							<p>B & C Teaching Hospital, situated in the eastern part of Nepal is a multi-specialty 300 bedded
+								hospital that offers preventive and curative health care services. It was established on
+								2071/11/18 BS with the slogan of commitment for education, health and employment.</p>
 
-							<p>B & C Teaching Hospital is committed to provide high quality medical services with affordable cost and medical care to each and every citizen.</p>
+							<p>B & C Teaching Hospital is committed to provide high quality medical services with affordable
+								cost and medical care to each and every citizen.</p>
 
-							<p>We provide affordable medicine to patients in a friendly environment and with a spirit of compassion. We have highly skilled and qualified staffs and medical representatives who are fully dedicated to provide high quality of medical services.</p>
+							<p>We provide affordable medicine to patients in a friendly environment and with a spirit of
+								compassion. We have highly skilled and qualified staffs and medical representatives who are
+								fully dedicated to provide high quality of medical services.</p>
 
-							<p>B & C Teaching Hospital has best team of medical personnel with state of the art equipment to provide the wide range of medical, surgical, pathological and diagnostic services.At last but not least we are one of the best reliable health service providers in the country and targeted to stand far from the general crowd of health providers. We have</p>
+							<p>B & C Teaching Hospital has best team of medical personnel with state of the art equipment to
+								provide the wide range of medical, surgical, pathological and diagnostic services.At last but
+								not least we are one of the best reliable health service providers in the country and targeted
+								to stand far from the general crowd of health providers. We have</p>
 
 							<!-- <ul>
 								<li>
@@ -91,14 +99,16 @@
 		<!-- End About Area -->
 
 		<!-- Start About Area -->
-		<section class="about-area two ptb-100">
+		<!-- <section class="about-area two ptb-100">
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-lg-6">
 						<div class="about-content ml-0">
 							<span class="top-title">About Corona</span>
 							<h2>How COV-19 Spreads</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+								labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+								maecenas accumsan lacus vel facilisis.</p>
 							<strong>The best way to prevent illness is to avoid being exposed to this virus.</strong>
 							<ul>
 								<li>
@@ -129,7 +139,7 @@
 									<i class="flaticon-tick"></i>
 									Cover your mouth and nose
 								</li>
-								
+
 							</ul>
 						</div>
 					</div>
@@ -145,7 +155,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<!-- End About Area -->
 
 		<!-- mission/vision -->
@@ -154,23 +164,68 @@
 				<div class="section-title">
 					<span class="top-title">Vision & Mission</span>
 					<h2>Our Vision</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis vel consequatur tempora atque blanditiis exercitationem incidunt, alias corporis quam assumenda dicta, temporibus.</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis vel consequatur tempora atque
+						blanditiis exercitationem incidunt, alias corporis quam assumenda dicta, temporibus.</p>
 				</div>
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="vision">
 							<span class="top-title mb-0">Vision Statement</span>
-							<p>To be the hub for best treatment of major disease in all Asia using home grown healthcare professionals and world class medical equipment. </p>
+							<p>To be the hub for best treatment of major disease in all Asia using home grown healthcare
+								professionals and world class medical equipment. </p>
 						</div>
-					</div>
 
-					<!-- mission -->
-					
-					<!-- mission ends -->
+						<!-- mission -->
+						<div class="mission-div mt-4">
+							<span class="top-title">Mission Statement</span>
+							<div class="row">
+								<div class="col-lg-4">
+									<div class="mission text-center">
+										<img src="assets/img/ab1.png" alt="">
+										<h3>Quality Healthcare </h3>
+										<p>To ensure accessible and inexpensive quality healthcare by empathetic medical
+											professionals to all.</p>
+									</div>
+								</div>
+
+								<div class="col-lg-4">
+									<div class="mission text-center">
+										<img src="assets/img/ab2.png" alt="">
+										<h3>Best Doctors</h3>
+										<p class="btm-space">To be the hub for creating the best healthcare professionals.</p>
+
+									</div>
+								</div>
+
+								<div class="col-lg-4">
+									<div class="mission text-center">
+										<img src="assets/img/ab3.png" alt="">
+										<h3>Patient-centered Care</h3>
+										<p>To excel at providing for the healthcare needs of our region through quality,
+											efficient and patient-centered care.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- mission ends -->
+					</div>
 				</div>
 			</div>
 		</section>
 		<!-- mission/vision ends -->
+
+		<!-- why bnc -->
+		<section class="why-bnc ptb-100">
+			<div class="container">
+				<div class="section-title">
+					<span class="top-title">Why B & C</span>
+					<h2>Reasons to believe us</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis vel consequatur tempora atque
+						blanditiis exercitationem incidunt, alias corporis quam assumenda dicta, temporibus.</p>
+				</div>
+			</div>
+		</section>
+		<!-- why bnc ends -->
 
 		<!-- Start Our Doctors Area -->
 		<section class="doctors-area pt-100 pb-70">
@@ -178,7 +233,8 @@
 				<div class="section-title">
 					<span class="top-title">Our Doctors</span>
 					<h2>Our Specialist Doctors</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis vel consequatur tempora atque blanditiis exercitationem incidunt, alias corporis quam assumenda dicta, temporibus.</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis vel consequatur tempora atque
+						blanditiis exercitationem incidunt, alias corporis quam assumenda dicta, temporibus.</p>
 				</div>
 
 				<div class="doctors-wrap owl-carousel owl-theme">
@@ -187,7 +243,7 @@
 						<h3>Dr. Jelin Alis</h3>
 						<span class="top-title">Cardiologist</span>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodin</p>
-						
+
 						<ul>
 							<li>
 								<a href="#">
@@ -211,13 +267,13 @@
 							</li>
 						</ul>
 					</div>
-			
+
 					<div class="single-doctor">
 						<img src="assets/img/home-three/about/doc.jpg" alt="Image">
 						<h3>Dr. Jemse Watson</h3>
 						<span class="top-title">Necrologist</span>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodin</p>
-						
+
 						<ul>
 							<li>
 								<a href="#">
@@ -241,13 +297,13 @@
 							</li>
 						</ul>
 					</div>
-			
+
 					<div class="single-doctor">
 						<img src="assets/img/home-three/about/doc.jpg" alt="Image">
 						<h3>Dr. Neels Bore</h3>
 						<span class="top-title">Surgery Specialist</span>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodin</p>
-						
+
 						<ul>
 							<li>
 								<a href="#">
@@ -277,7 +333,7 @@
 						<h3>Dr. Kilva Alis</h3>
 						<span class="top-title">Cardiologist</span>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodin</p>
-						
+
 						<ul>
 							<li>
 								<a href="#">
@@ -307,19 +363,21 @@
 		<!-- End Our Doctors Area -->
 
 		<!-- Start Our Mission Area -->
-		<section class="about-area four abouts-six">
+		<!-- <section class="about-area four abouts-six">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-lg-6">
 						<div class="about-content ml-auto">
 							<span class="top-title">About Us</span>
 							<h2>Free Medical Camp Importance & Objectives</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
-							
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+								labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+								maecenas accumsan lacus vel facilisis.</p>
+
 							<ul>
 								<li>
 									<i class="flaticon-tick"></i>
-									Free Registration of Deserving Cases for Surgeries 
+									Free Registration of Deserving Cases for Surgeries
 								</li>
 								<li>
 									<i class="flaticon-tick"></i>
@@ -342,7 +400,7 @@
 									Childbirth
 								</li>
 							</ul>
-							
+
 							<a href="about.html" class="default-btn">
 								More About Us
 							</a>
@@ -351,12 +409,12 @@
 
 					<div class="col-lg-6 pr-0">
 						<div class="about-img about-img-2">
-							
+
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<!-- End Our Mission Area -->
 
 		<!-- Start Counter Area -->
@@ -476,7 +534,7 @@
 		<!-- End Counter Area -->
 
 		<!-- Start Subscribe Area -->
-		<section class="subscribe-area">
+		<!-- <section class="subscribe-area">
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-lg-6">
@@ -486,7 +544,8 @@
 
 					<div class="col-lg-6">
 						<form class="newsletter-form" data-toggle="validator">
-							<input type="email" class="form-control" placeholder="Enter Your Email" name="EMAIL" required autocomplete="off">
+							<input type="email" class="form-control" placeholder="Enter Your Email" name="EMAIL" required
+								autocomplete="off">
 
 							<button class="default-btn" type="submit">
 								Subscribe
@@ -497,10 +556,10 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<!-- End Subscribe Area -->
 
-		
+
 
 		<!-- include footer -->
 		<?php include 'includes/footer.php';?>
