@@ -91,7 +91,7 @@
 		<!-- End About Area -->
 
 		<!-- Start About Area -->
-		<!-- <section class="about-area two ptb-100">
+		<section class="about-area two ptb-100">
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-lg-6">
@@ -145,8 +145,32 @@
 					</div>
 				</div>
 			</div>
-		</section> -->
+		</section>
 		<!-- End About Area -->
+
+		<!-- mission/vision -->
+		<section class="more-about-us ptb-100">
+			<div class="container">
+				<div class="section-title">
+					<span class="top-title">Vision & Mission</span>
+					<h2>Our Vision</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis vel consequatur tempora atque blanditiis exercitationem incidunt, alias corporis quam assumenda dicta, temporibus.</p>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="vision">
+							<span class="top-title mb-0">Vision Statement</span>
+							<p>To be the hub for best treatment of major disease in all Asia using home grown healthcare professionals and world class medical equipment. </p>
+						</div>
+					</div>
+
+					<!-- mission -->
+					
+					<!-- mission ends -->
+				</div>
+			</div>
+		</section>
+		<!-- mission/vision ends -->
 
 		<!-- Start Our Doctors Area -->
 		<section class="doctors-area pt-100 pb-70">
@@ -283,7 +307,7 @@
 		<!-- End Our Doctors Area -->
 
 		<!-- Start Our Mission Area -->
-		<!-- <section class="about-area four abouts-six">
+		<section class="about-area four abouts-six">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-lg-6">
@@ -332,7 +356,7 @@
 					</div>
 				</div>
 			</div>
-		</section> -->
+		</section>
 		<!-- End Our Mission Area -->
 
 		<!-- Start Counter Area -->

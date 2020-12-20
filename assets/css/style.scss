@@ -66,8 +66,10 @@ Default Style
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 
-$body-font-family :  'Lato', sans-serif;
-$heading-font-family : 'Roboto', sans-serif;
+$body-font-family : 'Lato',
+sans-serif;
+$heading-font-family : 'Roboto',
+sans-serif;
 
 // $main-color: #05e8c2;
 $main-color: #2591C6;
@@ -81,78 +83,110 @@ $box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
 $transition: all 0.5s;
 $border-radius: 4px;
 
+// mixin 
+@mixin blue-box {
+	background-color: red;
+}
+
 body {
 	padding: 0;
-    margin: 0;
-    font-size: 14px;
-    line-height: 1.8;
-    font-family: $body-font-family;
+	margin: 0;
+	font-size: 14px;
+	line-height: 1.8;
+	font-family: $body-font-family;
 	color: $body-color;
 }
+
 a {
 	display: inline-block;
-    transition: $transition;
+	transition: $transition;
 	text-decoration: none;
 	color: $main-color;
+
 	&:hover {
-        text-decoration: none;
-        color: $heading-color;
+		text-decoration: none;
+		color: $heading-color;
 	}
+
 	&:focus {
 		text-decoration: none;
 	}
 }
+
 button {
-    outline: 0 !important; 
+	outline: 0 !important;
 	box-shadow: none;
 	border: none;
-    &:focus {
-        box-shadow: none;
-    }
+
+	&:focus {
+		box-shadow: none;
+	}
 }
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    color: $heading-color;
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: $heading-color;
 	font-weight: 700;
 	font-family: $heading-font-family;
 }
+
 h3 {
 	font-size: 20px;
 }
+
 .d-table {
-    width: 100%;
-    height: 100%;
+	width: 100%;
+	height: 100%;
 }
+
 .d-table-cell {
-    vertical-align: middle;
+	vertical-align: middle;
 }
+
 p {
-    font-size: 15px;
+	font-size: 15px;
 	margin-bottom: 15px;
+
 	&:last-child {
-        margin-bottom: 0;
-    }
-} 
+		margin-bottom: 0;
+	}
+}
+
 img {
-    max-width: 100%;
-    height: auto;
+	max-width: 100%;
+	height: auto;
 }
+
 ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
+
 .form-control {
-    height: 50px;
-    color: $heading-color;
+	height: 50px;
+	color: $heading-color;
 	border: 1px solid #e8e8e8;
 	background-color: #f2f9fc;
 	border-radius: $border-radius;
 	font-size: 14px;
 	padding: 10px 20px;
 	width: 100%;
+
 	&::placeholder {
 		color: #495057;
 	}
+
 	&:focus {
 		color: $black-color;
 		background-color: transparent;
@@ -161,47 +195,61 @@ ul {
 		border: 1px solid $main-color;
 	}
 }
-.form-control:hover, .form-control {
-    &:focus {
-        box-shadow: unset;
-    }
+
+.form-control:hover,
+.form-control {
+	&:focus {
+		box-shadow: unset;
+	}
 }
-textarea {   
-    &.form-control {
-        height: auto;
-    }
+
+textarea {
+	&.form-control {
+		height: auto;
+	}
 }
+
 .ptb-100 {
-    padding-top: 100px;
-    padding-bottom: 100px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
+
 .pt-100 {
-    padding-top: 100px;
+	padding-top: 100px;
 }
+
 .pb-100 {
-    padding-bottom: 100px;
+	padding-bottom: 100px;
 }
+
 .pt-70 {
-    padding-top: 70px;
+	padding-top: 70px;
 }
+
 .pb-70 {
-    padding-bottom: 70px;
+	padding-bottom: 70px;
 }
+
 .pb-130 {
-    padding-bottom: 130px;
+	padding-bottom: 130px;
 }
+
 .mt-30 {
 	margin-top: 30px;
 }
+
 .mb-30 {
 	margin-bottom: 30px;
 }
+
 .ml-30 {
 	margin-left: 30px;
 }
+
 .mt-100 {
 	margin-top: -100px;
 }
+
 .top-title {
 	font-size: 15px;
 	color: $main-color;
@@ -211,6 +259,7 @@ textarea {
 	font-family: $heading-font-family;
 	color: $main-color;
 }
+
 .bg-color {
 	background-color: #eefbfc;
 }
@@ -225,19 +274,20 @@ Default Btn Area Style*/
 
 .default-btn {
 	font-size: 16px;
-    color: $white-color;
+	color: $white-color;
 	padding: 15px 30px;
-    line-height: 1;
-    transition: $transition;
-    text-transform: capitalize;
-    position: relative;
-    cursor: pointer;
+	line-height: 1;
+	transition: $transition;
+	text-transform: capitalize;
+	position: relative;
+	cursor: pointer;
 	border-radius: $border-radius;
 	text-align: center;
 	overflow: hidden;
 	z-index: 1;
 	// background: linear-gradient(to right, #07e2bd 0%, #1de9f5 100%);
 	background: linear-gradient(to right, #2591c6 0%, #319fd5 100%);
+
 	&::before {
 		content: "";
 		position: absolute;
@@ -249,6 +299,7 @@ Default Btn Area Style*/
 		z-index: -1;
 		transition: $transition;
 	}
+
 	&::after {
 		content: "";
 		position: absolute;
@@ -260,17 +311,21 @@ Default Btn Area Style*/
 		z-index: -1;
 		transition: $transition;
 	}
+
 	&.active {
 		margin-left: 30px;
 		color: $white-color;
 		background: linear-gradient(to right, #1de9f5 0%, #07e2bd 100%);
 	}
+
 	&:hover {
 		color: $white-color;
-		&::before  {
+
+		&::before {
 			left: 0;
 		}
-		&::after  {
+
+		&::after {
 			right: 0;
 		}
 	}
@@ -286,13 +341,16 @@ Read More Area Style*/
 	display: block;
 	font-size: 13px;
 	font-weight: 600;
+
 	i {
 		position: relative;
 		top: 2px;
 	}
+
 	&:hover {
-		color: $main-color; 
-		i{
+		color: $main-color;
+
+		i {
 			color: $main-color;
 			animation: rotation 0.5s linear infinite;
 		}
@@ -307,26 +365,30 @@ HOME PAGE ONE STYLE
 
 /*
 Header Area Style
-======================================================*/ 
+======================================================*/
 .header-area {
 	.top-header-area {
 		padding: 15px 0;
 		background-color: $white-color;
+
 		.header-content-left {
 			li {
-				display: inline-block; 
+				display: inline-block;
 				padding-right: 20px;
 				color: $heading-color;
+
 				&:last-child {
 					padding-right: 0;
 				}
+
 				a {
 					color: $heading-color;
 					display: inline-block;
+
 					i {
 						color: $white-color;
 						margin-right: 5px;
-						font-size: 15px; 
+						font-size: 15px;
 						background-color: $main-color;
 						width: 25px;
 						height: 25px;
@@ -336,21 +398,25 @@ Header Area Style
 						position: relative;
 						top: 1px;
 					}
+
 					&:hover {
 						color: $main-color;
 					}
 				}
 			}
 		}
+
 		.header-content-right {
 			line-height: 1;
 			float: right;
+
 			li {
 				display: inline-block;
+
 				a {
 					color: $white-color;
 					margin-right: 5px;
-					font-size: 15px; 
+					font-size: 15px;
 					background-color: $main-color;
 					box-shadow: $box-shadow;
 					width: 25px;
@@ -359,21 +425,26 @@ Header Area Style
 					text-align: center;
 					border-radius: 50%;
 					transition: $transition;
+
 					i {
 						font-size: 15px;
 					}
+
 					&:hover {
 						background-color: $heading-color;
 					}
 				}
+
 				.option-item {
 					color: $body-color;
 					display: inline-block;
 					position: relative;
 					line-height: 1;
 					top: 0px;
+
 					.search-overlay {
 						display: none;
+
 						&.search-popup {
 							position: absolute;
 							top: 100%;
@@ -384,8 +455,10 @@ Header Area Style
 							padding: 20px;
 							box-shadow: $box-shadow;
 							margin-top: 25px;
+
 							.search-form {
 								position: relative;
+
 								.search-input {
 									display: block;
 									width: 100%;
@@ -398,10 +471,12 @@ Header Area Style
 									font-size: 15px;
 									padding-top: 4px;
 									padding-left: 15px;
+
 									&:focus {
 										border-color: $main-color;
 									}
 								}
+
 								.search-button {
 									position: absolute;
 									right: 0;
@@ -414,6 +489,7 @@ Header Area Style
 									color: $white-color;
 									transition: $transition;
 									padding: 0;
+
 									&:hover {
 										background-color: $heading-color;
 									}
@@ -421,6 +497,7 @@ Header Area Style
 							}
 						}
 					}
+
 					.search-btn {
 						cursor: pointer;
 						transition: $transition;
@@ -432,10 +509,12 @@ Header Area Style
 						line-height: 27px;
 						border-radius: 50%;
 						text-align: center;
+
 						&:hover {
 							background-color: $heading-color;
 						}
 					}
+
 					.close-btn {
 						cursor: pointer;
 						display: none;
@@ -448,10 +527,12 @@ Header Area Style
 						text-align: center;
 						background-color: $heading-color;
 						color: $white-color;
+
 						&:hover {
 							background-color: $heading-color;
 						}
 					}
+
 					.close-btn.active {
 						display: block;
 					}
@@ -463,7 +544,7 @@ Header Area Style
 
 /*
 Nav Area Style
-======================================================*/ 
+======================================================*/
 .nav-area {
 	.navbar-area {
 		.main-nav {
@@ -475,6 +556,7 @@ Nav Area Style
 			.lg-logo {
 				margin-left: -25px;
 			}
+
 			nav {
 				.navbar-nav {
 					.nav-item {
@@ -487,12 +569,14 @@ Nav Area Style
 							margin-left: 0;
 							margin: 0 10px;
 							position: relative;
+
 							i {
 								font-size: 15px;
 								line-height: 0;
 								position: relative;
 								top: 3px;
 							}
+
 							&::before {
 								content: "";
 								position: absolute;
@@ -504,13 +588,16 @@ Nav Area Style
 								opacity: 0;
 								transition: $transition;
 							}
+
 							&:hover {
 								color: $main-color;
 							}
+
 							&.active {
 								color: $main-color;
 							}
 						}
+
 						.dropdown-menu {
 							background-color: $white-color;
 							border: none;
@@ -522,6 +609,7 @@ Nav Area Style
 							visibility: hidden;
 							transition: $transition;
 							transform: scaleY(0);
+
 							li {
 								a {
 									font-size: 13px;
@@ -531,29 +619,35 @@ Nav Area Style
 									border-bottom: 1px dashed #eeeeee;
 									margin-left: 0;
 									margin-right: 0;
+
 									i {
 										float: right;
 										top: 12px;
 										transition: $transition;
 									}
+
 									&:hover {
 										color: $main-color;
 										background-color: #f3f3f3;
 									}
+
 									&.active {
 										color: $main-color;
 										background-color: #f3f3f3;
 									}
 								}
+
 								.dropdown-menu {
 									left: 100%;
 									transform: scaleY(0);
 								}
+
 								&:last-child {
 									a {
 										border-bottom: none;
 									}
 								}
+
 								&:hover {
 									.dropdown-menu {
 										top: 0px !important;
@@ -562,6 +656,7 @@ Nav Area Style
 								}
 							}
 						}
+
 						&:hover {
 							ul {
 								opacity: 1;
@@ -574,6 +669,7 @@ Nav Area Style
 				}
 			}
 		}
+
 		&.is-sticky {
 			position: fixed;
 			top: 0;
@@ -586,15 +682,18 @@ Nav Area Style
 			animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 			transition: all .5s;
 			width: 100% !important;
+
 			.main-nav {
 				nav {
 					.navbar-nav {
 						.nav-item {
 							a {
 								color: $light-black;
+
 								&:hover {
 									color: $main-color;
 								}
+
 								&.active {
 									color: $main-color;
 								}
@@ -603,26 +702,32 @@ Nav Area Style
 					}
 				}
 			}
-		}	
+		}
 	}
+
 	.dropdown-toggle {
 		&::after {
 			display: none;
 		}
 	}
+
 	.others-option {
 		position: relative;
 		top: 4px;
+
 		.subscribe {
 			display: inline-block;
 			position: relative;
+
 			.default-btn {
 				padding: 12px 20px;
 			}
 		}
+
 		.sidebar-menu {
 			display: inline-block;
 			margin-left: 15px;
+
 			i {
 				font-size: 40px;
 				color: $main-color;
@@ -631,6 +736,7 @@ Nav Area Style
 			}
 		}
 	}
+
 	&.four {
 		.navbar-area {
 			.main-nav {
@@ -639,9 +745,11 @@ Nav Area Style
 						.nav-item {
 							a {
 								color: $heading-color;
+
 								&:hover {
 									color: $main-color;
 								}
+
 								&.active {
 									color: $main-color;
 								}
@@ -650,6 +758,7 @@ Nav Area Style
 					}
 				}
 			}
+
 			&.is-sticky {
 				position: fixed;
 				top: 0;
@@ -662,15 +771,18 @@ Nav Area Style
 				animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 				transition: all .5s;
 				width: 100% !important;
+
 				.main-nav {
 					nav {
 						.navbar-nav {
 							.nav-item {
 								a {
 									color: $heading-color;
+
 									&:hover {
 										color: $main-color;
 									}
+
 									&.active {
 										color: $main-color;
 									}
@@ -679,23 +791,27 @@ Nav Area Style
 						}
 					}
 				}
-			}	
+			}
 		}
 	}
+
 	&.five {
 		.navbar-area {
 			.main-nav {
 				border-top: 1px dotted #b1b9ba;
 				border-bottom: 1px dotted #b1b9ba;
 				background-color: #eff7f8;
+
 				nav {
 					.navbar-nav {
 						.nav-item {
 							a {
 								color: $heading-color;
+
 								&:hover {
 									color: $main-color;
 								}
+
 								&.active {
 									color: $main-color;
 								}
@@ -704,6 +820,7 @@ Nav Area Style
 					}
 				}
 			}
+
 			&.is-sticky {
 				position: fixed;
 				top: 0;
@@ -716,15 +833,18 @@ Nav Area Style
 				animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 				transition: all .5s;
 				width: 100% !important;
+
 				.main-nav {
 					nav {
 						.navbar-nav {
 							.nav-item {
 								a {
 									color: $heading-color;
+
 									&:hover {
 										color: $main-color;
 									}
+
 									&.active {
 										color: $main-color;
 									}
@@ -733,14 +853,14 @@ Nav Area Style
 						}
 					}
 				}
-			}	
+			}
 		}
 	}
-}	
+}
 
 /*
 Banner Area Style
-======================================================*/ 
+======================================================*/
 .main-banner-area {
 	background-image: url(../../assets/img/home-one/banner-bg.jpg);
 	background-position: center center;
@@ -751,6 +871,7 @@ Banner Area Style
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
+
 	&::before {
 		content: "";
 		position: absolute;
@@ -762,11 +883,13 @@ Banner Area Style
 		opacity: 0.5;
 		z-index: -1;
 	}
+
 	.banner-text {
 		position: relative;
 		max-width: 540px;
 		margin-left: auto;
 		margin-top: -70px;
+
 		span {
 			font-size: 16px;
 			color: $main-color;
@@ -776,11 +899,13 @@ Banner Area Style
 			font-family: $heading-font-family;
 			color: $main-color;
 		}
+
 		h1 {
 			font-size: 60px;
 			margin-bottom: 25px;
 			color: $white-color;
 		}
+
 		p {
 			font-size: 16px;
 			margin-bottom: 35px;
@@ -788,8 +913,10 @@ Banner Area Style
 			font-weight: 500;
 		}
 	}
+
 	.banner-img-wrap {
 		position: relative;
+
 		.banner-img {
 			max-width: 490px;
 			position: absolute;
@@ -797,6 +924,7 @@ Banner Area Style
 			margin-left: auto;
 			right: 0;
 		}
+
 		.banner-shape {
 			position: absolute;
 			top: -80px;
@@ -807,10 +935,12 @@ Banner Area Style
 		}
 	}
 }
+
 @keyframes rotation {
 	from {
 		transform: rotate(0deg);
 	}
+
 	to {
 		transform: rotate(359deg);
 	}
@@ -818,16 +948,17 @@ Banner Area Style
 
 /*
 First Facility Area Style
-======================================================*/ 
+======================================================*/
 .first-facility-area {
 	background-color: #d6fbfd;
 	position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: 1;
-    border-radius: 4px 4px 0 0;
-    width: 1140px;
-    padding: 50px;
+	left: 0;
+	bottom: 0;
+	z-index: 1;
+	border-radius: 4px 4px 0 0;
+	width: 1140px;
+	padding: 50px;
+
 	.shape {
 		position: absolute;
 		right: 0;
@@ -835,10 +966,12 @@ First Facility Area Style
 		opacity: 0.5;
 		z-index: -1;
 	}
-} 
+}
+
 .first-facility-item {
 	position: relative;
 	padding-left: 90px;
+
 	i {
 		border: 1px dashed $main-color;
 		background-color: $white-color;
@@ -854,6 +987,7 @@ First Facility Area Style
 		left: 0;
 		top: 0;
 	}
+
 	h3 {
 		margin-bottom: 10px;
 	}
@@ -861,7 +995,7 @@ First Facility Area Style
 
 /*
 Second Facility Area Style
-======================================================*/ 
+======================================================*/
 .second-facility-item {
 	border: 1px dashed $main-color;
 	text-align: center;
@@ -871,6 +1005,7 @@ Second Facility Area Style
 	margin-bottom: 30px;
 	transition: $transition;
 	background-color: $white-color;
+
 	&::before {
 		content: "";
 		position: absolute;
@@ -886,15 +1021,19 @@ Second Facility Area Style
 		opacity: 0.2;
 		transition: $transition;
 	}
+
 	img {
 		max-width: 70px;
 		margin-bottom: 22px;
 	}
+
 	p {
 		margin-bottom: 20px;
 	}
+
 	&:hover {
 		transform: translateY(-5px);
+
 		&::before {
 			opacity: 1;
 		}
@@ -903,29 +1042,34 @@ Second Facility Area Style
 
 /*
 About Area Style
-======================================================*/ 
+======================================================*/
 .about-area {
 	.about-img {
 		position: relative;
 		z-index: 1;
+
 		img {
 			border-radius: $border-radius;
 		}
+
 		.shape-1 {
 			position: absolute;
 			top: 0;
 			left: -30px;
 			z-index: -1;
+
 			img {
 				border-radius: $border-radius;
 			}
 		}
+
 		.shape-2 {
 			position: absolute;
 			left: -250px;
 			top: 0;
 			animation: moveBounce 5s linear infinite;
 		}
+
 		.shape-3 {
 			position: absolute;
 			top: -50px;
@@ -933,17 +1077,21 @@ About Area Style
 			z-index: -1;
 		}
 	}
+
 	.about-content {
 		margin-left: 30px;
 		margin-bottom: -6px;
 		margin-top: -6px;
+
 		h2 {
 			font-size: 40px;
 			margin-bottom: 20px;
 		}
+
 		p {
 			margin-bottom: 20px;
 		}
+
 		ul {
 			li {
 				margin-bottom: 20px;
@@ -952,9 +1100,11 @@ About Area Style
 				font-family: $heading-font-family;
 				position: relative;
 				padding-left: 40px;
+
 				&:last-child {
 					margin-bottom: 0;
 				}
+
 				i {
 					position: absolute;
 					top: -2px;
@@ -968,6 +1118,7 @@ About Area Style
 					color: #1de9f5;
 					transition: $transition;
 				}
+
 				&:hover {
 					i {
 						background-color: $heading-color;
@@ -975,27 +1126,31 @@ About Area Style
 				}
 			}
 		}
+
 		.default-btn {
 			margin-top: 40px;
 		}
 	}
 }
+
 @keyframes moveBounce {
 	0% {
 		transform: translateY(0px);
 	}
+
 	50% {
 		transform: translateY(20px);
 	}
+
 	100% {
-	 
+
 		transform: translateY(0px);
 	}
 }
 
 /*
 Services Area Style
-======================================================*/ 
+======================================================*/
 .services-area {
 	&.bg {
 		background-image: url(../../assets/img/services-bg.jpg);
@@ -1005,6 +1160,7 @@ Services Area Style
 		height: 100%;
 	}
 }
+
 .single-services {
 	text-align: center;
 	background-color: $white-color;
@@ -1016,6 +1172,7 @@ Services Area Style
 	margin-bottom: 30px;
 	border-radius: 10px 10px 100px 10px;
 	overflow: hidden;
+
 	&::before {
 		content: "";
 		position: absolute;
@@ -1028,6 +1185,7 @@ Services Area Style
 		transition: $transition;
 		z-index: -1;
 	}
+
 	&::after {
 		content: "";
 		position: absolute;
@@ -1044,6 +1202,7 @@ Services Area Style
 		opacity: 0;
 		border-radius: 10px 10px 100px 10px;
 	}
+
 	span {
 		font-size: 35px;
 		color: $main-color;
@@ -1057,6 +1216,7 @@ Services Area Style
 		position: relative;
 		z-index: 1;
 		margin-bottom: 15px;
+
 		&::after {
 			content: "";
 			position: absolute;
@@ -1068,8 +1228,9 @@ Services Area Style
 			margin: 5px;
 			border-radius: 50%;
 			z-index: -1;
-		}	
+		}
 	}
+
 	.services-shape {
 		position: absolute;
 		left: 0;
@@ -1085,21 +1246,27 @@ Services Area Style
 		transition: $transition;
 		z-index: -1;
 	}
+
 	&:hover {
 		transform: translateY(-5px);
-		.services-shape{
+
+		.services-shape {
 			opacity: 1;
 		}
+
 		&::before {
 			right: -500px;
 		}
+
 		&::after {
-			
+
 			transform: scale(1);
 			opacity: 1;
 		}
+
 		.read-more {
 			color: $heading-color;
+
 			i {
 				color: $heading-color;
 			}
@@ -1109,7 +1276,7 @@ Services Area Style
 
 /*
 Doctors Area Style
-======================================================*/ 
+======================================================*/
 .single-doctor {
 	text-align: center;
 	background-color: #e9f8fe;
@@ -1117,6 +1284,7 @@ Doctors Area Style
 	margin-bottom: 30px;
 	position: relative;
 	z-index: 1;
+
 	&::before {
 		content: "";
 		position: absolute;
@@ -1128,6 +1296,7 @@ Doctors Area Style
 		z-index: -1;
 		transition: $transition;
 	}
+
 	&::after {
 		content: "";
 		position: absolute;
@@ -1139,24 +1308,30 @@ Doctors Area Style
 		z-index: -1;
 		transition: $transition;
 	}
+
 	img {
 		background-color: $main-color;
 		border-radius: 100% 0 100% 100%;
 		margin-bottom: 20px;
 		transition: $transition;
 	}
+
 	h3 {
 		margin-bottom: 5px;
 	}
+
 	.top-title {
 		margin-bottom: 5px;
 		transition: $transition;
 	}
+
 	ul {
 		line-height: 1;
+
 		li {
 			display: inline-block;
 			padding: 0 3px;
+
 			i {
 				color: $white-color;
 				background-color: $main-color;
@@ -1168,38 +1343,47 @@ Doctors Area Style
 			}
 		}
 	}
+
 	&:hover {
 		img {
 			background-color: $white-color;
 		}
+
 		&::before {
 			width: 50%;
 		}
+
 		&::after {
 			width: 50%;
 		}
+
 		.top-title {
 			color: $heading-color;
 		}
 	}
 }
-.doctors-area  {
+
+.doctors-area {
 	.owl-item.active.center {
 		.single-doctor {
 			img {
 				background-color: $white-color;
 			}
+
 			&::before {
 				width: 50%;
 			}
+
 			&::after {
 				width: 50%;
 			}
+
 			.top-title {
 				color: $heading-color;
 			}
 		}
 	}
+
 	.owl-prev {
 		position: absolute;
 		left: -50px;
@@ -1207,6 +1391,7 @@ Doctors Area Style
 		transform: translateY(-30px);
 		background-color: transparent;
 		margin: 0 !important;
+
 		i {
 			width: 30px;
 			height: 30px;
@@ -1216,11 +1401,13 @@ Doctors Area Style
 			border-radius: 50%;
 			font-size: 20px;
 			transition: $transition;
+
 			&:hover {
 				background-color: #66f0f9;
 			}
 		}
 	}
+
 	.owl-next {
 		position: absolute;
 		right: -50px;
@@ -1228,6 +1415,7 @@ Doctors Area Style
 		transform: translateY(-30px);
 		background-color: transparent;
 		margin: 0 !important;
+
 		i {
 			width: 30px;
 			height: 30px;
@@ -1237,14 +1425,17 @@ Doctors Area Style
 			border-radius: 50%;
 			font-size: 20px;
 			transition: $transition;
+
 			&:hover {
 				background-color: #66f0f9;
 			}
 		}
 	}
+
 	.owl-theme .owl-nav [class*=owl-]:hover {
 		background: transparent;
 	}
+
 	.owl-theme .owl-nav {
 		margin-top: 0 !important;
 	}
@@ -1252,7 +1443,7 @@ Doctors Area Style
 
 /*
 Work Area Style
-======================================================*/ 
+======================================================*/
 .our-work-area {
 	background-image: url(../../assets/img/work/work-bg.jpg);
 	background-position: center center;
@@ -1261,14 +1452,17 @@ Work Area Style
 	height: 100%;
 	position: relative;
 	z-index: 1;
+
 	.section-title {
 		.top-title {
 			color: $heading-color;
 		}
 	}
+
 	.owl-theme {
 		.owl-dots {
 			line-height: 1;
+
 			.owl-dot {
 				span {
 					width: 15px;
@@ -1277,12 +1471,14 @@ Work Area Style
 					transition: $transition;
 					margin: 0 5px;
 				}
+
 				&.active {
 					span {
 						background-color: $main-color;
 						width: 25px;
 					}
 				}
+
 				&:hover {
 					span {
 						background-color: $main-color;
@@ -1292,6 +1488,7 @@ Work Area Style
 			}
 		}
 	}
+
 	.shape {
 		position: absolute;
 		top: 0;
@@ -1300,11 +1497,13 @@ Work Area Style
 		animation: moveBounce 5s linear infinite;
 	}
 }
+
 .single-work {
 	margin-bottom: 30px;
 	text-align: center;
 	position: relative;
 	overflow: hidden;
+
 	.work-title {
 		background-color: $white-color;
 		box-shadow: $box-shadow;
@@ -1316,6 +1515,7 @@ Work Area Style
 		left: 0;
 		right: 0;
 		transition: $transition;
+
 		i {
 			display: inline-block;
 			width: 40px;
@@ -1327,6 +1527,7 @@ Work Area Style
 			margin-right: 20px;
 		}
 	}
+
 	.work-content-wrap {
 		background: linear-gradient(to right, #ffffff 0%, #ffffff 100%);
 		opacity: 0.9;
@@ -1339,18 +1540,23 @@ Work Area Style
 		align-items: center;
 		display: flex;
 		transition: $transition;
+
 		.work-content {
 			padding: 30px;
+
 			h3 {
 				margin-bottom: 15px;
 			}
+
 			p {
 				color: $heading-color;
 			}
+
 			.read-more {
 				color: $heading-color;
 				font-weight: 700;
 				font-size: 14px;
+
 				&:hover {
 					i {
 						color: $heading-color;
@@ -1359,10 +1565,12 @@ Work Area Style
 			}
 		}
 	}
+
 	&:hover {
 		.work-content-wrap {
 			top: 0;
 		}
+
 		.work-title {
 			bottom: -100%;
 		}
@@ -1371,10 +1579,11 @@ Work Area Style
 
 /*
 Counter Area Style
-======================================================*/ 
+======================================================*/
 .counter-area {
 	position: relative;
 	overflow: hidden;
+
 	.shape-1 {
 		position: absolute;
 		left: -260px;
@@ -1382,6 +1591,7 @@ Counter Area Style
 		z-index: -1;
 		animation: FocuS 1s linear 1s infinite;
 	}
+
 	.shape-2 {
 		position: absolute;
 		right: -260px;
@@ -1390,6 +1600,7 @@ Counter Area Style
 		animation: FocuSTwo 1s linear 1s infinite;
 	}
 }
+
 .single-counter {
 	text-align: center;
 	transition: $transition;
@@ -1398,6 +1609,7 @@ Counter Area Style
 	box-shadow: $box-shadow;
 	padding: 30px;
 	position: relative;
+
 	i {
 		background-color: #e3f7fc;
 		color: $main-color;
@@ -1411,12 +1623,14 @@ Counter Area Style
 		border-radius: 50%;
 		transition: $transition;
 	}
+
 	p {
 		color: $main-color;
 		line-height: 1;
 		margin-bottom: 0;
 		font-size: 18px;
 	}
+
 	h2 {
 		color: $heading-color;
 		line-height: 1;
@@ -1424,34 +1638,42 @@ Counter Area Style
 		margin-top: -8px;
 		margin-bottom: 10px;
 	}
+
 	&:hover {
 		transform: translateY(-5px);
+
 		i {
 			background-color: $white-color;
 			box-shadow: $box-shadow;
 		}
 	}
 }
+
 @keyframes FocuS {
 	0% {
-	  opacity: 0;
+		opacity: 0;
 	}
+
 	75% {
-	  opacity: 1;
+		opacity: 1;
 	}
+
 	100% {
-	  opacity: 0;
+		opacity: 0;
 	}
 }
+
 @keyframes FocuSTwo {
 	0% {
-	  opacity: 1;
+		opacity: 1;
 	}
+
 	75% {
-	  opacity: 0;
+		opacity: 0;
 	}
+
 	100% {
-	  opacity: 1;
+		opacity: 1;
 	}
 }
 
@@ -1465,6 +1687,7 @@ Appointment Area Style
 	background-size: cover;
 	height: 100%;
 }
+
 .appointment-here-form {
 	background-color: $white-color;
 	box-shadow: $box-shadow;
@@ -1472,22 +1695,27 @@ Appointment Area Style
 	max-width: 750px;
 	position: relative;
 	z-index: 1;
+
 	h2 {
 		font-size: 40px;
 		margin-bottom: 40px;
 		text-align: center;
 	}
+
 	span {
 		text-align: center;
 		display: block;
 	}
+
 	label {
 		font-weight: 600;
 		font-size: 15px;
 	}
+
 	.form-group {
 		position: relative;
 		margin-bottom: 30px;
+
 		i {
 			position: absolute;
 			top: 17px;
@@ -1496,29 +1724,35 @@ Appointment Area Style
 			font-size: 18px;
 			color: $main-color;
 		}
+
 		.form-control {
 			padding: 10px 50px;
 		}
 	}
+
 	.default-btn {
 		display: block;
 		margin: 15px auto 0;
 	}
+
 	.nice-select {
 		height: 50px;
-		 width: 100%;
-		 line-height: 48px;
-		 font-size: 15px;
-		 margin-bottom: 30px;
-		 padding-left: 50px;
-		 background-color: #f2f9fc;
-		 span {
-			 text-align: left;
-		 }
-		 &::after {
+		width: 100%;
+		line-height: 48px;
+		font-size: 15px;
+		margin-bottom: 30px;
+		padding-left: 50px;
+		background-color: #f2f9fc;
+
+		span {
+			text-align: left;
+		}
+
+		&::after {
 			height: 8px;
 			width: 8px;
 		}
+
 		&.open {
 			.list {
 				height: 250px;
@@ -1526,6 +1760,7 @@ Appointment Area Style
 			}
 		}
 	}
+
 	.shape {
 		position: absolute;
 		top: -35px;
@@ -1534,35 +1769,42 @@ Appointment Area Style
 		animation: moveBounce 5s linear infinite;
 	}
 }
+
 .table-condensed {
 	border-collapse: collapse;
 	width: 308px;
 	text-align: center;
+
 	.prev {
 		background-color: #f2f9fc;
 		border-radius: $border-radius;
 		transition: $transition;
 		cursor: pointer;
+
 		&:hover {
 			background-color: $main-color;
 		}
-		
+
 	}
+
 	.next {
 		background-color: #f2f9fc;
 		border-radius: $border-radius;
 		transition: $transition;
 		cursor: pointer;
+
 		&:hover {
 			background-color: $main-color;
 		}
 	}
+
 	.day {
 		transition: $transition;
 		cursor: pointer;
 		transition: $transition;
 		border-radius: $border-radius;
 		font-size: 14px;
+
 		&:hover {
 			background-color: $main-color;
 		}
@@ -1580,36 +1822,44 @@ Emergency Area Style
 	height: 100%;
 	width: 100%;
 }
+
 .emergency-area {
 	background-color: #f1f9fd;
 	position: relative;
 	z-index: 1;
+
 	.shape {
 		position: absolute;
 		top: 180px;
-    	left: 0;
+		left: 0;
 		z-index: -1;
 		animation: moveBounce 5s linear infinite;
 		display: none;
 	}
 }
+
 .emergency-content {
 	max-width: 540px;
 	margin-left: auto;
+
 	h2 {
 		font-size: 40px;
 		margin-bottom: 30px;
 	}
+
 	ul {
 		margin-top: 40px;
+
 		li {
 			position: relative;
 			padding-left: 65px;
 			display: inline-block;
 			margin-right: 30px;
+
 			&:last-child {
 				margin-right: 0;
 			}
+
 			i {
 				position: absolute;
 				top: 0;
@@ -1623,18 +1873,22 @@ Emergency Area Style
 				border-radius: $border-radius;
 				color: $white-color;
 			}
+
 			span {
 				font-weight: 600;
 				display: block;
 				margin-bottom: 5px;
 			}
+
 			h3 {
 				font-size: 18px;
+
 				a {
 					color: $heading-color;
 				}
 			}
 		}
+
 		.active {
 			i {
 				background-color: #1de9f5;
@@ -1652,6 +1906,7 @@ Client Area Style
 	padding: 30px;
 	margin: 30px;
 	position: relative;
+
 	img {
 		position: absolute;
 		top: -30px;
@@ -1659,23 +1914,29 @@ Client Area Style
 		border: 1px solid $main-color;
 		border-radius: $border-radius;
 	}
+
 	p {
 		margin-top: 20px;
 	}
+
 	ul {
 		line-height: 1;
 		margin-bottom: 20px;
+
 		li {
 			display: inline-block;
+
 			i {
 				color: $main-color;
 			}
 		}
 	}
+
 	h3 {
 		margin-bottom: 0;
 	}
 }
+
 .client-area {
 	&.c-bg {
 		background-image: url(../../assets/img/client/client-bg.jpg);
@@ -1687,9 +1948,11 @@ Client Area Style
 		position: relative;
 		z-index: 1;
 	}
+
 	.top-title {
 		color: $heading-color;
 	}
+
 	&::before {
 		content: "";
 		position: absolute;
@@ -1701,6 +1964,7 @@ Client Area Style
 		z-index: -1;
 		opacity: 0.8;
 	}
+
 	.owl-carousel .owl-item img {
 		display: block;
 		width: auto;
@@ -1714,16 +1978,19 @@ Blog Area Style
 	margin-bottom: 30px;
 	transition: $transition;
 	position: relative;
+
 	img {
 		width: 100%;
 	}
+
 	span {
 		position: absolute;
 		left: 0;
-		background: linear-gradient(to right, #2591c6 0%, #319fd5 100%) ;
+		background: linear-gradient(to right, #2591c6 0%, #319fd5 100%);
 		padding: 5px 15px;
 		color: $white-color;
 	}
+
 	.blog-content {
 		padding: 30px;
 		box-shadow: $box-shadow;
@@ -1731,6 +1998,7 @@ Blog Area Style
 		overflow: hidden;
 		z-index: 1;
 		background-color: $white-color;
+
 		&::before {
 			content: "";
 			position: absolute;
@@ -1742,6 +2010,7 @@ Blog Area Style
 			transition: $transition;
 			z-index: -1;
 		}
+
 		&::after {
 			content: "";
 			position: absolute;
@@ -1753,9 +2022,11 @@ Blog Area Style
 			transition: $transition;
 			z-index: -1;
 		}
+
 		ul {
 			line-height: 1;
 			margin-bottom: 15px;
+
 			li {
 				display: inline-block;
 				color: #78a9e3;
@@ -1763,31 +2034,38 @@ Blog Area Style
 				line-height: 1;
 				padding: 0 10px;
 				transition: $transition;
+
 				&:last-child {
 					border-right: none;
 					padding-right: 0;
 				}
+
 				&:first-child {
 					padding-left: 0;
 				}
+
 				a {
 					color: #78a9e3;
+
 					&:hover {
 						color: $main-color;
 					}
 				}
 			}
 		}
+
 		h3 {
 			margin-bottom: 20px;
 			transition: $transition;
 			line-height: 1.5;
 		}
+
 		p {
 			margin-bottom: 20px;
 			transition: $transition;
 			margin-top: -8px;
 		}
+
 		.read-more {
 			&:hover {
 				i {
@@ -1796,30 +2074,38 @@ Blog Area Style
 			}
 		}
 	}
+
 	&:hover {
 		transform: translateY(-5px);
+
 		.blog-content {
 			ul {
 				li {
 					a {
 						color: $white-color;
 					}
+
 					color: $white-color;
 					border-color: $white-color;
 				}
 			}
+
 			h3 {
 				color: $white-color;
 			}
+
 			p {
 				color: $white-color;
 			}
+
 			.read-more {
 				color: $white-color;
 			}
+
 			&::before {
 				left: 0;
 			}
+
 			&::after {
 				right: 0;
 			}
@@ -1834,18 +2120,23 @@ Subscribe Area Style
 	background-color: #eaf6fc;
 	padding-top: 50px;
 	padding-bottom: 50px;
+
 	h2 {
 		font-size: 40px;
 	}
+
 	p {
 		font-weight: 600;
 	}
+
 	.newsletter-form {
 		.form-control {
 			height: 60px;
 			background-color: $white-color;
 		}
+
 		position: relative;
+
 		.default-btn {
 			position: absolute;
 			top: 0;
@@ -1853,6 +2144,7 @@ Subscribe Area Style
 			height: 60px;
 		}
 	}
+
 	#validator-newsletter {
 		margin-top: 10px;
 		color: #dc3545;
@@ -1861,9 +2153,10 @@ Subscribe Area Style
 
 /*
 Footer Top Area Style
-======================================================*/ 
+======================================================*/
 .footer-top-area {
 	background-color: $heading-color;
+
 	&.f-bg {
 		// background-image: url(../../assets/img/footer-bg.jpg);
 		background-position: center center;
@@ -1873,9 +2166,11 @@ Footer Top Area Style
 		position: relative;
 		background-attachment: fixed;
 	}
+
 	&.f-bg-2 {
 		position: relative;
 		z-index: 1;
+
 		.shape-1 {
 			position: absolute;
 			top: 50px;
@@ -1884,6 +2179,7 @@ Footer Top Area Style
 			z-index: -1;
 			animation: rotation 30s linear infinite;
 		}
+
 		.shape-2 {
 			position: absolute;
 			bottom: 50px;
@@ -1892,6 +2188,7 @@ Footer Top Area Style
 			z-index: -1;
 			animation: moveBounce 5s linear infinite;
 		}
+
 		.shape-3 {
 			position: absolute;
 			bottom: 50px;
@@ -1900,6 +2197,7 @@ Footer Top Area Style
 			z-index: -1;
 			animation: rotation 30s linear infinite;
 		}
+
 		.shape-4 {
 			position: absolute;
 			top: 50px;
@@ -1910,11 +2208,14 @@ Footer Top Area Style
 		}
 	}
 }
+
 .single-widget {
 	margin-bottom: 30px;
+
 	img {
 		margin-bottom: 20px;
 	}
+
 	h3 {
 		font-size: 22px;
 		margin-bottom: 30px;
@@ -1922,41 +2223,52 @@ Footer Top Area Style
 		color: $heading-color;
 		color: $main-color;
 	}
+
 	p {
 		margin-bottom: 0;
 		color: $white-color;
 	}
+
 	ul {
 		li {
 			color: #c0cade;
 			margin-bottom: 8px;
 			font-size: 15px;
+
 			&:last-child {
 				margin-bottom: 0;
 			}
+
 			span {
 				color: $white-color;
 			}
+
 			a {
 				color: #c0cade;
 				transition: $transition;
+
 				i {
 					display: inline-block;
 					margin-right: 2px;
 					font-size: 14px;
 				}
+
 				&:hover {
 					transform: translateX(2px);
 				}
 			}
 		}
 	}
+
 	.social-area {
 		margin-top: 20px;
+
 		ul {
 			line-height: 1;
+
 			li {
 				display: inline-block;
+
 				a {
 					margin-right: 5px;
 					width: 30px;
@@ -1965,15 +2277,18 @@ Footer Top Area Style
 					background-color: $main-color;
 					border-radius: $border-radius;
 					text-align: center;
+
 					i {
 						color: #eeeeee;
 						transition: $transition;
 						margin-right: 0;
 						font-size: 18px;
 					}
+
 					&:hover {
 						border-color: $main-color;
 						transform: translateX(-2px);
+
 						i {
 							color: $white-color;
 						}
@@ -1982,14 +2297,17 @@ Footer Top Area Style
 			}
 		}
 	}
+
 	&.contact {
 		ul {
 			li {
 				position: relative;
 				padding-left: 30px;
+
 				a {
 					position: relative;
 					padding-left: 30px;
+
 					i {
 						position: absolute;
 						top: 4px;
@@ -1997,11 +2315,13 @@ Footer Top Area Style
 						color: $main-color;
 						font-size: 20px;
 					}
+
 					span {
 						display: block;
 						font-weight: 600;
 					}
 				}
+
 				i {
 					position: absolute;
 					left: 0;
@@ -2009,6 +2329,7 @@ Footer Top Area Style
 					color: $main-color;
 					font-size: 20px;
 				}
+
 				span {
 					display: block;
 					font-weight: 600;
@@ -2016,14 +2337,17 @@ Footer Top Area Style
 			}
 		}
 	}
+
 	&.open-time {
 		li {
 			padding-bottom: 15px;
 			margin-bottom: 15px;
 			border-bottom: 1px solid $main-color;
+
 			.right {
 				float: right;
 			}
+
 			&:last-child {
 				padding-bottom: 0;
 				border-bottom: none;
@@ -2034,16 +2358,19 @@ Footer Top Area Style
 
 /*
 Footer Bottom Area Style
-======================================================*/ 
+======================================================*/
 .footer-bottom-area {
 	background-color: #05224c;
 	padding: 20px 0;
+
 	.copy-right {
 		text-align: center;
+
 		p {
 			text-transform: capitalize;
 			margin-bottom: 0;
 			color: $white-color;
+
 			a {
 				color: $white-color;
 			}
@@ -2057,7 +2384,7 @@ HOME STYLE TWO AREA
 
 /*
 Banner Area Style
-======================================================*/ 
+======================================================*/
 .main-banner-area-two {
 	background-image: url(../../assets/img/home-two/banner-bg.jpg);
 	background-position: center center;
@@ -2068,6 +2395,7 @@ Banner Area Style
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
+
 	&::before {
 		content: "";
 		position: absolute;
@@ -2079,10 +2407,12 @@ Banner Area Style
 		opacity: 0.5;
 		z-index: -1;
 	}
+
 	.banner-text {
 		position: relative;
 		max-width: 540px;
 		margin-left: auto;
+
 		span {
 			font-size: 16px;
 			color: $main-color;
@@ -2092,11 +2422,13 @@ Banner Area Style
 			font-family: $heading-font-family;
 			color: $main-color;
 		}
+
 		h1 {
 			font-size: 60px;
 			margin-bottom: 25px;
 			color: $white-color;
 		}
+
 		p {
 			font-size: 16px;
 			margin-bottom: 35px;
@@ -2104,8 +2436,10 @@ Banner Area Style
 			font-weight: 500;
 		}
 	}
+
 	.banner-img-wrap {
 		position: relative;
+
 		.banner-img {
 			position: absolute;
 			margin-left: auto;
@@ -2117,12 +2451,13 @@ Banner Area Style
 
 /*
 Second Facility Area Style
-======================================================*/ 
+======================================================*/
 .second-facility-area {
 	&.two {
 		.second-facility-item {
 			border: none;
 			box-shadow: $box-shadow;
+
 			&::before {
 				content: "";
 				position: absolute;
@@ -2139,42 +2474,54 @@ Second Facility Area Style
 				background-size: contain;
 				height: 100%;
 			}
+
 			img {
 				margin-bottom: 20px;
 				background-color: $main-color;
 				padding: 15px;
 				animation: border-transform 10s linear infinite alternate forwards;
 			}
+
 			p {
 				margin-bottom: 0;
 			}
+
 			h3 {
 				margin-bottom: 10px;
 			}
 		}
 	}
 }
+
 @keyframes border-transform {
-	0%, 100% {
-	  border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+
+	0%,
+	100% {
+		border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
 	}
+
 	14% {
-	  border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
+		border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
 	}
+
 	28% {
-	  border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
+		border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
 	}
+
 	42% {
-	  border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
+		border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
 	}
+
 	56% {
-	  border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
+		border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
 	}
+
 	70% {
-	  border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
+		border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
 	}
+
 	84% {
-	  border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
+		border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
 	}
 }
 
@@ -2191,6 +2538,7 @@ About Area Style
 		padding-top: 100px;
 		position: relative;
 		z-index: 1;
+
 		&::before {
 			content: "";
 			position: absolute;
@@ -2202,21 +2550,26 @@ About Area Style
 			opacity: 0.9;
 			z-index: -1;
 		}
+
 		.about-img {
 			.shape-1 {
 				left: -80px;
 				top: -60px;
+
 				img {
 					max-width: 650px;
 					animation: moveBounce 5s linear infinite;
 				}
 			}
 		}
+
 		.about-content {
 			margin-top: 0;
+
 			p {
 				margin-bottom: 8px;
 			}
+
 			strong {
 				font-size: 16px;
 				font-weight: 600;
@@ -2224,6 +2577,7 @@ About Area Style
 				margin-bottom: 30px;
 				display: inline-block;
 			}
+
 			ul {
 				li {
 					i {
@@ -2238,21 +2592,25 @@ About Area Style
 
 /*
 Symptoms Area Style
-======================================================*/ 
+======================================================*/
 .symptoms-area {
 	position: relative;
+
 	.symptoms-content {
 		margin-bottom: 40px;
 		margin-top: -10px;
+
 		.top-title {
 			margin-bottom: 5px;
 		}
+
 		h2 {
 			font-size: 40px;
 			margin-bottom: 20px;
 		}
 	}
 }
+
 .single-symptoms {
 	box-shadow: $box-shadow;
 	background-color: $white-color;
@@ -2262,6 +2620,7 @@ Symptoms Area Style
 	position: relative;
 	cursor: pointer;
 	border-radius: $box-shadow;
+
 	&::before {
 		content: "";
 		position: absolute;
@@ -2272,12 +2631,14 @@ Symptoms Area Style
 		background-color: $main-color;
 		transition: $transition;
 	}
+
 	h3 {
 		margin-bottom: 0;
 		padding-left: 30px;
 		position: relative;
 		font-size: 18px;
 		transition: $transition;
+
 		i {
 			color: $main-color;
 			position: absolute;
@@ -2286,20 +2647,24 @@ Symptoms Area Style
 			transition: $transition;
 		}
 	}
+
 	&:hover {
 		&::before {
 			right: auto;
 			width: 100%;
 			left: 0;
 		}
+
 		h3 {
 			color: $white-color;
+
 			i {
 				color: $white-color;
 			}
 		}
 	}
 }
+
 .symptoms-img {
 	position: absolute;
 	bottom: -140px;
@@ -2307,7 +2672,7 @@ Symptoms Area Style
 
 /*
 Counter Area Style
-======================================================*/ 
+======================================================*/
 .counter-area {
 	&.two {
 		background-image: url(../../assets/img/counter-bg.jpg);
@@ -2318,17 +2683,21 @@ Counter Area Style
 		padding-top: 100px;
 		position: relative;
 		z-index: 1;
+
 		.single-counter {
 			background-color: $white-color;
 			border-radius: $border-radius;
 			padding: 50px 30px;
+
 			h2 {
 				font-size: 35px;
 			}
+
 			p {
 				color: $heading-color;
 			}
 		}
+
 		&::before {
 			content: "";
 			position: absolute;
@@ -2350,12 +2719,15 @@ Prevention Area Style
 	background-color: #f1fafb;
 	position: relative;
 	z-index: 1;
+
 	.prevention-img {
 		position: relative;
 		text-align: center;
+
 		img {
 			border-radius: 50%;
 		}
+
 		.shape {
 			position: absolute;
 			top: 0;
@@ -2368,10 +2740,12 @@ Prevention Area Style
 			animation: rotation 30s linear infinite;
 		}
 	}
+
 	.prevention-wrap {
 		max-width: 780px;
 		margin-left: auto;
 	}
+
 	.shape-1 {
 		position: absolute;
 		top: 100px;
@@ -2380,6 +2754,7 @@ Prevention Area Style
 		z-index: -1;
 		animation: rotation 30s linear infinite;
 	}
+
 	.shape-2 {
 		position: absolute;
 		bottom: 100px;
@@ -2388,6 +2763,7 @@ Prevention Area Style
 		z-index: -1;
 		animation: moveBounce 5s linear infinite;
 	}
+
 	.shape-3 {
 		position: absolute;
 		bottom: 50%;
@@ -2396,6 +2772,7 @@ Prevention Area Style
 		z-index: -1;
 		animation: rotation 30s linear infinite;
 	}
+
 	.shape-4 {
 		position: absolute;
 		top: 100px;
@@ -2405,11 +2782,13 @@ Prevention Area Style
 		animation: moveBounce 5s linear infinite;
 	}
 }
+
 .single-prevention {
 	position: relative;
 	padding-left: 100px;
 	margin-bottom: 30px;
 	transition: $transition;
+
 	i {
 		font-size: 35px;
 		color: $white-color;
@@ -2425,6 +2804,7 @@ Prevention Area Style
 		top: 4px;
 		z-index: 1;
 		transition: $transition;
+
 		&::after {
 			content: "";
 			position: absolute;
@@ -2438,6 +2818,7 @@ Prevention Area Style
 			z-index: -1;
 		}
 	}
+
 	&:hover {
 		i {
 			transform: rotateY(380deg);
@@ -2454,13 +2835,16 @@ Doctors Two Area Style
 	transition: $transition;
 	margin-bottom: 30px;
 	z-index: 1;
+
 	.doctor-img {
 		position: relative;
 		z-index: 1;
+
 		img {
 			border-radius: $border-radius;
 			border: 5px solid $main-color;
 		}
+
 		&::before {
 			content: "";
 			position: absolute;
@@ -2473,6 +2857,7 @@ Doctors Two Area Style
 			transform: scaleX(0);
 			transition: $transition;
 		}
+
 		.doctors-link {
 			position: absolute;
 			left: 0;
@@ -2480,8 +2865,10 @@ Doctors Two Area Style
 			bottom: 5%;
 			transition: $transition;
 			transform: scaleX(0);
+
 			li {
 				display: inline-block;
+
 				a {
 					width: 25px;
 					height: 25px;
@@ -2495,20 +2882,25 @@ Doctors Two Area Style
 			}
 		}
 	}
+
 	.doctors-content {
 		background-color: $white-color;
 		box-shadow: $box-shadow;
-		padding:25px;
+		padding: 25px;
+
 		span {
 			color: $main-color;
 		}
 	}
+
 	&:hover {
 		transform: translateY(-5px);
+
 		.doctor-img {
 			.doctors-link {
 				transform: scaleX(1);
 			}
+
 			&::before {
 				transform: scaleX(1);
 			}
@@ -2524,21 +2916,25 @@ FAQ Area CSS
 		background-color: #f1fafb;
 	}
 }
+
 .faq-accordion {
 	.accordion {
 		list-style-type: none;
 		padding-left: 0;
 		margin-bottom: 0;
+
 		.accordion-item {
 			border-radius: 5px;
 			display: block;
 			background-color: $white-color;
 			margin-bottom: 15px;
 			box-shadow: $box-shadow;
+
 			&:last-child {
 				margin-bottom: 0;
 			}
 		}
+
 		.accordion-title {
 			padding: 20px 60px 17px 25px;
 			color: $heading-color;
@@ -2547,6 +2943,7 @@ FAQ Area CSS
 			display: block;
 			font-size: 16px;
 			font-weight: 600;
+
 			i {
 				position: absolute;
 				right: 25px;
@@ -2556,11 +2953,13 @@ FAQ Area CSS
 				transition: 0.5s;
 			}
 		}
+
 		.accordion-title.active {
 			i {
 				transform: rotate(180deg);
 			}
 		}
+
 		.accordion-content {
 			display: none;
 			position: relative;
@@ -2568,10 +2967,12 @@ FAQ Area CSS
 			padding-bottom: 30px;
 			padding-right: 30px;
 			padding-left: 30px;
+
 			p {
 				line-height: 1.8;
 			}
 		}
+
 		.accordion-content.show {
 			display: block;
 		}
@@ -2590,6 +2991,7 @@ Appointment Area CSS
 	padding-top: 100px;
 	position: relative;
 	z-index: 1;
+
 	&::before {
 		content: "";
 		position: absolute;
@@ -2601,14 +3003,17 @@ Appointment Area CSS
 		opacity: 0.9;
 		z-index: -1;
 	}
+
 	.make-appointment-content {
 		max-width: 600px;
 		margin: auto;
 		text-align: center;
+
 		h2 {
 			color: $white-color;
 			margin-bottom: 30px;
 		}
+
 		p {
 			color: $white-color;
 			margin-bottom: 30px;
@@ -2625,43 +3030,52 @@ Contact Area CSS
 			padding: 50px;
 		}
 	}
+
 	.contact-form {
 		box-shadow: $box-shadow;
 		background-color: $white-color;
 		padding: 30px;
+
 		.form-group {
 			margin-bottom: 20px;
 		}
+
 		label {
 			font-weight: 600;
 			font-size: 15px;
 		}
+
 		.contact-num {
 			span {
 				font-weight: 600;
 				font-size: 16px;
 			}
 		}
+
 		.default-btn {
 			float: right;
 			margin-top: 15px;
 		}
 	}
+
 	#msgSubmit {
 		position: absolute;
 		bottom: 54px;
 		font-size: 15px;
 		right: 15px;
 	}
+
 	.text-danger {
-		color: #dc3545!important;
+		color: #dc3545 !important;
 	}
+
 	.text-success {
-		color: #28a745!important;
+		color: #28a745 !important;
 	}
+
 	.list-unstyled {
 		margin-top: 10px;
-		color: #dc3545!important;
+		color: #dc3545 !important;
 	}
 }
 
@@ -2684,6 +3098,7 @@ Page Title Area Style
 	background-size: cover;
 	height: 100%;
 	z-index: 1;
+
 	&::before {
 		content: "";
 		position: absolute;
@@ -2695,6 +3110,7 @@ Page Title Area Style
 		background-color: $black-color;
 		z-index: -1;
 	}
+
 	.page-title-content {
 		h2 {
 			margin-bottom: 15px;
@@ -2702,11 +3118,13 @@ Page Title Area Style
 			font-size: 40px;
 			font-weight: 700;
 		}
+
 		ul {
 			padding-left: 0;
 			list-style-type: none;
 			margin-top: 10px;
 			margin-bottom: 0;
+
 			li {
 				display: inline-block;
 				position: relative;
@@ -2715,6 +3133,7 @@ Page Title Area Style
 				padding-right: 10px;
 				padding-left: 10px;
 				color: $white-color;
+
 				&::before {
 					content: "";
 					position: absolute;
@@ -2725,23 +3144,28 @@ Page Title Area Style
 					height: 10px;
 					clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
 				}
+
 				&:last-child {
 					&::before {
 						display: none;
 					}
 				}
+
 				a {
 					color: $white-color;
+
 					&:hover {
 						color: $main-color;
 					}
 				}
 			}
+
 			.active {
 				color: $main-color;
 			}
 		}
-	}	
+	}
+
 	.shape-1 {
 		position: absolute;
 		top: 50px;
@@ -2750,6 +3174,7 @@ Page Title Area Style
 		z-index: -1;
 		animation: rotation 30s linear infinite;
 	}
+
 	.shape-2 {
 		position: absolute;
 		bottom: 50px;
@@ -2758,6 +3183,7 @@ Page Title Area Style
 		z-index: -1;
 		animation: moveBounce 5s linear infinite;
 	}
+
 	.shape-3 {
 		position: absolute;
 		bottom: 50px;
@@ -2766,6 +3192,7 @@ Page Title Area Style
 		z-index: -1;
 		animation: rotation 30s linear infinite;
 	}
+
 	.shape-4 {
 		position: absolute;
 		top: 50px;
@@ -2783,22 +3210,27 @@ Faq Contact Area Style
 	.contact-wrap {
 		box-shadow: $box-shadow;
 		padding: 50px;
+
 		.form-group {
 			margin-bottom: 20px !important;
 		}
+
 		label {
 			font-weight: 600;
 			font-size: 16px;
 		}
+
 		.default-btn {
 			display: table;
 			margin: 0 auto -7px;
 		}
 	}
+
 	.list-unstyled {
 		margin-top: 10px;
-		color: #dc3545!important;
+		color: #dc3545 !important;
 	}
+
 	#msgSubmit {
 		margin: 20px auto 0;
 		text-align: center;
@@ -2811,96 +3243,118 @@ Sign In & Log In  Area Style
 .user-area-all-style {
 	position: relative;
 	z-index: 1;
+
 	.contact-form-action {
 		background-color: $white-color;
 		border-radius: 4px;
 		box-shadow: $box-shadow;
 		padding: 40px;
 		margin: auto;
+
 		form {
 			.submit-btn {
 				margin-top: 24px;
 			}
+
 			.default-btn {
 				font-size: 14px;
 				padding: 15px 40px;
 				margin-bottom: 30px;
+
 				&.btn-two {
 					display: table;
-					margin: 0 auto 0; 
+					margin: 0 auto 0;
 					padding: 15px 40px;
 				}
 			}
+
 			.col-lg-4 {
 				&:nth-child(1) .default-btn {
 					background-color: #FF5733;
 				}
+
 				&:nth-child(2) .default-btn {
 					background-color: #3955bc;
 					display: table;
 					margin: 0 auto 30px;
 				}
+
 				&:nth-child(3) .default-btn {
 					background-color: $main-color;
 					float: right;
 				}
 			}
+
 			.reset-btn {
 				margin-top: 0;
 			}
+
 			.form-condition {
 				margin-bottom: 20px;
+
 				.agree-label {
 					font-weight: 600;
+
 					a {
 						color: $main-color;
 					}
 				}
 			}
+
 			.form-group {
 				margin-bottom: 30px;
 			}
 		}
+
 		.account-desc {
 			margin: 25px auto 0;
 			display: table;
 			font-weight: 600;
+
 			a {
 				color: $main-color;
 				margin-left: 10px;
 				font-weight: 600;
 			}
 		}
+
 		#chb1 {
 			position: relative;
 			top: 1px;
 		}
+
 		#chb2 {
 			position: relative;
 			top: 1px;
 			;
 		}
+
 		.forget {
 			float: right;
 			color: $main-color;
 			font-weight: 600;
 		}
+
 		.now-register {
 			font-weight: 600;
 			float: right;
 			margin-bottom: 30px;
+
 			a {
 				color: $main-color;
 			}
 		}
+
 		.now-log-in {
 			color: $main-color;
 			font-weight: 600;
+
 			.font-q {
 				font-weight: 600;
 			}
 		}
 	}
+
 	.log-in-img {
 		background-image: url(../../assets/img/log-in-img.jpg);
 		background-position: center center;
@@ -2908,6 +3362,7 @@ Sign In & Log In  Area Style
 		background-image: cover;
 		height: 100%;
 	}
+
 	.sign-in-img {
 		background-image: url(../../assets/img/sign-in-img.jpg);
 		background-position: center center;
@@ -2916,20 +3371,23 @@ Sign In & Log In  Area Style
 		height: 100%;
 	}
 }
+
 .recover-password-area {
 	.contact-form-action {
 		max-width: 570px;
 		box-shadow: $box-shadow;
+
 		.form-heading {
 			h3 {
 				font-size: 30px;
 				margin-bottom: 20px;
 			}
-			 p {
-				 margin-bottom: 30px;
-				 font-weight: 600;
-			 }
-		 }
+
+			p {
+				margin-bottom: 30px;
+				font-weight: 600;
+			}
+		}
 	}
 }
 
@@ -2946,6 +3404,7 @@ Coming Soon Area Style
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+
 	&::before {
 		content: "";
 		position: absolute;
@@ -2959,6 +3418,7 @@ Coming Soon Area Style
 		transform: rotate(45deg);
 		opacity: 0.9;
 	}
+
 	.coming-soon-content {
 		text-align: center;
 		max-width: 750px;
@@ -2966,12 +3426,14 @@ Coming Soon Area Style
 		margin-right: auto;
 		position: relative;
 		z-index: 2;
+
 		h1 {
 			margin-bottom: 0;
 			color: $white-color;
 			font-size: 60px;
 			margin-top: -18px;
 		}
+
 		p {
 			color: #f3f3f3;
 			font-size: 16px;
@@ -2981,8 +3443,10 @@ Coming Soon Area Style
 			margin-left: auto;
 			margin-right: auto;
 		}
+
 		#timer {
 			margin-top: 30px;
+
 			div {
 				display: inline-block;
 				color: $white-color;
@@ -2991,6 +3455,7 @@ Coming Soon Area Style
 				margin-right: 35px;
 				font-size: 45px;
 				font-weight: 700;
+
 				span {
 					display: block;
 					text-transform: capitalize;
@@ -2998,15 +3463,19 @@ Coming Soon Area Style
 					font-size: 16px;
 					font-weight: normal;
 				}
+
 				&:last-child {
 					margin-right: 0;
+
 					&::before {
 						display: none;
 					}
 				}
+
 				&:first-child {
 					margin-left: 0;
 				}
+
 				&::before {
 					content: "";
 					position: absolute;
@@ -3017,12 +3486,14 @@ Coming Soon Area Style
 				}
 			}
 		}
+
 		.newsletter-form {
 			position: relative;
 			max-width: 500px;
 			margin-left: auto;
 			margin-right: auto;
 			margin-top: 50px;
+
 			.input-newsletter {
 				display: block;
 				width: 100%;
@@ -3034,15 +3505,18 @@ Coming Soon Area Style
 				outline: 0;
 				transition: 0.5s;
 				border-radius: 10px;
+
 				&::placeholder {
 					color: $white-color;
 				}
+
 				&:focus {
 					border-color: $main-color;
 				}
 			}
+
 			button {
-				position: absolute; 
+				position: absolute;
 				right: 0;
 				top: 0;
 				height: 60px;
@@ -3054,17 +3528,21 @@ Coming Soon Area Style
 				font-weight: 500;
 				font-size: 15px;
 				cursor: pointer;
+
 				&::after {
 					border-radius: 0;
 				}
+
 				&::before {
 					border-radius: 0;
 				}
+
 				&:hover {
 					color: $white-color;
 					background-color: $main-color;
 				}
 			}
+
 			#validator-newsletter {
 				color: $white-color;
 				font-size: 14px;
@@ -3075,17 +3553,21 @@ Coming Soon Area Style
 				margin: 0 auto;
 			}
 		}
+
 		ul {
 			margin-top: 30px;
+
 			li {
 				display: inline-block;
 				margin: 0 5px;
+
 				a {
 					width: 30px;
 					height: 30px;
 					line-height: 36px;
 					background-color: $white-color;
 					border-radius: 50%;
+
 					i {
 						font-size: 20px;
 					}
@@ -3093,55 +3575,63 @@ Coming Soon Area Style
 			}
 		}
 	}
+
 	#validator-newsletter {
 		text-align: left;
-		color: #dc3545!important;
+		color: #dc3545 !important;
 	}
-} 
+}
 
 /*
 404 Error Area Style
 =====================================================*/
 .error-area {
 	padding: 50px 0;
-	height: 100vh;  
-    text-align: center;
-    position: relative;
-    z-index: 1;
+	height: 100vh;
+	text-align: center;
+	position: relative;
+	z-index: 1;
 	background-color: $white-color;
-    .error-content-wrap {
+
+	.error-content-wrap {
 		h1 {
 			font-size: 300px;
 			line-height: 1;
 			color: $heading-color;
+
 			.a {
 				animation: bounce 3s infinite linear;
 				display: inline-block;
 			}
+
 			.red {
 				color: #ff0000;
 				animation: bounce 2s infinite linear;
 				display: inline-block;
-				
+
 			}
+
 			.b {
 				animation: bounce 3s infinite linear;
 				display: inline-block;
 			}
 		}
-        z-index: 1;
-        position: relative;
-        h3 {
-            margin: 30px 0 0;
+
+		z-index: 1;
+		position: relative;
+
+		h3 {
+			margin: 30px 0 0;
 			position: relative;
 			color: #ff0000;
-        }
-        p {
+		}
+
+		p {
 			margin: 20px 0 20px;
 			font-size: 19px;
 			color: $heading-color;
-        }
-    }
+		}
+	}
 }
 
 /*
@@ -3153,37 +3643,46 @@ Blog Details Area Style
 			position: relative;
 			background-color: $heading-color;
 		}
+
 		.article-content {
 			margin-top: 30px;
+
 			.entry-meta {
 				margin-bottom: -10px;
+
 				ul {
 					padding-left: 0;
-					margin-bottom: 0; 
+					margin-bottom: 0;
 					list-style-type: none;
+
 					li {
 						position: relative;
 						display: inline-block;
 						color: $main-color;
 						margin-right: 21px;
 						font-size: 14px;
+
 						span {
 							display: inline-block;
 							color: $main-color;
 							font-weight: 500;
 						}
+
 						a {
 							display: inline-block;
 							color: #666666;
 							font-size: 13px;
+
 							&:hover {
 								color: $main-color;
 							}
 						}
+
 						i {
 							color: $main-color;
 							margin-right: 2px;
 						}
+
 						&::before {
 							content: '';
 							position: absolute;
@@ -3193,8 +3692,10 @@ Blog Details Area Style
 							height: 1px;
 							background: $main-color;
 						}
+
 						&:last-child {
 							margin-right: 0;
+
 							&::before {
 								display: none;
 							}
@@ -3202,11 +3703,13 @@ Blog Details Area Style
 					}
 				}
 			}
+
 			h3 {
 				margin-bottom: 13px;
 				margin-top: 25px;
 				font-size: 30px;
 			}
+
 			.wp-block-gallery.columns-3 {
 				padding-left: 0;
 				list-style-type: none;
@@ -3216,24 +3719,29 @@ Blog Details Area Style
 				margin-left: -10px;
 				margin-bottom: 30px;
 				margin-top: 30px;
+
 				li {
 					flex: 0 0 33.3333%;
 					max-width: 33.3333%;
 					padding-right: 10px;
 					padding-left: 10px;
+
 					figure {
 						margin-bottom: 0;
 					}
 				}
 			}
 		}
+
 		.article-footer {
 			display: flex;
 			flex-wrap: wrap;
 			margin-top: 30px;
+
 			.article-tags {
 				flex: 0 0 50%;
 				max-width: 50%;
+
 				span {
 					display: inline-block;
 					color: $main-color;
@@ -3242,31 +3750,38 @@ Blog Details Area Style
 					position: relative;
 					top: 4px;
 				}
+
 				a {
 					display: inline-block;
 					color: #666666;
 					font-weight: 600;
+
 					&:hover {
 						color: $main-color;
 					}
 				}
 			}
+
 			.article-share {
 				flex: 0 0 50%;
 				max-width: 50%;
+
 				.social {
 					padding-left: 0;
 					list-style-type: none;
 					text-align: right;
 					margin-bottom: 0;
+
 					li {
 						display: inline-block;
+
 						span {
 							display: inline-block;
 							margin-right: 2px;
 							font-weight: 500;
 							color: #666666;
 						}
+
 						a {
 							display: block;
 							color: $white-color;
@@ -3277,6 +3792,7 @@ Blog Details Area Style
 							background-color: $main-color;
 							text-align: center;
 							font-size: 14px;
+
 							&:hover {
 								animation: rubberBand 1s linear;
 							}
@@ -3285,10 +3801,12 @@ Blog Details Area Style
 				}
 			}
 		}
+
 		.post-navigation {
 			margin-top: 30px;
 		}
 	}
+
 	blockquote {
 		overflow: hidden;
 		background-color: #f7f7f7;
@@ -3298,6 +3816,7 @@ Blog Details Area Style
 		margin-bottom: 20px;
 		margin-top: 20px;
 		border-radius: $border-radius;
+
 		p {
 			color: $heading-color;
 			line-height: 1.6;
@@ -3307,9 +3826,11 @@ Blog Details Area Style
 			font-size: 17px !important;
 			text-align: center;
 		}
+
 		cite {
 			display: none;
 		}
+
 		&::before {
 			color: $main-color;
 			content: "\ed67";
@@ -3317,11 +3838,12 @@ Blog Details Area Style
 			left: 50px;
 			top: -50px;
 			z-index: -1;
-			font-family:'boxicons';
+			font-family: 'boxicons';
 			font-size: 140px;
 			font-weight: 900;
 			opacity: 0.5;
 		}
+
 		&::after {
 			content: '';
 			position: absolute;
@@ -3334,17 +3856,21 @@ Blog Details Area Style
 			margin-bottom: 20px;
 		}
 	}
+
 	.post-navigation {
 		border-top: 1px solid #eeeeee;
 		border-bottom: 1px solid #eeeeee;
 		padding-top: 20px;
 		padding-bottom: 20px;
+
 		.navigation-links {
 			display: flex;
 			flex-wrap: wrap;
+
 			.nav-previous {
 				flex: 0 0 50%;
 				max-width: 50%;
+
 				a {
 					i {
 						margin-right: 0;
@@ -3354,24 +3880,28 @@ Blog Details Area Style
 					}
 				}
 			}
+
 			.nav-next {
 				flex: 0 0 50%;
 				max-width: 50%;
 				text-align: right;
+
 				a {
 					i {
 						margin-left: 0;
 						font-size: 20px;
-						position: relative; 
+						position: relative;
 						top: 4px;
 					}
 				}
 			}
+
 			div {
 				a {
 					display: inline-block;
 					font-weight: 600;
 					color: $heading-color;
+
 					&:hover {
 						color: $main-color;
 					}
@@ -3379,16 +3909,19 @@ Blog Details Area Style
 			}
 		}
 	}
+
 	.comments-area {
 		padding: 25px;
 		margin-top: 30px;
 		box-shadow: 0px 0px 29px 0px rgba(102, 102, 102, 0.08);
 		background-color: $white-color;
+
 		.comments-title {
 			position: relative;
 			margin-bottom: 30px;
 			line-height: initial;
 			font-size: 22px;
+
 			&::before {
 				content: '';
 				height: 25px;
@@ -3400,32 +3933,39 @@ Blog Details Area Style
 				transform: translateY(-50%);
 			}
 		}
+
 		ol {
 			padding: 0;
 			margin: 0;
 			list-style-type: none;
 		}
+
 		ul {
 			padding: 0;
 			margin: 0;
 			list-style-type: none;
 		}
+
 		.comment-list {
 			padding: 0;
 			margin: 0;
 			list-style-type: none;
 		}
+
 		.children {
 			margin-left: 40px;
 		}
+
 		.comment-body {
 			border-bottom: 1px solid #eeeeee;
 			padding-left: 65px;
 			font-size: 14px;
 			margin-bottom: 20px;
 			padding-bottom: 20px;
+
 			.reply {
 				margin-top: 15px;
+
 				a {
 					border: 1px solid #ded9d9;
 					color: $heading-color;
@@ -3437,6 +3977,7 @@ Blog Details Area Style
 					z-index: 1;
 					font-size: 13px;
 					font-weight: 600;
+
 					&:hover {
 						color: $white-color;
 						background-color: $main-color;
@@ -3445,14 +3986,17 @@ Blog Details Area Style
 				}
 			}
 		}
+
 		.comment-meta {
 			margin-bottom: .8em;
 		}
+
 		.comment-author {
 			font-size: 16px;
 			margin-bottom: 0.4em;
 			position: relative;
 			z-index: 2;
+
 			.avatar {
 				height: 50px;
 				left: -65px;
@@ -3460,40 +4004,49 @@ Blog Details Area Style
 				width: 50px;
 				border-radius: 50%;
 			}
+
 			.fn {
 				font-weight: 600;
 				color: $heading-color;
 				font-size: 18px;
 			}
+
 			.says {
 				display: none;
 			}
 		}
+
 		.comment-metadata {
 			color: #666666;
 			letter-spacing: 0.01em;
 			text-transform: uppercase;
 			font-size: 13px;
 			font-weight: 500;
+
 			a {
 				color: #666666;
 				font-size: 11px;
+
 				&:hover {
 					color: $main-color;
 				}
 			}
 		}
+
 		.comment-content {
 			p {
 				font-size: 14px;
 			}
 		}
+
 		.comment-respond {
 			margin-top: 30px;
+
 			.comment-reply-title {
 				margin-bottom: 15px;
 				position: relative;
 				font-size: 22px;
+
 				&::before {
 					content: '';
 					height: 25px;
@@ -3504,25 +4057,29 @@ Blog Details Area Style
 					top: 50%;
 					transform: translateY(-50%);
 				}
+
 				#cancel-comment-reply-link {
 					display: inline-block;
 				}
 			}
+
 			.comment-form {
 				overflow: hidden;
 			}
+
 			.comment-form-comment {
 				margin-bottom: 30px;
 				float: left;
 				width: 100%;
 			}
+
 			label {
 				display: block;
 				font-weight: 500;
 				color: $heading-color;
 				margin-bottom: 5px;
 			}
-			
+
 			input[type="datetime-local"] {
 				display: block;
 				width: 100%;
@@ -3531,22 +4088,26 @@ Blog Details Area Style
 				padding: 0.625em 0.7375em;
 				outline: 0;
 				transition: 0.5s;
+
 				&:focus {
 					border-color: $main-color;
 				}
 			}
+
 			input[type="week"] {
 				display: block;
 				width: 100%;
-				background-color: #f7f7f7;  
+				background-color: #f7f7f7;
 				border: 1px solid #eeeeee;
 				padding: 0.625em 0.7375em;
 				outline: 0;
 				transition: 0.5s;
+
 				&:focus {
 					border-color: $main-color;
 				}
 			}
+
 			input[type="month"] {
 				display: block;
 				width: 100%;
@@ -3555,10 +4116,12 @@ Blog Details Area Style
 				padding: 0.625em 0.7375em;
 				outline: 0;
 				transition: 0.5s;
+
 				&:focus {
 					border-color: $main-color;
 				}
 			}
+
 			input[type="text"] {
 				display: block;
 				width: 100%;
@@ -3567,10 +4130,12 @@ Blog Details Area Style
 				padding: 0.625em 0.7375em;
 				outline: 0;
 				transition: 0.5s;
+
 				&:focus {
 					border-color: $main-color;
 				}
 			}
+
 			input[type="email"] {
 				display: block;
 				width: 100%;
@@ -3579,10 +4144,12 @@ Blog Details Area Style
 				padding: 0.625em 0.7375em;
 				outline: 0;
 				transition: 0.5s;
+
 				&:focus {
 					border-color: $main-color;
 				}
 			}
+
 			input[type="url"] {
 				display: block;
 				width: 100%;
@@ -3591,10 +4158,12 @@ Blog Details Area Style
 				padding: 0.625em 0.7375em;
 				outline: 0;
 				transition: 0.5s;
+
 				&:focus {
 					border-color: $main-color;
 				}
 			}
+
 			input[type="password"] {
 				display: block;
 				width: 100%;
@@ -3603,10 +4172,12 @@ Blog Details Area Style
 				padding: 0.625em 0.7375em;
 				outline: 0;
 				transition: 0.5s;
+
 				&:focus {
 					border-color: $main-color;
 				}
 			}
+
 			input[type="search"] {
 				display: block;
 				width: 100%;
@@ -3615,10 +4186,12 @@ Blog Details Area Style
 				padding: 0.625em 0.7375em;
 				outline: 0;
 				transition: 0.5s;
+
 				&:focus {
 					border-color: $main-color;
 				}
 			}
+
 			input[type="tel"] {
 				display: block;
 				width: 100%;
@@ -3627,10 +4200,12 @@ Blog Details Area Style
 				padding: 0.625em 0.7375em;
 				outline: 0;
 				transition: 0.5s;
+
 				&:focus {
 					border-color: $main-color;
 				}
 			}
+
 			input[type="number"] {
 				display: block;
 				width: 100%;
@@ -3639,50 +4214,59 @@ Blog Details Area Style
 				padding: 0.625em 0.7375em;
 				outline: 0;
 				transition: 0.5s;
+
 				&:focus {
 					border-color: $main-color;
 				}
 			}
+
 			textarea {
 				display: block;
 				width: 100%;
-				background-color: #f7f7f7; 
+				background-color: #f7f7f7;
 				border: 1px solid #eeeeee;
 				padding: 0.625em 0.7375em;
 				outline: 0;
 				transition: 0.5s;
+
 				&:focus {
 					border-color: $main-color;
 				}
 			}
+
 			.comment-form-author {
 				float: left;
 				width: 50%;
 				padding-right: 10px;
 				margin-bottom: 20px;
 			}
+
 			.comment-form-email {
 				float: left;
 				width: 50%;
 				padding-left: 12px;
 				margin-bottom: 20px;
 			}
+
 			.comment-form-url {
 				float: left;
 				width: 100%;
 				margin-bottom: 20px;
 			}
+
 			.comment-form-cookies-consent {
 				width: 100%;
 				float: left;
 				position: relative;
 				padding-left: 20px;
 				margin-bottom: 20px;
+
 				input {
 					position: absolute;
 					left: 0;
 					top: 6px;
 				}
+
 				label {
 					display: inline-block;
 					margin: 0;
@@ -3690,9 +4274,11 @@ Blog Details Area Style
 					font-weight: normal;
 				}
 			}
+
 			.form-submit {
 				float: left;
 				width: 100%;
+
 				input {
 					background: $main-color;
 					border: none;
@@ -3706,19 +4292,21 @@ Blog Details Area Style
 					transition: 0.5s;
 					font-weight: 500;
 					font-size: 14px;
+
 					&:hover {
 						color: $white-color;
 						background-color: $heading-color;
 					}
+
 					&:focus {
 						color: $white-color;
-						background-color: $main-color;  
+						background-color: $main-color;
 					}
 				}
 			}
 		}
 	}
-	
+
 	/*
 	Sidebar Widget Area Style
 	================================*/
@@ -3727,12 +4315,15 @@ Blog Details Area Style
 			margin-top: 35px;
 			background-color: $white-color;
 			box-shadow: 0px 0px 29px 0px rgba(102, 102, 102, 0.08);
+
 			.post-wrap {
 				padding: 20px;
 			}
+
 			&:first-child {
 				margin-top: 0;
 			}
+
 			.widget-title {
 				text-transform: capitalize;
 				position: relative;
@@ -3742,6 +4333,7 @@ Blog Details Area Style
 				padding: 10px 20px;
 				color: $heading-color;
 				position: relative;
+
 				&::before {
 					content: "";
 					position: absolute;
@@ -3753,16 +4345,20 @@ Blog Details Area Style
 				}
 			}
 		}
+
 		.widget_search {
 			form {
 				position: relative;
+
 				label {
 					display: block;
 					margin-bottom: 0;
 				}
+
 				.screen-reader-text {
 					display: none;
 				}
+
 				.search-field {
 					background-color: transparent;
 					height: 50px;
@@ -3772,10 +4368,12 @@ Blog Details Area Style
 					display: block;
 					outline: 0;
 					transition: 0.5s;
+
 					&:focus {
-						border-color:$main-color;
+						border-color: $main-color;
 					}
 				}
+
 				button {
 					position: absolute;
 					right: 0;
@@ -3788,25 +4386,30 @@ Blog Details Area Style
 					background-color: $main-color;
 					transition: 0.5s;
 					cursor: pointer;
+
 					&:hover {
 						background-color: $heading-color;
 					}
 				}
 			}
 		}
+
 		.widget-peru-posts-thumb {
 			position: relative;
 			overflow: hidden;
+
 			.item {
 				overflow: hidden;
 				margin-bottom: 10px;
 				padding-bottom: 10px;
 				border-bottom: 1px solid #efefef;
+
 				&:last-child {
 					margin-bottom: 0;
 					border-bottom: none;
 					padding-bottom: 0;
 				}
+
 				.thumb {
 					float: left;
 					height: 80px;
@@ -3814,6 +4417,7 @@ Blog Details Area Style
 					position: relative;
 					width: 80px;
 					margin-right: 15px;
+
 					.fullimage {
 						width: 80px;
 						height: 80px;
@@ -3824,21 +4428,27 @@ Blog Details Area Style
 						position: relative;
 						background-color: $heading-color;
 					}
+
 					.fullimage.bg1 {
 						background-image: url(../../assets/img/blog-details/popular-posts-1.png);
 					}
+
 					.fullimage.bg2 {
 						background-image: url(../../assets/img/blog-details/popular-posts-2.png);
 					}
+
 					.fullimage.bg3 {
 						background-image: url(../../assets/img/blog-details/popular-posts-3.png);
 					}
+
 					.fullimage.bg4 {
 						background-image: url(../../assets/img/blog-details/popular-posts-4.png);
 					}
 				}
+
 				.info {
 					overflow: hidden;
+
 					span {
 						display: block;
 						color: #666666;
@@ -3848,14 +4458,17 @@ Blog Details Area Style
 						font-size: 12px;
 						font-weight: 500;
 					}
+
 					.title {
 						margin-bottom: 0;
 						line-height: 1.5;
 						font-size: 14px;
 						font-weight: 600;
+
 						a {
 							display: inline-block;
 							color: #474c40;
+
 							&:hover {
 								color: $main-color;
 							}
@@ -3864,11 +4477,13 @@ Blog Details Area Style
 				}
 			}
 		}
+
 		.widget_recent_entries {
 			ul {
 				padding: 0;
 				margin: 0;
 				list-style-type: none;
+
 				li {
 					position: relative;
 					margin-bottom: 12px;
@@ -3877,9 +4492,11 @@ Blog Details Area Style
 					line-height: 1.5;
 					font-size: 15px;
 					font-weight: 600;
+
 					&:last-child {
 						margin-bottom: 0;
 					}
+
 					&::before {
 						background: $main-color;
 						position: absolute;
@@ -3889,6 +4506,7 @@ Blog Details Area Style
 						left: 0;
 						top: 7px;
 					}
+
 					.post-date {
 						display: block;
 						font-size: 13px;
@@ -3898,11 +4516,13 @@ Blog Details Area Style
 				}
 			}
 		}
+
 		.widget_categories {
 			ul {
 				padding: 0;
 				margin: 0;
 				list-style-type: none;
+
 				li {
 					position: relative;
 					padding-bottom: 10px;
@@ -3912,10 +4532,12 @@ Blog Details Area Style
 					font-size: 15px;
 					font-weight: 600;
 					border-bottom: 1px solid #efefef;
+
 					&:last-child {
 						margin-bottom: 0;
 						border-bottom: none;
 					}
+
 					&::before {
 						background: $main-color;
 						position: absolute;
@@ -3926,30 +4548,36 @@ Blog Details Area Style
 						top: 7px;
 						clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 					}
+
 					a {
 						display: block;
 						color: #666666;
 						font-weight: normal;
 						font-size: 14px;
+
 						span {
 							float: right;
 							font-size: 13px;
 						}
+
 						&:hover {
 							color: $main-color;
 						}
 					}
+
 					.post-count {
 						float: right;
 					}
 				}
 			}
 		}
+
 		.widget_meta {
 			ul {
 				padding: 0;
 				margin: 0;
 				list-style-type: none;
+
 				li {
 					position: relative;
 					padding-bottom: 10px;
@@ -3959,15 +4587,19 @@ Blog Details Area Style
 					font-size: 15px;
 					font-weight: 500;
 					border-bottom: 1px solid #efefef;
+
 					a {
 						color: $body-color;
+
 						&:hover {
 							color: $main-color;
 						}
 					}
+
 					&:last-child {
 						margin-bottom: 0;
 					}
+
 					&::before {
 						background: $main-color;
 						position: absolute;
@@ -3981,11 +4613,13 @@ Blog Details Area Style
 				}
 			}
 		}
+
 		.widget_tag_cloud {
 			.widget-title {
 				margin-bottom: 0;
 			}
 		}
+
 		.tagcloud {
 			a {
 				display: inline-block;
@@ -3997,10 +4631,12 @@ Blog Details Area Style
 				margin-top: 10px;
 				margin-right: 10px;
 				text-transform: capitalize;
+
 				&:hover {
 					background-color: $main-color;
 					color: $white-color;
 				}
+
 				&:focus {
 					background-color: $main-color;
 					color: $white-color;
@@ -4008,6 +4644,7 @@ Blog Details Area Style
 				}
 			}
 		}
+
 		.widget_services_list {
 			ul {
 				padding-left: 0;
@@ -4015,6 +4652,7 @@ Blog Details Area Style
 				margin-bottom: 0;
 				box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.04);
 				background-color: $white-color;
+
 				li {
 					a {
 						display: block;
@@ -4027,6 +4665,7 @@ Blog Details Area Style
 						color: #5d6576;
 						z-index: 1;
 						font-weight: 500;
+
 						&::before {
 							content: "";
 							position: absolute;
@@ -4039,16 +4678,19 @@ Blog Details Area Style
 							opacity: 0;
 							visibility: hidden;
 						}
+
 						i {
 							position: absolute;
 							right: 15px;
 							top: 50%;
 							transform: translateY(-50%);
 						}
+
 						&:hover {
 							background-color: $main-color;
 							color: $white-color;
 							padding-left: 20px;
+
 							&::before {
 								opacity: 1;
 								visibility: visible;
@@ -4056,16 +4698,19 @@ Blog Details Area Style
 							}
 						}
 					}
+
 					a.active {
 						background-color: $main-color;
 						color: $white-color;
 						padding-left: 20px;
+
 						&::before {
 							opacity: 1;
 							visibility: visible;
 							width: 5px;
 						}
 					}
+
 					&:last-child {
 						a {
 							border-bottom: none;
@@ -4074,6 +4719,7 @@ Blog Details Area Style
 				}
 			}
 		}
+
 		.widget_download {
 			ul {
 				padding-left: 0;
@@ -4081,6 +4727,7 @@ Blog Details Area Style
 				margin-bottom: 0;
 				box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.04);
 				background-color: $white-color;
+
 				li {
 					a {
 						display: block;
@@ -4093,6 +4740,7 @@ Blog Details Area Style
 						color: #5d6576;
 						z-index: 1;
 						font-weight: 500;
+
 						&::before {
 							content: "";
 							position: absolute;
@@ -4105,16 +4753,19 @@ Blog Details Area Style
 							opacity: 0;
 							visibility: hidden;
 						}
+
 						i {
 							position: absolute;
 							right: 15px;
 							top: 50%;
 							transform: translateY(-50%);
 						}
+
 						&:hover {
 							background-color: $main-color;
 							color: $white-color;
 							padding-left: 20px;
+
 							&::before {
 								opacity: 1;
 								visibility: visible;
@@ -4122,16 +4773,19 @@ Blog Details Area Style
 							}
 						}
 					}
+
 					a.active {
 						background-color: $main-color;
 						color: $white-color;
 						padding-left: 20px;
+
 						&::before {
 							opacity: 1;
 							visibility: visible;
 							width: 5px;
 						}
 					}
+
 					&:last-child {
 						a {
 							border-bottom: none;
@@ -4140,13 +4794,14 @@ Blog Details Area Style
 				}
 			}
 		}
+
 		.info time {
 			font-size: 13px;
 			color: #929292;
 			display: block;
 			margin-bottom: 4px;
 		}
-	} 
+	}
 }
 
 /*
@@ -4157,6 +4812,7 @@ Contact Info Area Style
 	box-shadow: $box-shadow;
 	background-color: $white-color;
 	padding: 100px 30px;
+
 	i {
 		font-size: 40px;
 		width: 60px;
@@ -4168,22 +4824,27 @@ Contact Info Area Style
 		border-radius: 50%;
 		margin-bottom: 15px;
 	}
+
 	h3 {
 		margin-bottom: 10px;
 	}
+
 	p {
 		font-weight: 600;
 		margin-bottom: 5px;
 	}
+
 	span {
 		display: block;
 		font-weight: 600;
 		margin-bottom: 5px;
+
 		&:last-child {
 			margin-bottom: 0;
 		}
 	}
 }
+
 .single-contact-map {
 	iframe {
 		height: 395px;
@@ -4195,9 +4856,10 @@ Contact Info Area Style
 Services Page Area Style
 =====================================================*/
 .first-facility-area.services-page-one {
-    margin: 100px auto 0;
+	margin: 100px auto 0;
 	position: unset;
 	max-width: 1110px;
+
 	&.mt-0 {
 		margin-bottom: 100px;
 	}
@@ -4217,18 +4879,22 @@ Doctors Details Area Style
 	.doctors-img {
 		text-align: center;
 		margin-bottom: 30px;
+
 		img {
 			border-top: 3px solid $main-color;
 			border-left: 3px solid $main-color;
 			border-right: 3px solid $main-color;
 		}
+
 		ul {
 			line-height: 1;
 			box-shadow: $box-shadow;
 			padding: 30px;
+
 			li {
 				display: inline-block;
 				margin: 0 5px;
+
 				a {
 					width: 30px;
 					height: 30px;
@@ -4237,9 +4903,11 @@ Doctors Details Area Style
 					color: $white-color;
 					border-radius: $border-radius;
 					text-align: center;
+
 					i {
 						font-size: 20px;
 					}
+
 					&:hover {
 						transform: translateY(-3px);
 					}
@@ -4247,27 +4915,33 @@ Doctors Details Area Style
 			}
 		}
 	}
+
 	.availability {
 		box-shadow: $box-shadow;
 		background-color: $white-color;
 		padding: 30px;
 		margin-bottom: 30px;
+
 		h3 {
 			i {
 				margin-right: 5px;
 				position: relative;
 				top: 1px;
 			}
+
 			margin-bottom: 20px;
 		}
+
 		ul {
 			li {
 				border-bottom: 1px solid #eeeeee;
 				padding-bottom: 10px;
 				margin-bottom: 10px;
+
 				span {
 					float: right;
 				}
+
 				&:last-child {
 					border-bottom: none;
 					padding-bottom: 0;
@@ -4276,16 +4950,20 @@ Doctors Details Area Style
 			}
 		}
 	}
+
 	.doctors-feedback {
 		box-shadow: $box-shadow;
+
 		.single-client {
 			margin: 0;
+
 			img {
 				position: unset;
 			}
 		}
 	}
 }
+
 .doctors-detailss {
 	.borders {
 		border-bottom: 1px solid #eeeeee;
@@ -4294,13 +4972,16 @@ Doctors Details Area Style
 		margin-left: 1px;
 		margin-right: 1px;
 	}
+
 	.doctors-history {
 		padding: 30px;
 		box-shadow: $box-shadow;
 		margin-bottom: 30px;
+
 		h2 {
 			font-size: 40px;
 		}
+
 		span {
 			font-weight: 600;
 			color: $main-color;
@@ -4308,15 +4989,18 @@ Doctors Details Area Style
 			display: block;
 			margin-bottom: 15px;
 		}
+
 		p {
 			margin-bottom: 30px;
 		}
 	}
+
 	.left-title {
 		h3 {
 			font-size: 17px;
 		}
 	}
+
 	.right-title {
 		ul {
 			li {
@@ -4326,11 +5010,13 @@ Doctors Details Area Style
 				margin-bottom: 10px;
 				padding-bottom: 10px;
 				border-bottom: 1px solid #eeeeee;
+
 				&:last-child {
 					margin-bottom: 0;
 					padding-bottom: 0;
 					border-bottom: none;
 				}
+
 				i {
 					position: absolute;
 					top: 6px;
@@ -4348,9 +5034,11 @@ Services Details Area Style
 	.scrives-item-3 {
 		.social-link {
 			line-height: 1;
+
 			li {
 				display: inline-block;
 				margin-right: 5px;
+
 				a {
 					width: 30px;
 					height: 30px;
@@ -4359,20 +5047,25 @@ Services Details Area Style
 					color: $white-color;
 					border-radius: 50%;
 					text-align: center;
+
 					i {
 						font-size: 20px;
 					}
+
 					&:hover {
 						transform: translateY(-3px);
 					}
 				}
 			}
 		}
+
 		.share {
 			float: right;
+
 			a {
 				font-size: 20px;
 				font-weight: 600;
+
 				i {
 					font-size: 20px;
 					position: relative;
@@ -4381,9 +5074,11 @@ Services Details Area Style
 			}
 		}
 	}
+
 	.owl-theme {
 		.owl-dots {
 			line-height: 1;
+
 			.owl-dot {
 				span {
 					width: 15px;
@@ -4392,12 +5087,14 @@ Services Details Area Style
 					transition: $transition;
 					margin: 0 5px;
 				}
+
 				&.active {
 					span {
 						background-color: $main-color;
 						width: 25px;
 					}
 				}
+
 				&:hover {
 					span {
 						background-color: $main-color;
@@ -4415,7 +5112,7 @@ HOME STYLE THREE AREA
 
 /*
 Hero Slider Area Style
-======================================================*/ 
+======================================================*/
 .hero-slider-area {
 	.slider-item {
 		background-position: center center;
@@ -4425,6 +5122,7 @@ Hero Slider Area Style
 		overflow: hidden;
 		position: relative;
 		z-index: 1;
+
 		&::before {
 			content: "";
 			position: absolute;
@@ -4436,79 +5134,98 @@ Hero Slider Area Style
 			opacity: 0.6;
 			z-index: -1;
 		}
+
 		&.slider-item-bg-1 {
 			// background-image: url(../img/home-three/slider/1.jpg);
 		}
+
 		&.slider-item-bg-2 {
 			background: linear-gradient(to top, transparent, $black-color 200%), url(../img/home-three/slider/s2.jpg);
 			// background: url('../img/home-three/slider/s2.jpg');
 		}
+
 		&.slider-item-bg-3 {
 			background: linear-gradient(to top, transparent, $black-color 200%), url(../img/home-three/slider/s3.jpg);
 		}
+
 		.slider-text {
 			position: relative;
 			max-width: 690px;
 			z-index: 1;
 			overflow: hidden;
+
 			span {
 				color: $white-color;
 				font-size: 15px;
 				display: block;
 				margin-bottom: 10px;
 			}
+
 			h1 {
 				font-size: 60px;
 				color: $white-color;
 				margin-bottom: 30px;
 			}
+
 			p {
 				color: $white-color;
 				font-size: 16px;
 				margin-bottom: 35px;
 			}
 		}
+
 		.video-btn {
 			margin: auto;
 			display: block;
 		}
 	}
+
 	.owl-item {
 		&.active {
 			.slider-text {
 				&.overflow-hidden {
 					overflow: hidden;
 				}
+
 				&.one {
 					span {
 						animation: 1s .1s fadeInUpBig both;
 					}
-					.video-btn-animat  {
+
+					.video-btn-animat {
 						animation: 1s .1s fadeInUpBig both;
 					}
+
 					h1 {
 						animation: 2s .2s fadeInUpBig both;
 					}
+
 					p {
 						animation: 3s .3s fadeInUpBig both;
 					}
+
 					.slider-btn {
 						animation: 4s .4s fadeInUpBig both;
 					}
 				}
+
 				&.two {
 					span {
 						animation: 2s .2s fadeInDownBig both;
 					}
-					.video-btn-animat  {
+
+					.video-btn-animat {
 						animation: 2s .2s fadeInDownBig both;
 					}
+
 					h1 {
 						animation: 2s .2s fadeInLeft both;
 					}
+
 					p {
 						animation: 2s .2s fadeInRight both;
 					}
+
 					.slider-btn {
 						animation: 2s .2s fadeInUpBig both;
 					}
@@ -4516,6 +5233,7 @@ Hero Slider Area Style
 			}
 		}
 	}
+
 	.owl-theme {
 		.owl-dots {
 			margin-top: 0 !important;
@@ -4524,6 +5242,7 @@ Hero Slider Area Style
 			bottom: 50%;
 			display: grid;
 			transform: translateY(75px);
+
 			.owl-dot {
 				span {
 					width: 8px;
@@ -4532,12 +5251,14 @@ Hero Slider Area Style
 					background-color: #bdbdbf;
 					border-radius: $border-radius !important;
 				}
+
 				&.active {
 					span {
 						background-color: $main-color;
 						height: 40px;
 					}
 				}
+
 				&:hover {
 					span {
 						background-color: $main-color;
@@ -4554,17 +5275,19 @@ Facility Area Style
 .second-facility-area {
 	&.three {
 		background-color: #eefbfc;
+
 		.container {
 			max-width: 1110px;
 		}
 
-		
+
 		.second-facility-item {
 			box-shadow: $box-shadow;
 			border: none;
 			position: relative;
 			background-color: $white-color;
 			transition: $transition;
+
 			&::before {
 				display: none;
 			}
@@ -4574,26 +5297,30 @@ Facility Area Style
 
 /*
 About Area Style
-======================================================*/ 
+======================================================*/
 .about-area-three {
 	background-color: #eefbfc;
+
 	.about-img {
 		position: relative;
 		z-index: 1;
+
 		img {
 			border-radius: 50%;
 		}
+
 		&::before {
 			content: "";
 			position: absolute;
 			top: -15px;
-    		left: -15px;
+			left: -15px;
 			width: 600px;
 			height: 600px;
 			background-color: $main-color;
 			border-radius: 50%;
 			z-index: -1;
 		}
+
 		.shape-3 {
 			position: absolute;
 			bottom: 0;
@@ -4601,33 +5328,41 @@ About Area Style
 			z-index: 1;
 		}
 	}
+
 	.about-content {
 		margin-bottom: -6px;
 		margin-top: -6px;
+
 		h2 {
 			font-size: 40px;
 			margin-bottom: 20px;
 		}
+
 		p {
 			margin-bottom: 20px;
 		}
+
 		ul {
 			li {
 				margin-bottom: 20px;
 				position: relative;
+
 				&:last-child {
 					margin-bottom: 0;
 				}
 			}
 		}
+
 		.default-btn {
 			margin-top: 15px;
 		}
 	}
+
 	.owl-prev {
 		position: absolute;
 		right: -47px;
 		top: 44%;
+
 		i {
 			width: 40px;
 			height: 40px;
@@ -4638,9 +5373,11 @@ About Area Style
 			border-radius: 50%;
 		}
 	}
+
 	.owl-theme .owl-nav [class*=owl-]:hover {
 		background-color: transparent;
 	}
+
 	.owl-theme .owl-nav {
 		margin-top: 0;
 		position: absolute;
@@ -4668,14 +5405,16 @@ Work Area Style
 	.major__event {
 		background-color: $light-green;
 		box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
-    	padding: 30px;
+		padding: 30px;
 	}
 }
+
 .how-its-work-content {
 	.content-wrap {
 		position: relative;
 		padding-left: 50px;
 		margin-bottom: 30px;
+
 		&::before {
 			content: "";
 			position: absolute;
@@ -4685,6 +5424,7 @@ Work Area Style
 			height: 30px;
 			background-color: $main-color;
 		}
+
 		&::after {
 			content: "";
 			position: absolute;
@@ -4706,6 +5446,7 @@ Services Area Style
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
+
 	.shape-1 {
 		position: absolute;
 		top: 100px;
@@ -4714,6 +5455,7 @@ Services Area Style
 		z-index: -1;
 		animation: rotation 30s linear infinite;
 	}
+
 	.shape-2 {
 		position: absolute;
 		bottom: 100px;
@@ -4722,6 +5464,7 @@ Services Area Style
 		z-index: -1;
 		animation: moveBounce 5s linear infinite;
 	}
+
 	.shape-3 {
 		position: absolute;
 		bottom: 100px;
@@ -4730,6 +5473,7 @@ Services Area Style
 		z-index: -1;
 		animation: rotation 30s linear infinite;
 	}
+
 	.shape-4 {
 		position: absolute;
 		top: 100px;
@@ -4746,12 +5490,15 @@ Emergency Area Style
 .emergency-contents {
 	margin-top: -6px;
 	margin-bottom: -6px;
+
 	h2 {
 		margin-bottom: 25px;
 		font-size: 40px;
 	}
+
 	ul {
 		margin-bottom: 35px;
+
 		li {
 			position: relative;
 			padding-left: 25px;
@@ -4759,6 +5506,7 @@ Emergency Area Style
 			font-weight: 600;
 			font-size: 16px;
 			margin-bottom: 15px;
+
 			&::before {
 				content: "";
 				position: absolute;
@@ -4780,14 +5528,17 @@ Operate Area Style
 	text-align: center;
 	background-color: #eaf6fc;
 	position: relative;
+
 	.operate-img {
 		position: absolute;
 		bottom: -137px;
 		left: 0;
 	}
+
 	.default-btn {
 		padding: 25px 40px;
 		font-size: 20px;
+
 		i {
 			font-size: 20px;
 			position: relative;
@@ -4803,18 +5554,20 @@ HOME STYLE FOUR AREA
 
 /*
 Banner Area Style
-======================================================*/ 
+======================================================*/
 .main-banner-area-four {
 	background-color: #e6f7fc;
 	height: 100vh;
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
+
 	.banner-text {
 		position: relative;
 		max-width: 650px;
 		margin-left: auto;
 		top: 55px;
+
 		span {
 			font-size: 16px;
 			color: $main-color;
@@ -4824,25 +5577,30 @@ Banner Area Style
 			font-family: $heading-font-family;
 			color: $main-color;
 		}
+
 		h1 {
 			font-size: 60px;
 			margin-bottom: 25px;
 		}
+
 		p {
 			font-size: 16px;
 			margin-bottom: 35px;
 			font-weight: 500;
 		}
 	}
+
 	.banner-img-wrap {
 		position: relative;
 		z-index: 1;
+
 		.banner-img {
 			position: absolute;
 			margin-left: auto;
 			top: -100px;
 			right: 0;
 		}
+
 		.shape {
 			position: absolute;
 			top: 0;
@@ -4850,6 +5608,7 @@ Banner Area Style
 			animation: moveBounce 5s linear infinite;
 		}
 	}
+
 	.shape {
 		position: absolute;
 		top: 0;
@@ -4861,7 +5620,7 @@ Banner Area Style
 
 /*
 About Area Four Style
-======================================================*/ 
+======================================================*/
 .about-area {
 	&.four {
 		.about-content {
@@ -4872,26 +5631,31 @@ About Area Four Style
 
 /*
 Doctors Area Four Style
-======================================================*/ 
+======================================================*/
 .ours-doctors-area {
 	background-color: #e6f7fc;
 	position: relative;
 	z-index: 1;
+
 	.doctors-content {
 		max-width: 570px;
 		margin-left: auto;
 		margin-right: 30px;
 	}
+
 	.doctors-content {
 		max-width: 510px;
 		margin-left: auto;
 		margin-right: 30px;
+
 		h2 {
 			font-size: 40px;
 			margin-bottom: 20px;
 		}
+
 		ul {
 			margin-bottom: 35px;
+
 			li {
 				margin-bottom: 15px;
 				font-weight: 600;
@@ -4899,9 +5663,11 @@ Doctors Area Four Style
 				font-family: $heading-font-family;
 				position: relative;
 				padding-left: 35px;
+
 				&:last-child {
 					margin-bottom: 0;
 				}
+
 				i {
 					position: absolute;
 					top: -2px;
@@ -4918,17 +5684,20 @@ Doctors Area Four Style
 			}
 		}
 	}
+
 	.doctors-img {
 		background-image: url(../../assets/img/home-four/doctor-img.jpg);
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
 		height: 100%;
+
 		&.about {
 			background-image: url(../../assets/img/home-six/about-img.jpg);
 		}
-		
+
 	}
+
 	.shape {
 		position: absolute;
 		top: 0;
@@ -4939,39 +5708,50 @@ Doctors Area Four Style
 
 /*
 Doctor vaccination Area Style
-======================================================*/ 
+======================================================*/
 .tb-color-2 {
 	background-color: #fdec8c;
 }
+
 .tb-color-3 {
 	background-color: #fc9ffc;
 }
+
 .tb-color-4 {
 	background-color: #fcce98;
 }
+
 .tb-color-5 {
 	background-color: #ccfc86;
 }
+
 .tb-color-6 {
 	background-color: #acb0fe;
 }
+
 .tb-color-7 {
 	background-color: #fca68e;
 }
+
 .tb-color-8 {
 	background-color: #e6cda4;
 }
+
 .tb-color-9 {
 	background-color: #87edfc;
 }
+
 .tb-color-10 {
 	background-color: #df92fc;
 }
+
 .doctor-vaccination-table {
 	background-color: $white-color;
 	box-shadow: $box-shadow;
+
 	table {
 		margin-bottom: 0;
+
 		thead {
 			tr {
 				th {
@@ -4983,12 +5763,14 @@ Doctor vaccination Area Style
 					padding: 30px 10px;
 					border-bottom: 1px solid #eeeeee;
 					border-left: 1px solid #eeeeee;
+
 					&:first-child {
 						border-left: none;
 					}
 				}
 			}
 		}
+
 		tbody {
 			tr {
 				td {
@@ -5002,18 +5784,22 @@ Doctor vaccination Area Style
 					padding-right: 25px;
 					padding-left: 25px;
 					padding-bottom: 25px;
+
 					&:first-child {
 						border-left: none;
 					}
+
 					&:last-child {
 						border-right: none;
 					}
+
 					h3 {
 						margin-bottom: 0;
 						transition: $transition;
 						font-size: 16px;
 						font-weight: 600;
 					}
+
 					span {
 						display: block;
 						color: $body-color;
@@ -5021,6 +5807,7 @@ Doctor vaccination Area Style
 						margin-top: 5px;
 						transition: $transition;
 					}
+
 					span.time {
 						display: inline-block;
 						background-color: $white-color;
@@ -5033,22 +5820,27 @@ Doctor vaccination Area Style
 						font-weight: 500;
 						font-size: 16px;
 					}
+
 					&:hover {
 						background-color: $main-color;
 						border-color: $main-color;
+
 						h3 {
 							color: $white-color;
 						}
+
 						span {
 							color: $white-color;
 						}
+
 						span.time {
 							background-color: $white-color;
 							color: $main-color;
 						}
 					}
-					
+
 				}
+
 				&:last-child {
 					td {
 						border-bottom: none;
@@ -5065,42 +5857,49 @@ HOME STYLE FIVE AREA
 
 /*
 Banner Area Style
-======================================================*/ 
+======================================================*/
 .main-banner-area-five {
 	background-color: #bfdfe3;
 	height: 100vh;
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
+
 	.banner-text {
 		position: relative;
 		max-width: 650px;
 		margin-left: auto;
 		top: -50px;
+
 		span {
 			font-weight: 600;
 			display: block;
 			margin-bottom: 15px;
 		}
+
 		h1 {
 			font-size: 60px;
 			margin-bottom: 25px;
 		}
+
 		p {
 			font-size: 16px;
 			margin-bottom: 35px;
 			font-weight: 500;
 		}
 	}
+
 	.banner-img-wrap {
 		position: relative;
 		z-index: 1;
+
 		.banner-img {
 			position: absolute;
 			margin-left: auto;
 			top: -100px;
 			right: 0;
 		}
+
 		.shapes {
 			position: absolute;
 			top: 0;
@@ -5109,6 +5908,7 @@ Banner Area Style
 			animation: moveBounce 5s linear infinite;
 		}
 	}
+
 	.shape {
 		position: absolute;
 		top: 0;
@@ -5116,6 +5916,7 @@ Banner Area Style
 		z-index: -1;
 		animation: FocuS 1s linear 1s infinite;
 	}
+
 	.shape-2 {
 		position: absolute;
 		top: 0;
@@ -5143,13 +5944,16 @@ Professionals Area Style
 	text-align: center;
 	transition: $transition;
 	margin-bottom: 30px;
+
 	.professionals-img {
 		position: relative;
+
 		img {
 			border-radius: 50%;
 			background-color: #14a88f;
 			margin-bottom: 20px;
 		}
+
 		i {
 			position: absolute;
 			bottom: 25px;
@@ -5163,24 +5967,28 @@ Professionals Area Style
 			font-size: 25px;
 		}
 	}
-	
+
 	h3 {
 		margin-bottom: 5px;
 	}
+
 	.nice-select {
 		width: 100%;
 		border: none;
 		padding: 0;
 		font-weight: 600;
 		margin-bottom: 10px;
+
 		.list {
 			border: none;
 			border-radius: 0;
 			box-shadow: $box-shadow;
+
 			.option {
 				display: block;
 			}
 		}
+
 		&::before {
 			content: "9+";
 			position: absolute;
@@ -5195,23 +6003,29 @@ Professionals Area Style
 			border-radius: 50px;
 		}
 	}
+
 	ul {
 		margin-top: 15px;
+
 		li {
 			display: inline-block;
 			font-weight: 600;
+
 			i {
 				color: #ffc107;
 				font-size: 20px;
 			}
 		}
 	}
+
 	.location {
 		text-align: left;
+
 		.right {
 			display: inline-block;
 			float: right;
 		}
+
 		span {
 			i {
 				position: relative;
@@ -5221,6 +6035,7 @@ Professionals Area Style
 			}
 		}
 	}
+
 	&:hover {
 		transform: translateY(-5px);
 	}
@@ -5233,20 +6048,24 @@ Search Area Style
 	margin-top: -110px;
 	position: relative;
 	z-index: 1;
+
 	.top-search-from {
 		box-shadow: $box-shadow;
 		background-color: $white-color;
 		padding: 30px;
 		border-radius: $border-radius;
+
 		.nice-select {
 			width: 100%;
 			height: 50px;
 			line-height: 50px;
 			background-color: #f2f9fc;
 		}
+
 		.searchs-wraps {
 			position: relative;
 			margin-bottom: 30px;
+
 			.form-control {
 				height: 80px;
 				border-top: none;
@@ -5256,11 +6075,13 @@ Search Area Style
 				background-color: transparent;
 				font-size: 30px;
 				font-weight: 500;
+
 				&::placeholder {
 					font-size: 30px;
 					font-weight: 500;
 				}
 			}
+
 			.search-btn {
 				position: absolute;
 				top: 7px;
@@ -5269,11 +6090,13 @@ Search Area Style
 				background-color: transparent;
 				transition: $transition;
 				color: #001430;
+
 				&:hover {
 					color: $main-color;
 				}
 			}
 		}
+
 		.find-btn {
 			background-color: $main-color;
 			width: 100%;
@@ -5284,32 +6107,39 @@ Search Area Style
 			color: $white-color;
 		}
 	}
+
 	.join-our-team {
 		background-color: $main-color;
 		text-align: center;
 		border-radius: $border-radius;
 		padding: 59px 30px;
+
 		.default-btn {
 			background: linear-gradient(to right, #ffffff 0%, #ffffff 100%);
 			color: $main-color;
 			margin-bottom: -7px;
+
 			&::before {
 				background: linear-gradient(to right, #ffffff 0%, #ffffff 100%);
 				transition: $transition;
 			}
+
 			&::after {
 				background: linear-gradient(to right, #ffffff 0%, #ffffff 100%);
 				transition: $transition;
 			}
+
 			&:hover {
 				&::before {
 					background: linear-gradient(to right, #001430 0%, #001430 100%);
 				}
+
 				&::after {
 					background: linear-gradient(to right, #001430 0%, #001430 100%);
 				}
 			}
 		}
+
 		span {
 			font-weight: 700;
 			font-size: 18px;
@@ -5319,6 +6149,7 @@ Search Area Style
 			margin-top: -10px;
 			display: block;
 		}
+
 		h3 {
 			font-size: 25px;
 			color: $white-color;
@@ -5333,60 +6164,72 @@ HOME STYLE SIX AREA
 
 /*
 Banner Area Six Style
-======================================================*/ 
+======================================================*/
 .main-banner-six {
 	background-color: #f3fcfe;
 	position: relative;
 	z-index: 1;
+
 	.main-banner-content {
 		width: 100%;
 		height: 100%;
+
 		.content {
 			max-width: 540px;
 			margin-left: auto;
 			margin-top: 150px;
+
 			h1 {
 				font-size: 57px;
 				font-weight: 600;
 			}
+
 			p {
 				margin-top: 18px;
 			}
+
 			.default-btn {
 				margin-top: 20px;
 			}
 		}
 	}
+
 	.banner-image-slider {
 		.banner-image {
 			height: 100vh;
 			background-position: center center;
 			background-size: cover;
 			background-repeat: no-repeat;
+
 			&.banner-slider-bg-1 {
 				background-image: url(../../assets/img/home-six/banner-img.jpg);
 			}
+
 			&.banner-slider-bg-2 {
 				background-image: url(../../assets/img/home-six/banner-img-2.jpg);
 			}
 		}
+
 		.owl-dots {
 			position: absolute;
 			bottom: 20px;
 			left: 0;
 			right: 0;
+
 			.owl-dot {
 				span {
 					width: 20px;
 					height: 10px;
 					transition: $transition;
 				}
+
 				&.active {
 					span {
 						background-color: $main-color;
 						width: 25px;
 					}
 				}
+
 				&:hover {
 					span {
 						background-color: $main-color;
@@ -5395,6 +6238,7 @@ Banner Area Six Style
 			}
 		}
 	}
+
 	.shape {
 		position: absolute;
 		top: 0;
@@ -5404,6 +6248,7 @@ Banner Area Six Style
 		opacity: 0.5;
 		animation: FocuS 1s linear 1s infinite;
 	}
+
 	.shape-2 {
 		position: absolute;
 		top: 50%;
@@ -5415,7 +6260,7 @@ Banner Area Six Style
 
 /*
 Facility Area Six Style
-======================================================*/ 
+======================================================*/
 .second-facility-area {
 	&.six {
 		.second-facility-item {
@@ -5424,9 +6269,11 @@ Facility Area Six Style
 			background-color: $white-color;
 			position: relative;
 			z-index: 1;
+
 			&::before {
 				display: none;
 			}
+
 			&::after {
 				content: "";
 				position: absolute;
@@ -5438,14 +6285,17 @@ Facility Area Six Style
 				transition: $transition;
 				z-index: -1;
 			}
+
 			&:hover {
 				&::after {
 					height: 100%;
 					top: 0;
 					bottom: auto;
 				}
+
 				.read-more {
 					color: $white-color;
+
 					i {
 						color: $white-color;
 					}
@@ -5457,12 +6307,14 @@ Facility Area Six Style
 
 /*
 Events Area Six Style
-======================================================*/ 
+======================================================*/
 .single-events {
 	margin-bottom: 30px;
 	transition: $transition;
+
 	.event-img {
 		position: relative;
+
 		span {
 			display: inline-block;
 			background-color: $main-color;
@@ -5473,12 +6325,15 @@ Events Area Six Style
 			left: 0;
 		}
 	}
+
 	.event-content {
 		box-shadow: $box-shadow;
 		padding: 20px;
+
 		h3 {
 			margin-bottom: 10px;
 		}
+
 		.usd-bar {
 			border: 8px solid #dcfbf6;
 			width: 100%;
@@ -5487,6 +6342,7 @@ Events Area Six Style
 			margin-top: 25px;
 			margin-bottom: 20px;
 			position: relative;
+
 			&::before {
 				content: "";
 				position: absolute;
@@ -5497,22 +6353,27 @@ Events Area Six Style
 				border-radius: 50px;
 			}
 		}
+
 		ul {
 			padding-bottom: 20px;
 			margin-bottom: 20px;
 			border-bottom: 1px dotted #eeeeee;
+
 			li {
 				display: inline-block;
+
 				span {
 					display: block;
 					font-weight: 600;
 				}
 			}
+
 			.right {
 				float: right;
 			}
 		}
 	}
+
 	&:hover {
 		transform: translateY(-5px);
 	}
@@ -5524,17 +6385,21 @@ Best Services Area Six Style
 .best-services-area {
 	background-color: #f4fbfd;
 }
+
 .single-best-services {
 	transition: $transition;
 	margin-bottom: 30px;
+
 	.best-services-content {
 		box-shadow: $box-shadow;
 		background-color: $white-color;
 		padding: 30px;
 		position: relative;
+
 		h3 {
 			margin-bottom: 10px;
 		}
+
 		span {
 			position: absolute;
 			top: -15px;
@@ -5549,6 +6414,7 @@ Best Services Area Six Style
 			font-size: 18px;
 		}
 	}
+
 	&:hover {
 		transform: translateY(-5px);
 	}
@@ -5562,16 +6428,20 @@ Doctors Area Six Style
 		.single-doctors-two {
 			.doctor-img {
 				background-color: $main-color;
+
 				&::before {
 					display: none;
 				}
+
 				.doctors-link {
 					bottom: 20%;
 				}
+
 				img {
 					border: none;
 				}
 			}
+
 			.doctors-content {
 				max-width: 300px;
 				margin: -50px auto 0;
@@ -5589,9 +6459,11 @@ Appointment Area Six Style
 	&.six {
 		position: relative;
 		background-image: url(../../assets/img/home-six/appointment-bg.jpg);
+
 		.appointment-here-form {
 			margin: 0 auto 0;
 		}
+
 		&::before {
 			content: "";
 			position: absolute;
@@ -5603,6 +6475,7 @@ Appointment Area Six Style
 		}
 	}
 }
+
 .about-bg-1 {
 	background-image: url(../../assets/img/home-four/about-img.jpg);
 	background-position: center center;
@@ -5610,7 +6483,8 @@ Appointment Area Six Style
 	background-image: size;
 	height: 100%;
 }
-.about-img-2  {
+
+.about-img-2 {
 	background-image: url(../../assets/img/home-four/our-mission.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -5624,7 +6498,7 @@ HOME STYLE SEVEN AREA
 
 /*
 Nav Area Seven Style
-======================================================*/ 
+======================================================*/
 .nav-area-seven {
 	.main-nav {
 		background-color: $heading-color !important;
@@ -5633,18 +6507,21 @@ Nav Area Seven Style
 
 /*
 Hero Slider Area Seven Style
-======================================================*/ 
-.hero-slider-area-seven { 
+======================================================*/
+.hero-slider-area-seven {
 	.slider-item {
-		height: 100vh; 
+		height: 100vh;
 		position: relative;
 		z-index: 1;
+
 		&.slider-item-bg-4 {
 			background-image: url(../../assets/img/home-seven/slider/1.jpg);
 		}
+
 		&.slider-item-bg-5 {
 			background-image: url(../../assets/img/home-seven/slider/2.jpg);
 		}
+
 		&::before {
 			content: "";
 			position: absolute;
@@ -5656,6 +6533,7 @@ Hero Slider Area Seven Style
 			clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 			z-index: -1;
 		}
+
 		&::after {
 			content: "";
 			position: absolute;
@@ -5667,41 +6545,49 @@ Hero Slider Area Seven Style
 			clip-path: polygon(100% 0, 0 0, 50% 100%);
 			z-index: -1;
 		}
+
 		.slider-text {
 			text-align: center;
 			margin: 100px auto 0;
 			max-width: 630px;
+
 			h1 {
 				font-size: 50px;
 			}
 		}
 	}
+
 	.owl-prev {
 		i {
 			background-color: transparent !important;
 			border-radius: 50%;
 			border: 1px solid $white-color;
+
 			&:hover {
 				border-color: $main-color;
 			}
 		}
 	}
+
 	.owl-next {
 		i {
 			background-color: transparent !important;
 			border-radius: 50%;
 			border: 1px solid $white-color;
+
 			&:hover {
 				border-color: $main-color;
 			}
 		}
 	}
+
 	.owl-item {
 		&.active {
 			.slider-item {
 				&::before {
 					animation: 3s .3s fadeInUp both;
 				}
+
 				&::after {
 					animation: 3s .3s fadeInDown both;
 				}
@@ -5717,18 +6603,22 @@ Facility Area Seven Style
 	&.seven {
 		background-color: $white-color;
 		position: relative;
+
 		.container {
 			max-width: 1110px;
 		}
+
 		.second-facility-item {
 			box-shadow: $box-shadow;
 			border: none;
 			position: relative;
 			background-color: $white-color;
 			transition: $transition;
+
 			&::before {
 				display: none;
 			}
+
 			&:hover {
 				img {
 					animation: bounce 1s linear;
@@ -5747,19 +6637,23 @@ About Area Seven Style
 			font-size: 40px;
 			margin-bottom: 20px;
 		}
+
 		ul {
 			display: inline-block;
 			margin-left: 30px;
 			margin-top: 8px;
+
 			li {
 				font-weight: 600;
 				font-size: 15px;
 				position: relative;
 				margin-bottom: 20px;
 				padding-left: 30px;
+
 				&:last-child {
 					margin-bottom: 0;
 				}
+
 				i {
 					position: absolute;
 					top: 3px;
@@ -5775,6 +6669,7 @@ About Area Seven Style
 				}
 			}
 		}
+
 		.about-btn {
 			margin-top: 30px;
 		}
@@ -5788,16 +6683,20 @@ Services Area Seven Style
 	.single-services {
 		padding: 0;
 		border-radius: 0;
+
 		.services-content {
 			padding: 30px;
+
 			h3 {
 				margin-bottom: 8px;
 			}
 		}
+
 		&:hover {
 			&::before {
 				display: none;
 			}
+
 			&::after {
 				display: none;
 			}
@@ -5811,25 +6710,31 @@ Doctors Area Seven Style
 .doctors-area-two {
 	&.seven {
 		position: relative;
+
 		.single-doctors-two {
 			border: 5px solid $main-color;
 			padding: 10px;
 			border-radius: $border-radius;
+
 			img {
 				border: none;
 			}
+
 			.doctors-content {
 				z-index: 1;
 				position: relative;
+
 				span {
 					margin-bottom: 18px;
 					display: block;
 				}
+
 				.doctors-link {
 					position: unset;
 					transform: unset;
 					border-top: 1px solid #eeeeee;
 					padding-top: 20px;
+
 					li {
 						a {
 							background-color: $heading-color;
@@ -5837,6 +6742,7 @@ Doctors Area Seven Style
 							width: 30px;
 							height: 30px;
 							line-height: 31px;
+
 							&:hover {
 								background-color: $main-color;
 								color: $heading-color;
@@ -5854,13 +6760,16 @@ Appointment Area Seven Style
 ======================================================*/
 .appointment-area-seven {
 	position: relative;
+
 	.appointment-here-form {
 		max-width: unset;
 		padding: 40px;
+
 		.default-btn {
 			margin-top: 0;
 		}
 	}
+
 	.appointment-bg {
 		background-image: url(../../assets/img/home-seven/appointment-bg.jpg);
 		background-position: center center;
@@ -5876,21 +6785,25 @@ HOME STYLE EIGHT AREA
 
 /*
 Hero Slider Area Eight Style
-======================================================*/ 
-.hero-slider-area-eight { 
+======================================================*/
+.hero-slider-area-eight {
 	.slider-item {
-		height: 100vh !important; 
+		height: 100vh !important;
 		position: relative;
 		z-index: 1;
+
 		&.slider-item-bg-6 {
 			background-image: url(../../assets/img/home-eight/slider/1.jpg);
 		}
+
 		&.slider-item-bg-7 {
 			background-image: url(../../assets/img/home-eight/slider/2.jpg);
 		}
+
 		&::before {
 			display: none;
 		}
+
 		&::after {
 			content: "";
 			position: absolute;
@@ -5901,48 +6814,58 @@ Hero Slider Area Eight Style
 			background-color: rgba(0, 55, 130, 0.3);
 			z-index: -1;
 		}
+
 		.slider-text {
 			background-color: rgba(0, 55, 130, 0.8);
 			padding: 30px;
 			max-width: 600px;
 			margin-top: -100px;
+
 			.top-title {
 				margin-top: -7px;
 			}
+
 			h1 {
 				font-size: 54px;
 			}
+
 			.slider-btn {
 				.default-btn {
 					margin-bottom: -7px;
 				}
 			}
 		}
+
 		.slider-single-img {
 			position: relative;
 			top: 60px;
 		}
 	}
+
 	.owl-prev {
 		i {
 			background-color: transparent !important;
 			border-radius: 50%;
 			border: 1px solid $white-color;
+
 			&:hover {
 				border-color: $main-color;
 			}
 		}
 	}
+
 	.owl-next {
 		i {
 			background-color: transparent !important;
 			border-radius: 50%;
 			border: 1px solid $white-color;
+
 			&:hover {
 				border-color: $main-color;
 			}
 		}
 	}
+
 	.owl-item {
 		&.active {
 			.slider-text {
@@ -5951,6 +6874,7 @@ Hero Slider Area Eight Style
 			}
 		}
 	}
+
 	.owl-next {
 		position: absolute;
 		top: 50%;
@@ -5960,6 +6884,7 @@ Hero Slider Area Eight Style
 		transition: $transition;
 		opacity: 0;
 		transform: translateY(-10px);
+
 		i {
 			background-color: $main-color;
 			color: $white-color;
@@ -5970,11 +6895,13 @@ Hero Slider Area Eight Style
 			transition: $transition;
 			font-size: 26px;
 			border-radius: 4px;
+
 			&:hover {
 				background-color: $main-color !important;
 			}
 		}
 	}
+
 	.owl-prev {
 		position: absolute;
 		top: 50%;
@@ -5984,6 +6911,7 @@ Hero Slider Area Eight Style
 		transition: $transition;
 		opacity: 0;
 		transform: translateY(-10px);
+
 		i {
 			color: $white-color;
 			width: 40px;
@@ -5993,24 +6921,29 @@ Hero Slider Area Eight Style
 			transition: $transition;
 			font-size: 26px;
 			border-radius: 4px;
+
 			&:hover {
-				background-color: $main-color !important; 
+				background-color: $main-color !important;
 			}
 		}
 	}
+
 	&:hover {
 		.owl-prev {
 			opacity: 1;
 		}
+
 		.owl-next {
 			opacity: 1;
 		}
 	}
+
 	.owl-theme {
 		.owl-nav {
-			margin-top: 0 !important; 
+			margin-top: 0 !important;
 		}
-	} 
+	}
+
 	.owl-theme .owl-nav [class*=owl-]:hover {
 		background-color: transparent;
 	}
@@ -6023,9 +6956,11 @@ Facility Area Eight Style
 	&.eight {
 		background-color: $white-color;
 		position: relative;
+
 		.container {
 			max-width: 1110px;
 		}
+
 		.second-facility-item {
 			box-shadow: $box-shadow;
 			border: none;
@@ -6033,6 +6968,7 @@ Facility Area Eight Style
 			background-color: $white-color;
 			transition: $transition;
 			text-align: left;
+
 			i {
 				font-size: 30px;
 				display: inline-block;
@@ -6045,12 +6981,15 @@ Facility Area Eight Style
 				margin-bottom: 15px;
 				transition: $transition;
 			}
+
 			p {
 				margin-bottom: 0;
 			}
+
 			&::before {
 				display: none;
 			}
+
 			&:hover {
 				i {
 					transform: rotateX(-380deg);
@@ -6077,14 +7016,17 @@ Services Area Eight Style
 .services-area-eight {
 	.single-services {
 		border-radius: 0;
+
 		img {
 			width: 35px;
 			position: relative;
 			top: -5px;
 		}
+
 		&::before {
 			display: none;
 		}
+
 		&::after {
 			display: none;
 		}
@@ -6099,6 +7041,7 @@ Pricing Area Eight Style
 	border: 1px solid #eeeeee;
 	margin-bottom: 30px;
 	transition: $transition;
+
 	h3 {
 		background-color: $main-color;
 		padding: 10px 10px;
@@ -6106,11 +7049,13 @@ Pricing Area Eight Style
 		text-transform: uppercase;
 		color: $white-color;
 	}
+
 	h1 {
 		background-color: #00ffd4;
 		padding: 20px 10px;
 		margin-bottom: 0;
 		font-size: 40px;
+
 		span {
 			font-size: 14px;
 			font-weight: normal;
@@ -6118,22 +7063,27 @@ Pricing Area Eight Style
 			margin-top: 5px;
 		}
 	}
+
 	ul {
 		margin-top: 25px;
 		margin-bottom: 25px;
-		li{
+
+		li {
 			border-bottom: 1px solid #eeeeee;
 			padding-bottom: 15px;
 			margin-bottom: 15px;
 			font-weight: 600;
 			position: relative;
+
 			i {
 				position: relative;
 				top: 1px;
 			}
+
 			.red {
 				color: red;
 			}
+
 			&:last-child {
 				margin-bottom: 0;
 				padding-bottom: 0;
@@ -6141,9 +7091,11 @@ Pricing Area Eight Style
 			}
 		}
 	}
+
 	.default-btn {
 		margin-bottom: 20px;
 	}
+
 	&:hover {
 		transform: translateY(-5px);
 	}
@@ -6164,6 +7116,7 @@ Preloader Area Style*/
 	z-index: 10;
 	overflow: hidden;
 	z-index: 9999;
+
 	.loader-section {
 		position: fixed;
 		top: 0;
@@ -6172,13 +7125,16 @@ Preloader Area Style*/
 		background: $main-color;
 		z-index: 10;
 	}
+
 	.loader-section.section-left {
 		left: 0;
 	}
+
 	.loader-section.section-right {
 		right: 0;
 	}
 }
+
 .loader {
 	display: block;
 	position: relative;
@@ -6192,6 +7148,7 @@ Preloader Area Style*/
 	border-top-color: #16a085;
 	animation: spin 1.7s linear infinite;
 	z-index: 11;
+
 	&:before {
 		content: "";
 		position: absolute;
@@ -6204,6 +7161,7 @@ Preloader Area Style*/
 		border-top-color: #e74c3c;
 		animation: spin-reverse .6s linear infinite;
 	}
+
 	&:after {
 		content: "";
 		position: absolute;
@@ -6217,37 +7175,45 @@ Preloader Area Style*/
 		animation: spin 1s linear infinite;
 	}
 }
+
 .loaded {
 	.loader-wrapper {
 		.loader-section.section-left {
 			transform: translateX(-100%);
 			transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 		}
+
 		.loader-section.section-right {
 			transform: translateX(100%);
 			transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 		}
+
 		visibility: hidden;
 		transform: translateY(-100%);
 		transition: all 0.3s 1s ease-out;
 	}
+
 	.loader {
 		opacity: 0;
 		transition: all 0.3s ease-out;
 	}
 }
+
 @keyframes spin {
 	0% {
 		transform: rotate(0deg);
 	}
+
 	100% {
 		transform: rotate(360deg);
 	}
 }
+
 @keyframes spin-reverse {
 	0% {
 		transform: rotate(0deg);
 	}
+
 	100% {
 		transform: rotate(-360deg);
 	}
@@ -6269,6 +7235,7 @@ Go Top Style*/
 	opacity: 0;
 	visibility: hidden;
 	transition: .9s;
+
 	i {
 		position: absolute;
 		top: 50%;
@@ -6279,12 +7246,14 @@ Go Top Style*/
 		color: $white-color;
 		transition: 0.5s;
 		font-size: 20px;
+
 		&:last-child {
 			opacity: 0;
 			visibility: hidden;
 			top: 60%;
 		}
 	}
+
 	&::before {
 		content: '';
 		position: absolute;
@@ -6298,19 +7267,23 @@ Go Top Style*/
 		visibility: hidden;
 		transition: 0.5s;
 	}
+
 	&:hover {
 		color: $white-color;
 		background-color: $heading-color;
+
 		&::before {
 			opacity: 1;
 			visibility: visible;
 		}
+
 		i {
 			&:first-child {
 				opacity: 0;
 				top: 0;
 				visibility: hidden;
 			}
+
 			&:last-child {
 				opacity: 1;
 				visibility: visible;
@@ -6318,18 +7291,22 @@ Go Top Style*/
 			}
 		}
 	}
+
 	&:focus {
 		color: $white-color;
+
 		&::before {
 			opacity: 1;
 			visibility: visible;
 		}
+
 		i {
 			&:first-child {
 				opacity: 0;
 				top: 0;
 				visibility: hidden;
 			}
+
 			&:last-child {
 				opacity: 1;
 				visibility: visible;
@@ -6338,6 +7315,7 @@ Go Top Style*/
 		}
 	}
 }
+
 .go-top.active {
 	transform: translateY(0);
 	opacity: 1;
@@ -6360,6 +7338,7 @@ Video wave Style*/
 	top: 3px;
 	z-index: 1;
 	background-color: $main-color;
+
 	i {
 		font-size: 20px;
 		font-weight: 700;
@@ -6373,7 +7352,9 @@ Video wave Style*/
 		width: 100%;
 		height: 100%;
 	}
-	&::after, &::before {
+
+	&::after,
+	&::before {
 		content: "";
 		display: block;
 		position: absolute;
@@ -6385,30 +7366,39 @@ Video wave Style*/
 		border-radius: 50%;
 		background-color: $main-color;
 	}
+
 	&::before {
 		animation: ripple 1.6s ease-out infinite;
 	}
+
 	&::after {
 		animation: ripple 1.6s ease-out infinite;
 	}
+
 	&:hover {
 		background-color: $main-color;
+
 		i {
 			color: $white-color;
 		}
 	}
 }
+
 @keyframes ripple {
-	0%, 35% {
+
+	0%,
+	35% {
 		transform: scale(0);
-	  	opacity: 1;
+		opacity: 1;
 	}
+
 	50% {
 		transform: scale(1.5);
-	  	opacity: 0.8;
+		opacity: 0.8;
 	}
+
 	100% {
-	  	opacity: 0;
+		opacity: 0;
 		transform: scale(2);
 	}
 }
@@ -6417,25 +7407,30 @@ Video wave Style*/
 Section Title Area Style*/
 .section-title {
 	max-width: 660px;
-	margin:-8px auto 60px;
+	margin: -8px auto 60px;
 	text-align: center;
 	position: relative;
+
 	h2 {
 		font-size: 40px;
-		margin-bottom: 15px; 
+		margin-bottom: 15px;
 		position: relative;
 		display: block;
+
 		&:last-child {
 			margin-bottom: 0;
 		}
 	}
+
 	&.white-title {
 		span {
 			color: $white-color;
 		}
+
 		h2 {
 			color: $white-color;
 		}
+
 		p {
 			color: $white-color;
 		}
@@ -6447,6 +7442,7 @@ Nice select Area Style*/
 .nice-select .list {
 	width: 100%;
 }
+
 .nice-select {
 	.option {
 		&:hover {
@@ -6454,6 +7450,7 @@ Nice select Area Style*/
 			color: $white-color;
 		}
 	}
+
 	.option.selected.focus {
 		background-color: $heading-color;
 		color: $main-color;
@@ -6466,6 +7463,7 @@ Page-navigation Area Style*/
 	text-align: center;
 	margin: 20px auto 0;
 	display: table;
+
 	.page-link {
 		color: $main-color;
 		background-color: $white-color;
@@ -6476,21 +7474,25 @@ Page-navigation Area Style*/
 		line-height: 24px;
 		transition: $transition;
 		font-weight: 700;
+
 		i {
 			margin-right: -4px;
 			font-size: 21px;
 		}
+
 		&:hover {
 			color: $white-color;
 			background-color: $main-color;
 			border: 1px solid $main-color;
 		}
+
 		&:focus {
 			z-index: 2;
 			outline: 0;
 			box-shadow: none;
 		}
 	}
+
 	.page-link.page-links {
 		i {
 			&::before {
@@ -6498,19 +7500,23 @@ Page-navigation Area Style*/
 			}
 		}
 	}
+
 	.page-item {
 		padding: 0 8px 0;
+
 		&:first-child {
 			.page-link {
 				border-radius: none;
 			}
 		}
+
 		&:last-child {
 			.page-link {
 				border-radius: none;
 			}
 		}
 	}
+
 	.page-item.active {
 		.page-link {
 			z-index: 1;
@@ -6522,3 +7528,33 @@ Page-navigation Area Style*/
 }
 
 
+.more-about-us {
+	background: $light-green;
+
+	.vision {
+		position: relative;
+		padding-left: 50px;
+		margin-bottom: 30px;
+
+		&::before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 30px;
+			height: 30px;
+			background-color: $main-color;
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			top: 5px;
+			left: 5px;
+			width: 30px;
+			height: 30px;
+			background-color: #a7ecf0;
+			z-index: -1;
+		}
+	}
+}

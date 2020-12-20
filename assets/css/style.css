@@ -99,7 +99,18 @@ button:focus {
   box-shadow: none;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #001430;
   font-weight: 700;
   font-family: "Roboto", sans-serif;
@@ -161,7 +172,8 @@ ul {
   border: 1px solid #2591C6;
 }
 
-.form-control:hover:focus, .form-control:focus {
+.form-control:hover:focus,
+.form-control:focus {
   box-shadow: unset;
 }
 
@@ -2311,7 +2323,8 @@ Second Facility Area Style
 }
 
 @keyframes border-transform {
-  0%, 100% {
+  0%,
+  100% {
     border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
   }
   14% {
@@ -6941,7 +6954,8 @@ Video wave Style*/
 }
 
 @keyframes ripple {
-  0%, 35% {
+  0%,
+  35% {
     transform: scale(0);
     opacity: 1;
   }
@@ -7061,5 +7075,36 @@ Page-navigation Area Style*/
   color: #ffffff;
   background-color: #2591C6;
   border-color: #2591C6;
+}
+
+.more-about-us {
+  background: #eaf6fc;
+}
+
+.more-about-us .vision {
+  position: relative;
+  padding-left: 50px;
+  margin-bottom: 30px;
+}
+
+.more-about-us .vision::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background-color: #2591C6;
+}
+
+.more-about-us .vision::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: #a7ecf0;
+  z-index: -1;
 }
 /*# sourceMappingURL=style.css.map */
