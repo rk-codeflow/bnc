@@ -5,7 +5,7 @@
 					<div class="col-lg-3 col-md-6">
 						<div class="single-widget">
 							<a href="index.html">
-								<img src="assets/img/logo.png" alt="Image">
+								<img src="assets/img/bnc--logo.png" alt="Image">
 							</a>
 
 							<p>Lorem ipsum dolor, sit amet earum consectetur adipisicing elit. Cupiditate rerum quidem fugiat sapiente! Iusto quae perspiciatis, repudiandae ipsam minus et ex, aliquid dolor molestias, earum enim officiis porro obcaecati.</p>

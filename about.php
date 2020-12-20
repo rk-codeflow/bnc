@@ -40,7 +40,7 @@
 				<div class="row align-items-center">
 					<div class="col-lg-6">
 						<div class="about-img">
-							<img src="assets/img/about/1.jpg" alt="Image">
+							<img src="assets/img/home-three/about/bnc-2.jpg" alt="Image">
 
 							<div class="shape-1">
 								<img src="assets/img/about/shape-1.png" alt="Image">
@@ -59,14 +59,16 @@
 					<div class="col-lg-6">
 						<div class="about-content">
 							<span class="top-title">About Us</span>
-							<h2>We are trusted The Best Certificate Healthcare</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+							<h2>We are The Best</h2>
+							<p>B & C Teaching Hospital, situated in the eastern part of Nepal is a multi-specialty 300 bedded hospital that offers preventive and curative health care services. It was established on 2071/11/18 BS with the slogan of commitment for education, health and employment.</p>
 
-							<ul>
-								<li>
-									<i class="flaticon-tick"></i>
-									A good environment for work
-								</li>
+							<p>B & C Teaching Hospital is committed to provide high quality medical services with affordable cost and medical care to each and every citizen.</p>
+
+							<p>We provide affordable medicine to patients in a friendly environment and with a spirit of compassion. We have highly skilled and qualified staffs and medical representatives who are fully dedicated to provide high quality of medical services.</p>
+
+							<p>B & C Teaching Hospital has best team of medical personnel with state of the art equipment to provide the wide range of medical, surgical, pathological and diagnostic services.At last but not least we are one of the best reliable health service providers in the country and targeted to stand far from the general crowd of health providers. We have</p>
+
+							<!-- <ul>
 								<li>
 									<i class="flaticon-tick"></i>
 									Digital laboratory
@@ -79,11 +81,8 @@
 									<i class="flaticon-tick"></i>
 									Professional doctors
 								</li>
-								<li>
-									<i class="flaticon-tick"></i>
-									Scientific skills for getting a better result
-								</li>
-							</ul>
+
+							</ul> -->
 						</div>
 					</div>
 				</div>
@@ -92,7 +91,7 @@
 		<!-- End About Area -->
 
 		<!-- Start About Area -->
-		<section class="about-area two ptb-100">
+		<!-- <section class="about-area two ptb-100">
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-lg-6">
@@ -146,7 +145,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<!-- End About Area -->
 
 		<!-- Start Our Doctors Area -->
@@ -160,7 +159,7 @@
 
 				<div class="doctors-wrap owl-carousel owl-theme">
 					<div class="single-doctor">
-						<img src="assets/img/doctors/1.png" alt="Image">
+						<img src="assets/img/home-three/about/doc.jpg" alt="Image">
 						<h3>Dr. Jelin Alis</h3>
 						<span class="top-title">Cardiologist</span>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodin</p>
@@ -190,7 +189,7 @@
 					</div>
 			
 					<div class="single-doctor">
-						<img src="assets/img/doctors/2.png" alt="Image">
+						<img src="assets/img/home-three/about/doc.jpg" alt="Image">
 						<h3>Dr. Jemse Watson</h3>
 						<span class="top-title">Necrologist</span>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodin</p>
@@ -220,7 +219,7 @@
 					</div>
 			
 					<div class="single-doctor">
-						<img src="assets/img/doctors/3.png" alt="Image">
+						<img src="assets/img/home-three/about/doc.jpg" alt="Image">
 						<h3>Dr. Neels Bore</h3>
 						<span class="top-title">Surgery Specialist</span>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodin</p>
@@ -250,7 +249,7 @@
 					</div>
 
 					<div class="single-doctor">
-						<img src="assets/img/doctors/3.png" alt="Image">
+						<img src="assets/img/home-three/about/doc.jpg" alt="Image">
 						<h3>Dr. Kilva Alis</h3>
 						<span class="top-title">Cardiologist</span>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodin</p>
@@ -284,7 +283,7 @@
 		<!-- End Our Doctors Area -->
 
 		<!-- Start Our Mission Area -->
-		<section class="about-area four abouts-six">
+		<!-- <section class="about-area four abouts-six">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-lg-6">
@@ -333,11 +332,11 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<!-- End Our Mission Area -->
 
 		<!-- Start Counter Area -->
-		<section class="counter-area pt-100 pb-70">
+		<!-- <section class="counter-area pt-100 pb-70">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-3 col-sm-6">
@@ -399,6 +398,54 @@
 				</div>
 				<div class="shape-2">
 					<img src="assets/img/shape/counter-shape.png" alt="Image">
+				</div>
+			</div>
+		</section> -->
+		<section class="counter-area two pt-100 pb-70">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-sm-6">
+						<div class="single-counter">
+							<i class="fas fa-procedures"></i>
+							<h2>
+								<span class="odometer" data-count="200">00</span>
+								<span class="target">+</span>
+							</h2>
+							<p>Number of Beds</p>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-sm-6">
+						<div class="single-counter">
+							<i class="fas fa-hospital-user"></i>
+							<h2>
+								<span class="odometer" data-count="100990">00</span>
+								<span class="target">+</span>
+							</h2>
+							<p>Happy Patients</p>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-sm-6">
+						<div class="single-counter">
+							<i class="fas fa-user-nurse"></i>
+							<h2>
+								<span class="odometer" data-count="50">00</span>
+								<span class="traget">+</span>
+							</h2>
+							<p>Doctrs and Nurses</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="single-counter">
+							<i class="fas fa-award"></i>
+							<h2>
+								<span class="odometer" data-count="10">00</span>
+								<span class="traget">+</span>
+							</h2>
+							<p>Years of Experience</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>

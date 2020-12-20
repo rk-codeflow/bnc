@@ -19,6 +19,8 @@
 		<link rel="stylesheet" href="assets/css/boxicons.min.css"> 
 		<!-- Flaticon CSS --> 
 		<link rel="stylesheet" href="assets/css/flaticon.css">
+		<!-- fontawesome -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
 		<!-- Meanmenu CSS -->
 		<link rel="stylesheet" href="assets/css/meanmenu.css">
 		<!-- Nice Select CSS -->
@@ -30,10 +32,10 @@
 		<!-- Responsive CSS -->
 		<link rel="stylesheet" href="assets/css/responsive.css">
 		<!-- Favicon -->
-		<link rel="icon" type="image/png" href="assets/img/favicon.png">
+		<link rel="icon" type="image/png" href="assets/img/favico.png">
 		
 		<!-- Title -->
-		<title>Cavort - Medical Health Multi-Niche Template Collections</title>
+		<title>B&C Medical College - Teaching Hospital and Research Center</title>
     </head>
 
     <body>
@@ -149,7 +151,7 @@
 
 											<ul class="dropdown-menu">
 												<li class="nav-item">
-													<a href="pricing.html" class="nav-link">About BNC</a>
+													<a href="about.php" class="nav-link">About BNC</a>
 												</li>
 
 												<li class="nav-item">
@@ -161,7 +163,7 @@
 												</li>
 
 												<li class="nav-item">
-													<a href="appointment.html" class="nav-link">Mission & Vision</a>
+													<a href="mission.php" class="nav-link">Mission & Vision</a>
 												</li>
 
 												<li class="nav-item">

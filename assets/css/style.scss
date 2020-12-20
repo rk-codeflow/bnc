@@ -2678,7 +2678,7 @@ Page Title Area Style
 	padding-top: 240px;
 	padding-bottom: 150px;
 	text-align: center;
-	background-image: url(../../assets/img/page-bg/1.jpg);
+	background-image: url(../img/home-three/about/about.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -4420,7 +4420,7 @@ Hero Slider Area Style
 	.slider-item {
 		background-position: center center;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: cover !important;
 		height: 800px;
 		overflow: hidden;
 		position: relative;
@@ -4433,18 +4433,18 @@ Hero Slider Area Style
 			width: 100%;
 			height: 100%;
 			background-color: $heading-color;
-			// background-color: linear-gradient(top, transparent, white 94%);
-			opacity: 0.5;
+			opacity: 0.6;
 			z-index: -1;
 		}
 		&.slider-item-bg-1 {
 			// background-image: url(../img/home-three/slider/1.jpg);
 		}
 		&.slider-item-bg-2 {
-			background-image: url(../img/home-three/slider/s2.jpg);
+			background: linear-gradient(to top, transparent, $black-color 200%), url(../img/home-three/slider/s2.jpg);
+			// background: url('../img/home-three/slider/s2.jpg');
 		}
 		&.slider-item-bg-3 {
-			background-image: url(../img/home-three/slider/s3.jpg);
+			background: linear-gradient(to top, transparent, $black-color 200%), url(../img/home-three/slider/s3.jpg);
 		}
 		.slider-text {
 			position: relative;
@@ -4655,6 +4655,14 @@ Work Area Style
 .how-its-work {
 	img {
 		margin-bottom: 22px;
+	}
+
+	.side-title {
+		color: $heading-color;
+		font-size: 20px;
+		padding-left: 10px;
+		font-weight: bold;
+		display: inline-block;
 	}
 
 	.major__event {
