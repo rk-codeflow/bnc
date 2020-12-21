@@ -175,30 +175,30 @@
 								professionals and world class medical equipment. </p>
 						</div>
 
-						<!-- mission -->
-						<div class="mission-div mt-4">
-							<span class="top-title">Mission Statement</span>
+
+						<!-- new mission -->
+						<div class="second-facility-area mission two pb-70">
+							<div class="mission-div mt-4">
+								<span class="top-title">Mission Statement</span>
+							</div>
 							<div class="row">
-								<div class="col-lg-4">
-									<div class="mission text-center">
+								<div class="col-lg-4 col-sm-6">
+									<div class="second-facility-item">
 										<img src="assets/img/ab1.png" alt="">
 										<h3>Quality Healthcare </h3>
 										<p>To ensure accessible and inexpensive quality healthcare by empathetic medical
 											professionals to all.</p>
 									</div>
 								</div>
-
-								<div class="col-lg-4">
-									<div class="mission text-center">
+								<div class="col-lg-4 col-sm-6">
+									<div class="second-facility-item">
 										<img src="assets/img/ab2.png" alt="">
 										<h3>Best Doctors</h3>
 										<p class="btm-space">To be the hub for creating the best healthcare professionals.</p>
-
 									</div>
 								</div>
-
-								<div class="col-lg-4">
-									<div class="mission text-center">
+								<div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
+									<div class="second-facility-item">
 										<img src="assets/img/ab3.png" alt="">
 										<h3>Patient-centered Care</h3>
 										<p>To excel at providing for the healthcare needs of our region through quality,
@@ -207,7 +207,7 @@
 								</div>
 							</div>
 						</div>
-						<!-- mission ends -->
+						<!-- new mission ends -->
 					</div>
 				</div>
 			</div>
@@ -216,13 +216,70 @@
 
 		<!-- why bnc -->
 		<section class="why-bnc ptb-100">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="section-title">
 					<span class="top-title">Why B & C</span>
 					<h2>Reasons to believe us</h2>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis vel consequatur tempora atque
 						blanditiis exercitationem incidunt, alias corporis quam assumenda dicta, temporibus.</p>
 				</div>
+
+				<!-- actual content -->
+				<section class="first-facility-area services-page-one">
+					<div class="container">
+						<div class="row pb-lg-3">
+							<div class="col-lg-4 col-sm-6">
+								<div class="first-facility-item">
+									<i class="flaticon-care"></i>
+									<h3 class="main-text">24*7 Services</h3>
+									<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p> -->
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-6">
+								<div class="first-facility-item">
+									<i class="flaticon-support"></i>
+									<h3 class="main-text">Well Qualified & Skilled Doctors</h3>
+									<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p> -->
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
+								<div class="first-facility-item">
+									<i class="flaticon-online-learning"></i>
+									<h3 class="main-text">Emergency Help</h3>
+									<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p> -->
+								</div>
+							</div>
+						</div>
+
+						<div class="row mt-lg-5">
+							<div class="col-lg-4 col-sm-6">
+								<div class="first-facility-item">
+									<i class="flaticon-care"></i>
+									<h3 class="main-text">Seamless Delivery of Quality</h3>
+									<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p> -->
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-6">
+								<div class="first-facility-item">
+									<i class="flaticon-support"></i>
+									<h3 class="main-text">Clinical Pathways & Protocols</h3>
+									<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p> -->
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
+								<div class="first-facility-item">
+									<i class="flaticon-online-learning"></i>
+									<h3 class="main-text">Centralized Treatment Planning</h3>
+									<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p> -->
+								</div>
+							</div>
+						</div>
+						<div class="shape">
+							<img src="assets/img/shape/1.png" alt="Image">
+						</div>
+					</div>
+				</section>
+				<!-- actual content ends -->
 			</div>
 		</section>
 		<!-- why bnc ends -->

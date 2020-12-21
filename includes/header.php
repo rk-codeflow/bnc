@@ -156,7 +156,7 @@
 												</li>
 
 												<li class="nav-item">
-													<a href="testimonials.html" class="nav-link">Board of Directors</a>
+													<a href="bod.php" class="nav-link">Board of Directors</a>
 												</li>
 
 												<li class="nav-item">

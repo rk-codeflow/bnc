@@ -44,9 +44,9 @@
         .top-header-area {
             .header-content-left {
                 margin-bottom: 20px;
-                display: flex;
-                justify-content: center;
-                flex-wrap: wrap;
+                // display: flex;
+                // justify-content: center;
+                // flex-wrap: wrap;
                 li{
                     margin-bottom: 10px;
                     &:last-child {
@@ -56,8 +56,8 @@
             }
             .header-content-right {
                 float: unset;
-                display: flex;
-                justify-content: center;
+                // display: flex;
+                // justify-content: center;
                 li {
                     .option-item {
                         display: none;
@@ -2534,7 +2534,7 @@
         a {
             &.meanmenu-reveal {
                 padding: 24px 15px 0 0;
-                color: #ffffff;
+                color: #2591c6;
                 span {
                     background-color: #2591c6;
                     position: relative;
@@ -2555,10 +2555,10 @@
                     li {
                         a {
                             &:hover {
-                                color: #05e8c2;
+                                color: #2591c6;
                             }
                             &.active {
-                                color: #05e8c2;
+                                color: #2591c6;
                             }
                         }
                     }
