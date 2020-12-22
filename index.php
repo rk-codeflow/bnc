@@ -6,14 +6,15 @@
 		<section class="hero-slider-area">
 			<div class="hero-slider-wrap owl-carousel owl-theme">
 				<div class="slider-item slider-item-bg-1">
-					<!-- <video autoplay loop>
-						<source src="assets/img/home-three/slider/vid2.mp4" type="video/mp4">
-					</video> -->
 					<div class="yt-video">
-						<iframe width="100%" height="auto"
+						<!-- <iframe width="100%" height="auto"
 							src="https://www.youtube.com/embed/D98KJoIvnEc?controls=0&autoplay=1&mute=1&showinfo=0&loop=1" frameborder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-							allowfullscreen></iframe>
+							allowfullscreen></iframe> -->
+
+							<!-- <iframe width="100%" height="auto" src="https://www.youtube.com/embed/1Z2rPBpHzy4??controls=0&autoplay=1&mute=1&showinfo=0&loop=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+							<iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="100%" src="https://www.youtube.com/embed/1Z2rPBpHzy4?autoplay=1&amp;loop=1&amp;mute=1&amp;controls=0&amp;start=0&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;autohide=1&amp;disablekb=1&amp;fs=1&amp;enablejsapi=1&amp;widgetid=1" id="widget2"></iframe>
 					</div>
 					
 				</div>
@@ -25,11 +26,8 @@
 								<div class="row align-items-center">
 									<div class="col-lg-9">
 										<div class="slider-text two">
-											<!-- <span class="top-title">Assessment Center & Testing</span> -->
 											<h1>For Health, Education and Employment</h1>
-											<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil architecto
-												laborum eaque! Deserunt maxime, minus quas molestiae reiciendis esse natus
-												nisi iure.</p>
+											<p>We are guided by the idea of contribution to the Nation by making people healthy, producing the finest medical professionals and generating employment opportunities in the health sector.</p>
 
 											<div class="slider-btn">
 												<a class="default-btn" href="appointment.html">
@@ -38,12 +36,6 @@
 											</div>
 										</div>
 									</div>
-
-									<!-- <div class="col-lg-3">
-										<a href="https://www.youtube.com/watch?v=-rtuEgAHWw0" class="video-btn popup-youtube">
-											<i class="flaticon-play-button-2"></i>
-										</a>
-									</div> -->
 								</div>
 							</div>
 						</div>
@@ -59,9 +51,7 @@
 										<div class="slider-text two">
 											<!-- <span class="top-title">Assessment Center & Testing</span> -->
 											<h1>World Class Medical Equipment</h1>
-											<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil architecto
-												laborum eaque! Deserunt maxime, minus quas molestiae reiciendis esse natus
-												nisi iure.</p>
+											<p>The availability and use of the most modern equipment make us the best healthcare provider in the country.</p>
 
 											<div class="slider-btn">
 												<a class="default-btn" href="appointment.html">
@@ -70,12 +60,29 @@
 											</div>
 										</div>
 									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-									<!-- <div class="col-lg-3">
-										<a href="https://www.youtube.com/watch?v=-rtuEgAHWw0" class="video-btn popup-youtube">
-											<i class="flaticon-play-button-2"></i>
-										</a>
-									</div> -->
+				<div class="slider-item slider-item-bg-4">
+					<div class="d-table">
+						<div class="d-table-cell">
+							<div class="container">
+								<div class="row align-items-center">
+									<div class="col-lg-9">
+										<div class="slider-text two">
+											<h1>Our Healthcare Departments</h1>
+											<p>Multiple departments with multiple specialty focused to cure various disease and keep you healthy.</p>
+
+											<div class="slideOutRightider-btn">
+												<a class="default-btn" href="appointment.html">
+													Book An Appointment
+												</a>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -148,33 +155,9 @@
 					<div class="col-lg-6">
 						<div class="about-content">
 							<span class="top-title">About Us</span>
-							<!-- <h2>The clinic will be testing and treating COVID-19 cases </h2> -->
-							<p>B & C Teaching Hospital, situated in the eastern part of Nepal is a multi-specialty 300 bedded
-								hospital that offers preventive and curative health care services. It was established on
-								2071/11/18 BS with the slogan of commitment for education, health and employment.</p>
+							<p>B & C Teaching Hospital, situated in the eastern part of Nepal is a multi-specialty 300 bedded hospital that offers preventive and curative health care services. It was established on 2071/11/18 BS with the slogan of commitment for education, health and employment.</p>
 
-							<p>B & C Teaching Hospital is committed to provide high quality medical services with affordable
-								cost and medical care to each and every citizen. We provide affordable medicine to patients in
-								a friendly environment and with a spirit of compassion. We have highly skilled and qualified
-								staffs and medical representatives who are fully dedicated to provide high quality of medical
-								services.</p>
-
-							<p>B & C Teaching Hospital has best team of medical personnel with state of the art equipment to
-								provide the wide range of medical, surgical, pathological and diagnostic services.</p>
-
-							<p>At last but not least we are one of the best reliable health service providers in the country
-								and targeted to stand far from the general crowd of health providers.</p>
-
-							<!-- <ul>
-								<li>
-									<h3>Criteria For testing:</h3>
-									<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio magnam recusandae doloribus facere. Distinctio nesciunt unde facere rerum natus eveniet nam</p>
-								</li>
-								<li>
-									<h3>High-risk staff testing:</h3>
-									<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio magnam recusandae doloribus facere. Distinctio nesciunt unde facere rerum natus eveniet nam</p>
-								</li>
-							</ul> -->
+							<p>B & C Teaching Hospital is committed to provide high quality medical services with affordable cost and medical care to each and every citizen. We provide affordable medicine to patients in a friendly environment and with a spirit of compassion. We have highly skilled and qualified staffs and medical representatives who are fully dedicated to provide high quality of medical services.</p>
 
 							<a href="about.html" class="default-btn">
 								Read More
@@ -214,8 +197,7 @@
 				<div class="section-title">
 					<span class="top-title">Our Departments</span>
 					<h2>Our Healthcare Departments</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis vel consequatur tempora atque
-						blanditiis exercitationem incidunt, alias corporis quam assumenda dicta, temporibus.</p>
+					<p>Multiple departments with multiple specialty focused to cure various disease and keep you healthy.</p>
 				</div>
 
 				<div class="row">
@@ -357,8 +339,7 @@
 				<div class="section-title">
 					<span class="top-title">Our Doctors</span>
 					<h2>Meet Our Doctors</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis vel consequatur tempora atque
-						blanditiis exercitationem incidunt, alias corporis quam assumenda dicta, temporibus.</p>
+					<p>Well renowned and experienced pool of doctors in Nepal.</p>
 				</div>
 
 				<div class="row">
@@ -433,7 +414,7 @@
 					<div class="col-lg-3 col-sm-6 offset-lg-0">
 						<div class="single-doctors-two">
 							<div class="doctor-img">
-								<img src="assets/img/doctors/04.jpg" alt="Image">
+								<img src="assets/img/doctors/03.jpg" alt="Image">
 
 								<ul class="doctors-link">
 									<li>
@@ -469,7 +450,7 @@
 					<div class="col-lg-3 col-sm-6 offset-lg-0">
 						<div class="single-doctors-two">
 							<div class="doctor-img">
-								<img src="assets/img/doctors/03.jpg" alt="Image">
+								<img src="assets/img/doctors/04.jpg" alt="Image">
 
 								<ul class="doctors-link">
 									<li>
@@ -783,7 +764,7 @@
 				<div class="row align-items-center">
 					<div class="col-lg-4">
 						<div class="operate-img">
-							<img src="assets/img/home-three/operate-img1.png" alt="Image">
+							<img src="assets/img/home-three/operate-img.png" alt="Image">
 						</div>
 					</div>
 					<div class="col-lg-5">
@@ -807,83 +788,109 @@
 
 
 		<!-- Start Blog Area -->
-		<section class="blog-area pt-100">
+		<section class="blog-area ptb-100">
 			<div class="container">
 				<div class="section-title">
 					<!-- <span class="top-title">News</span> -->
 					<h2>Our Latest News & Event</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-						dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus</p>
+					<p>Get the latest updates, events and highlights of the hospital activities.</p>
 				</div>
 
-				<span class="top-title pb-2">News / Blogs</span>
+				<span class="top-title pb-2">News / Events</span>
 
 				<div class="row">
-					<div class="col-lg-4 col-md-6">
-						<div class="single-blog">
-							<a href="blog-details.html">
-								<img src="assets/img/blog/blog1.jpg" alt="Image">
-							</a>
-							<span>10 May 2020</span>
-							<div class="blog-content">
-								<ul>
-									<li>
-										<a href="#">Medical</a>
-									</li>
-								</ul>
-
-								<a href="blog-details.html">
-									<h3>250+ Medical Tips We just had to share</h3>
-								</a>
-
-								<a href="blog-details.html" class="read-more">
-									Read More
-									<i class="bx bx-plus"></i>
-								</a>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6">
-						<div class="single-blog">
-							<a href="blog-details.html">
-								<img src="assets/img/blog/blog2.jpg" alt="Image">
-							</a>
-							<span>11 May 2020</span>
-							<div class="blog-content">
-								<ul>
-									<li>
-										<a href="#">Treatment</a>
-									</li>
-								</ul>
-
-								<a href="blog-details.html">
-									<h3>What Can I Do To Prevent Myself & prevent Disease</h3>
-								</a>
-
-								<a href="blog-details.html" class="read-more">
-									Read More
-									<i class="bx bx-plus"></i>
-								</a>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6  offset-lg-0">
+					<div class="col-lg-3 col-md-6">
 						<div class="single-blog">
 							<a href="blog-details.html">
 								<img src="assets/img/blog/blog3.jpg" alt="Image">
 							</a>
-							<span>13 May 2020</span>
+							<span>10 Jan, 2020</span>
 							<div class="blog-content">
 								<ul>
 									<li>
-										<a href="#">COVID-19</a>
+										<a href="#">By B&C</a>
 									</li>
 								</ul>
 
 								<a href="blog-details.html">
-									<h3>CCU For Emergency Services & Medical support</h3>
+									<h3>Country’s largest cancer hospital comes into operation in Birtamod</h3>
+									<br>			
+								</a>
+
+								<a href="blog-details.html" class="read-more">
+									Read More
+									<i class="bx bx-plus"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6">
+						<div class="single-blog">
+							<a href="blog-details.html">
+								<img src="assets/img/blog/blog1.jpg" alt="Image">
+							</a>
+							<span>01 Mar, 2018</span>
+							<div class="blog-content">
+								<ul>
+									<li>
+										<a href="#">By B&C</a>
+									</li>
+								</ul>
+
+								<a href="blog-details.html">
+									<h3>बीएण्डसी अस्पतालले क्यान्सरका अत्याधुनिक उपकरण भित्र्याउने</h3>	
+									<br>			
+								</a>
+
+								<a href="blog-details.html" class="read-more">
+									Read More
+									<i class="bx bx-plus"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6">
+						<div class="single-blog">
+							<a href="blog-details.html">
+								<img src="assets/img/blog/blog2.jpg" alt="Image">
+							</a>
+							<span>15 Feb, 2018</span>
+							<div class="blog-content">
+								<ul>
+									<li>
+										<a href="#">By B&C</a>
+									</li>
+								</ul>
+
+								<a href="blog-details.html" >
+									<h3>Durga Parsai (B&amp;C) || in Sida Kura || with Tika Ram Neti || Suryodaya Television</h3>
+								</a>
+
+								<a href="blog-details.html" class="read-more">
+									Read More
+									<i class="bx bx-plus"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6  offset-lg-0">
+						<div class="single-blog">
+							<a href="blog-details.html">
+								<img src="assets/img/blog/blog3.jpg" alt="Image">
+							</a>
+							<span>08 Feb, 2018</span>
+							<div class="blog-content">
+								<ul>
+									<li>
+										<a href="#">By B&C</a>
+									</li>
+								</ul>
+
+								<a href="blog-details.html">
+									<h3>विएन्डसी अस्पतालको अर्को कीर्तिमान, चुँडिएको खुट्टा जोडेर ठम ठम हिँड्ने बनायो</h3>
 								</a>
 
 								<a href="blog-details.html" class="read-more">
@@ -906,18 +913,9 @@
 		<!-- End Blog Area -->
 
 		<!-- Start How It Works Area -->
-		<section class="how-its-work ptb-100">
+		<!-- <section class="how-its-work ptb-100">
 			<div class="container">
-				<!-- <div class="section-title">
-					<span class="top-title">Events</span>
-					<h2>Major Events Here</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis vel consequatur tempora atque
-						blanditiis exercitationem incidunt, alias corporis quam assumenda dicta, temporibus.</p>
-				</div> -->
-
 				<span class="top-title pb-2">Major Events </span>
-
-				<!-- <h3 class="side-title">Major Events</h3> -->
 				<div class="row align-items-center">
 					<div class="col-lg-12">
 						<div class="how-its-work-content">
@@ -944,48 +942,10 @@
 									</div>
 								</div>
 							</div>
-
-							<!-- <div class="content-wrap">
-								<h3>Get Ready For Testing</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum</p>
-							</div>
-
-							<div class="content-wrap">
-								<h3>Admidmission to the Hospital</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum</p>
-							</div> -->
-
-							<!-- <a href="#" class="default-btn">
-								Know Details
-							</a> -->
 						</div>
-					</div>
-
-					<!-- <div class="col-lg-6">
-						<div class="how-work-img">
-							<img src="assets/img/home-three/works-img.png" alt="Image">
-						</div>
-					</div> -->
+					</div>	
 				</div>
 				<div class="row">
-					<!-- <div class="col-lg-4 col-md-4">
-						<div class="major__event text-center">
-							<img src="assets/img/ev1.png" alt="">
-							<h3 class="">Event One</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate temporibus obcaecati quidem
-								sunt! Animi ex, ab harum</p>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-4">
-						<div class="major__event text-center">
-							<img src="assets/img/ev2.png" alt="">
-							<h3>Event Two</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate temporibus obcaecati quidem
-								sunt! Animi ex, ab harum</p>
-						</div>
-					</div>
-
 					<div class="col-lg-4 col-md-4">
 						<div class="major__event text-center">
 							<img src="assets/img/ev3.png" alt="">
@@ -993,9 +953,8 @@
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate temporibus obcaecati quidem
 								sunt! Animi ex, ab harum</p>
 						</div>
-					</div> -->
+					</div> 
 
-					<!-- view more btn -->
 					<div class="view-more-btn mt-5">
 						<a href="#" class="default-btn">
 							View More
@@ -1003,7 +962,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<!-- End How It Works Area -->
 
 		<!-- Start Subscribe Area -->

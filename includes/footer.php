@@ -8,24 +8,20 @@
 								<img src="assets/img/bnc--logo.png" alt="Image">
 							</a>
 
-							<p>Lorem ipsum dolor, sit amet earum consectetur adipisicing elit. Cupiditate rerum quidem fugiat sapiente! Iusto quae perspiciatis, repudiandae ipsam minus et ex, aliquid dolor molestias, earum enim officiis porro obcaecati.</p>
+							<p>B & C Teaching Hospital, situated in the eastern part of Nepal is a multi-specialty 300 bedded hospital that offers preventive and curative health care services. It was established on 2071/11/18 BS with the slogan of commitment for education, health and employment.</p>
 
 							<div class="social-area">
 								<ul>
 									<li>
-										<a href="#"><i class="bx bxl-facebook"></i></a>
+										<a href="https://www.facebook.com/bncmedicalcollege" target="_blank" rel="noopener noreferrer"><i class="bx bxl-facebook"></i></a>
 									</li>
+									
 									<li>
-										<a href="#"><i class="bx bxl-twitter"></i></a>
+										<a href="https://www.linkedin.com/company/bnc-medical/" target="_blank" rel="noopener noreferrer"><i class="bx bxl-linkedin"></i></a>
 									</li>
+									
 									<li>
-										<a href="#"><i class="bx bxl-linkedin"></i></a>
-									</li>
-									<li>
-										<a href="#"><i class="bx bxl-youtube"></i></a>
-									</li>
-									<li>
-										<a href="#"><i class="bx bxl-instagram"></i></a>
+										<a href="https://www.instagram.com/bnchospital/" target="_blank" rel="noopener noreferrer"><i class="bx bxl-instagram"></i></a>
 									</li>
 								</ul>
 							</div>
@@ -82,19 +78,19 @@
 
 							<ul>
 								<li>
-									<span>Mon-Tue:</span>
+									<span>Mon - Tue</span>
 									<span class="right">6:00AM-10:00PM</span>
 								</li>
 								<li>
-									<span>Wed-Thu:</span>
+									<span>Wed - Thu</span>
 									<span class="right">6:00AM-10:00PM</span>
 								</li>
 								<li>
-									<span>Fri:</span>
+									<span>Fri</span>
 									<span class="right">6:00AM-04:00PM</span>
 								</li>
 								<li>
-									<span>Sun:</span>
+									<span>Sat - Sun</span>
 									<span class="right">Closed</span>
 								</li>
 							</ul>
@@ -126,7 +122,7 @@
 									<a href="#">
 										<i class="bx bx-location-plus"></i>
 									<span>Address:</span> 
-									Birtamode-5, state no. 1, Nepal
+									Birtamode-5, State No. 1, Nepal
 									</a>
 								</li>
 							</ul>

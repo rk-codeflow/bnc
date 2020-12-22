@@ -98,14 +98,71 @@
 		</section>
 		<!-- End About Area -->
 
-		<!-- Start About Area -->
-		<!-- <section class="about-area two ptb-100">
+		
+		<!-- mission/vision -->
+		<section class="more-about-us ptb-100">
+			<div class="container">
+				<div class="section-title">
+					<span class="top-title">Our Vision & Mission</span>
+					<h2>Vision Statement</h2>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="vision">
+							<i class="flaticon-care"></i>
+							<p>To be the hub for best treatment of major disease in all Asia using home grown healthcare professionals and world class medical equipment.</p>
+						</div>
+						<!-- new -->
+						<section class="second-facility-area mission pt-5">
+							<div class="section-title">
+								<span class="top-title">Our Vision & Mission</span>
+								<h2>Mission Statement</h2>
+							</div>
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-4 col-sm-6">
+										<div class="second-facility-item">
+											<img src="assets/img/ab1.png" alt="">
+											<h3>Quality Healthcare </h3>
+											<p>To ensure accessible and inexpensive quality healthcare by empathetic medical
+												professionals to all.</p>
+										</div>
+									</div>
+									<div class="col-lg-4 col-sm-6">
+										<div class="second-facility-item">
+											<img src="assets/img/ab2.png" alt="">
+											<h3>Best Doctors</h3>
+											<p class="btm-space">To be the hub for creating the best healthcare professionals.
+											</p>
+										</div>
+									</div>
+									<div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
+										<div class="second-facility-item">
+											<img src="assets/img/ab3.png" alt="">
+											<h3>Patient-centered Care</h3>
+											<p>To excel at providing for the healthcare needs of our region through quality,
+												efficient and patient-centered care.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<!-- new ends -->
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- mission/vision ends -->
+
+<!-- Start About Area -->
+		<section class="about-area two ptb-100">
 			<div class="container">
 				<div class="row align-items-center">
-					<div class="col-lg-6">
+					<div class="col-lg-7">
 						<div class="about-content ml-0">
-							<span class="top-title">About Corona</span>
-							<h2>How COV-19 Spreads</h2>
+							<span class="top-title">About Us</span>
+							<h2>Why B&C</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 								labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
 								maecenas accumsan lacus vel facilisis.</p>
@@ -113,176 +170,49 @@
 							<ul>
 								<li>
 									<i class="flaticon-tick"></i>
-									Clean and disinfect frequently touched surfaces
+									24*7 services
 								</li>
 								<li>
 									<i class="flaticon-tick"></i>
-									Avoid touching your eyes, nose, and mouth
+									Well Qualified & Skilled Doctors
 								</li>
 								<li>
 									<i class="flaticon-tick"></i>
-									Clean your hands with a hand sanitizer
+									Emergency Help
 								</li>
 								<li>
 									<i class="flaticon-tick"></i>
-									Cover coughs and sneezes
+									Seamless Delivery of Quality
 								</li>
 								<li>
 									<i class="flaticon-tick"></i>
-									Stay home if you’re sick
+									Clinical Pathways & Protocols
 								</li>
 								<li>
 									<i class="flaticon-tick"></i>
-									Wear a facemask if sick
+									Centralized Treatment Planning
 								</li>
-								<li>
-									<i class="flaticon-tick"></i>
-									Cover your mouth and nose
-								</li>
-
+								
 							</ul>
 						</div>
 					</div>
 
-					<div class="col-lg-6">
+					<div class="col-lg-5">
 						<div class="about-img two">
-							<img src="assets/img//about-two/1.png" alt="Image">
+							<img src="assets/img//about-two/why.png" alt="Image">
 
-							<div class="shape-1">
+							<!-- <div class="shape-1">
 								<img src="assets/img/about-two/2.png" alt="Image">
-							</div>
+							</div> -->
 						</div>
 					</div>
 				</div>
 			</div>
-		</section> -->
+		</section>
 		<!-- End About Area -->
 
-		<!-- mission/vision -->
-		<section class="more-about-us ptb-100">
-			<div class="container">
-				<div class="section-title">
-					<span class="top-title">Vision & Mission</span>
-					<h2>Our Vision</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis vel consequatur tempora atque
-						blanditiis exercitationem incidunt, alias corporis quam assumenda dicta, temporibus.</p>
-				</div>
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="vision">
-							<span class="top-title mb-0">Vision Statement</span>
-							<p>To be the hub for best treatment of major disease in all Asia using home grown healthcare
-								professionals and world class medical equipment. </p>
-						</div>
 
-
-						<!-- new mission -->
-						<div class="second-facility-area mission two pb-70">
-							<div class="mission-div mt-4">
-								<span class="top-title">Mission Statement</span>
-							</div>
-							<div class="row">
-								<div class="col-lg-4 col-sm-6">
-									<div class="second-facility-item">
-										<img src="assets/img/ab1.png" alt="">
-										<h3>Quality Healthcare </h3>
-										<p>To ensure accessible and inexpensive quality healthcare by empathetic medical
-											professionals to all.</p>
-									</div>
-								</div>
-								<div class="col-lg-4 col-sm-6">
-									<div class="second-facility-item">
-										<img src="assets/img/ab2.png" alt="">
-										<h3>Best Doctors</h3>
-										<p class="btm-space">To be the hub for creating the best healthcare professionals.</p>
-									</div>
-								</div>
-								<div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
-									<div class="second-facility-item">
-										<img src="assets/img/ab3.png" alt="">
-										<h3>Patient-centered Care</h3>
-										<p>To excel at providing for the healthcare needs of our region through quality,
-											efficient and patient-centered care.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- new mission ends -->
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- mission/vision ends -->
-
-		<!-- why bnc -->
-		<section class="why-bnc ptb-100">
-			<div class="container-fluid">
-				<div class="section-title">
-					<span class="top-title">Why B & C</span>
-					<h2>Reasons to believe us</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis vel consequatur tempora atque
-						blanditiis exercitationem incidunt, alias corporis quam assumenda dicta, temporibus.</p>
-				</div>
-
-				<!-- actual content -->
-				<section class="first-facility-area services-page-one">
-					<div class="container">
-						<div class="row pb-lg-3">
-							<div class="col-lg-4 col-sm-6">
-								<div class="first-facility-item">
-									<i class="flaticon-care"></i>
-									<h3 class="main-text">24*7 Services</h3>
-									<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p> -->
-								</div>
-							</div>
-							<div class="col-lg-4 col-sm-6">
-								<div class="first-facility-item">
-									<i class="flaticon-support"></i>
-									<h3 class="main-text">Well Qualified & Skilled Doctors</h3>
-									<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p> -->
-								</div>
-							</div>
-							<div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
-								<div class="first-facility-item">
-									<i class="flaticon-online-learning"></i>
-									<h3 class="main-text">Emergency Help</h3>
-									<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p> -->
-								</div>
-							</div>
-						</div>
-
-						<div class="row mt-lg-5">
-							<div class="col-lg-4 col-sm-6">
-								<div class="first-facility-item">
-									<i class="flaticon-care"></i>
-									<h3 class="main-text">Seamless Delivery of Quality</h3>
-									<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p> -->
-								</div>
-							</div>
-							<div class="col-lg-4 col-sm-6">
-								<div class="first-facility-item">
-									<i class="flaticon-support"></i>
-									<h3 class="main-text">Clinical Pathways & Protocols</h3>
-									<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p> -->
-								</div>
-							</div>
-							<div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
-								<div class="first-facility-item">
-									<i class="flaticon-online-learning"></i>
-									<h3 class="main-text">Centralized Treatment Planning</h3>
-									<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p> -->
-								</div>
-							</div>
-						</div>
-						<div class="shape">
-							<img src="assets/img/shape/1.png" alt="Image">
-						</div>
-					</div>
-				</section>
-				<!-- actual content ends -->
-			</div>
-		</section>
-		<!-- why bnc ends -->
+		
 
 		<!-- Start Our Doctors Area -->
 		<section class="doctors-area pt-100 pb-70">

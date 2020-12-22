@@ -89,6 +89,12 @@ $border-radius: 4px;
 	background-color: red;
 }
 
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
 body {
 	padding: 0;
 	margin: 0;
@@ -1117,7 +1123,7 @@ About Area Style
 					line-height: 30px;
 					border-radius: 50%;
 					text-align: center;
-					color: #1de9f5;
+					color: $main-color;
 					transition: $transition;
 				}
 
@@ -2000,6 +2006,7 @@ Blog Area Style
 		overflow: hidden;
 		z-index: 1;
 		background-color: $white-color;
+		min-height: 270px;
 
 		&::before {
 			content: "";
@@ -2532,7 +2539,7 @@ About Area Style
 ======================================================*/
 .about-area {
 	&.two {
-		background-image: url(../../assets/img/about-two/about-bg.png);
+		// background-image: url(../../assets/img/about-two/about-bg.png);
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -2567,6 +2574,18 @@ About Area Style
 
 		.about-content {
 			margin-top: 0;
+
+			ul {
+				display:flex;
+				flex-wrap: wrap;
+			}
+
+			li {
+				flex-basis: 50%;
+				// background-color: $white-color;
+				// padding: 20px;
+				// margin: 5px;
+			}
 
 			p {
 				margin-bottom: 8px;
@@ -5138,16 +5157,19 @@ Hero Slider Area Style
 		}
 
 		&.slider-item-bg-1 {
-			background: linear-gradient(to top, transparent, $black-color 125%);
+			// background: linear-gradient(to top, transparent, $black-color 125%);
 		}
 
 		&.slider-item-bg-2 {
 			background: linear-gradient(to top, transparent, $black-color 125%), url(../img/home-three/slider/s2.jpg);
-			// background: url('../img/home-three/slider/s2.jpg');
 		}
 
 		&.slider-item-bg-3 {
 			background: linear-gradient(to top, transparent, $black-color 125%), url(../img/home-three/slider/s3.jpg);
+		}
+
+		&.slider-item-bg-4 {
+			background: linear-gradient(to top, transparent, $black-color 125%), url(../img/home-three/slider/s4.jpg);
 		}
 
 		.slider-text {
@@ -7536,66 +7558,31 @@ Page-navigation Area Style*/
 **************/
 
 .more-about-us {
-	background: $light-green;
-
 	.vision {
-		position: relative;
-		padding-left: 50px;
-		margin-bottom: 30px;
+		background: #ACF7FB;
+		display:flex;
+		padding: 20px 60px;
+		align-items: center;
 
-		&::before {
-			content: "";
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 30px;
-			height: 30px;
-			background-color: $main-color;
-		}
-
-		&::after {
-			content: "";
-			position: absolute;
-			top: 5px;
-			left: 5px;
-			width: 30px;
-			height: 30px;
-			background-color: #a7ecf0;
-			z-index: -1;
-		}
-	}
-
-	.mission-div {
-		position: relative;
-		padding-left: 50px;
-		margin-bottom: 30px;
-
-		&::before {
-			content: "";
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 30px;
-			height: 30px;
-			background-color: $main-color;
-		}
-
-		&::after {
-			content: "";
-			position: absolute;
-			top: 5px;
-			left: 5px;
-			width: 30px;
-			height: 30px;
-			background-color: #a7ecf0;
-			z-index: -1;
-		}
+		i {
+			border: 1px dashed #2591C6;
+			background-color: #ffffff;
+			width: 70px;
+			height: 70px;
+			line-height: 70px;
+			font-size: 50px;
+			display: inline-block;
+			text-align: center;
+			border-radius: 50%;
+			color: #14a88f;
+			position: relative;
+			left: -28px;
+			/* top: 0; */
+		}	
 
 	}
-
 
 	.mission {
-
 		p.btm-space {
 			padding-bottom: 28px;
 		}
@@ -7628,6 +7615,9 @@ Page-navigation Area Style*/
 
 /*************
  Board member
+ and 
+ management team
+ css style
 **************/
 .bod-div {
 	.board-member {
@@ -7636,11 +7626,11 @@ Page-navigation Area Style*/
 
 		&:hover .board-member-overlay {
 			opacity: 1;
-			width: 300px;
+			width: 280px;
 		}
 
 		img {
-			max-width: 300px;
+			max-width: 280px;
 		}
 
 		.social-list {
@@ -7715,6 +7705,24 @@ Page-navigation Area Style*/
 		height: 100%;
 		width: 100%;
 		position: relative;
-		top: -30px;
+		top: -45px;
+	}
+}
+
+/*************
+	Chairman
+**************/
+.chairman-msg {
+	background: url(../img/bod/2.jpg) no-repeat center center / cover;
+	height: 700px;
+	// background-attachment: fixed;
+}
+
+.chairman-msg-box {
+	.msg-box {
+		p {
+			word-spacing: 2px;
+			line-height: 30px;
+		}
 	}
 }

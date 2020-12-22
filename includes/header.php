@@ -81,18 +81,18 @@
 						<div class="col-lg-4 col-md-3 col-sm-6">
 							<ul class="header-content-right">
 								<li>
-									<a href="#">
+									<a href="https://www.facebook.com/bncmedicalcollege" target="_blank" rel="noopener noreferrer">
 										<i class="bx bxl-facebook"></i>
 									</a>
 								</li>
 								<li>
-									<a href="#">
-										<i class="bx bxl-twitter"></i>
+									<a href="https://www.linkedin.com/company/bnc-medical/" target="_blank" rel="noopener noreferrer">
+										<i class="bx bxl-linkedin"></i>
 									</a>
 								</li>
 								
 								<li>
-									<a href="#">
+									<a href="https://www.instagram.com/bnchospital/" target="_blank" rel="noopener noreferrer">
 										<i class="bx bxl-instagram"></i>
 									</a>
 								</li>
@@ -160,7 +160,7 @@
 												</li>
 
 												<li class="nav-item">
-													<a href="doctors.html" class="nav-link">Management Team</a>
+													<a href="management.php" class="nav-link">Management Team</a>
 												</li>
 
 												<li class="nav-item">
@@ -168,7 +168,7 @@
 												</li>
 
 												<li class="nav-item">
-													<a href="faq.html" class="nav-link">Message from Chairman</a>
+													<a href="chairman-msg.php" class="nav-link">Message from Chairman</a>
 												</li>
 
 												<li class="nav-item">
