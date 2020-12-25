@@ -2668,7 +2668,8 @@ Doctors Two Area Style
 
 .single-doctors-two .doctor-img img {
   border-radius: 4px;
-  border: 5px solid #2591C6;
+  border: 1px solid #2591C6;
+  width: 100%;
 }
 
 .single-doctors-two .doctor-img::before {
@@ -2679,9 +2680,14 @@ Doctors Two Area Style
   width: 100%;
   height: 100%;
   background-color: #2591C6;
+  border-radius: 4px;
   opacity: 0.5;
   transform: scaleX(0);
   transition: all 0.5s;
+  -webkit-transform: scaleX(0);
+  -moz-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  -o-transform: scaleX(0);
 }
 
 .single-doctors-two .doctor-img .doctors-link {
@@ -2690,7 +2696,11 @@ Doctors Two Area Style
   right: 0;
   bottom: 5%;
   transition: all 0.5s;
-  transform: scaleX(0);
+  transform: scale(0);
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
 }
 
 .single-doctors-two .doctor-img .doctors-link li {
@@ -7154,6 +7164,14 @@ Page-navigation Area Style*/
  management team
  css style
 **************/
+.bod .designation {
+  color: #2591C6;
+}
+
+.bod .quote {
+  padding-top: 15px;
+}
+
 .bod-div .board-member {
   margin: 5px;
   position: relative;
@@ -7244,13 +7262,59 @@ Page-navigation Area Style*/
 /*************
 	Chairman
 **************/
-.chairman-msg {
-  background: url(../img/bod/2.jpg) no-repeat center center/cover;
-  height: 700px;
+.chairman-msg-box .designation {
+  color: #2591C6;
 }
 
 .chairman-msg-box .msg-box p {
   word-spacing: 2px;
   line-height: 30px;
+}
+
+/*************
+	Services
+**************/
+.services h3 {
+  color: #2591C6;
+  padding-top: 20px;
+}
+
+.services p, .services li {
+  word-spacing: 2px;
+  line-height: 30px;
+}
+
+.services .other-services {
+  padding-left: 40px;
+  margin-left: .5rem;
+  float: right;
+  box-shadow: inset 5px 0 5px -5px #2591C6;
+  color: #2591C6;
+}
+
+.services .other-services h3 {
+  padding-bottom: 10px;
+  padding-top: 0 !important;
+}
+
+.services .other-services i {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  background-color: #dafafc;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  color: #1de9f5;
+  transition: all .5s;
+}
+
+/*************
+	Services
+**************/
+.doctors-area-two .doctors-content .read-more {
+  margin-top: 10px;
 }
 /*# sourceMappingURL=style.css.map */

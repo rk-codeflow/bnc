@@ -405,44 +405,8 @@
 							</div>
 
 							<div class="doctors-content">
-								<h6>Dr. BISHWAMBER THAPA</h6>
+								<h6>Dr. Bishwamber Thapa</h6>
 								<span>Orthopedic</span>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-3 col-sm-6 offset-lg-0">
-						<div class="single-doctors-two">
-							<div class="doctor-img">
-								<img src="assets/img/doctors/03.jpg" alt="Image">
-
-								<ul class="doctors-link">
-									<li>
-										<a href="#">
-											<i class="bx bxl-facebook"></i>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<i class="bx bxl-twitter"></i>
-										</a>
-									</li>
-									<!-- <li>
-										<a href="#">
-											<i class="bx bxl-pinterest-alt"></i>
-										</a>
-									</li> -->
-									<li>
-										<a href="#">
-											<i class="bx bxl-instagram"></i>
-										</a>
-									</li>
-								</ul>
-							</div>
-
-							<div class="doctors-content">
-								<h6>Dr. NIRU NEPAL</h6>
-								<span>Anesthesiology</span>
 							</div>
 						</div>
 					</div>
@@ -473,8 +437,40 @@
 							</div>
 
 							<div class="doctors-content">
-								<h6>Dr. UJWAL RAI</h6>
+								<h6>Dr. Niru Nepal</h6>
 								<span>Pathology Department</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-sm-6 offset-lg-0">
+						<div class="single-doctors-two">
+							<div class="doctor-img">
+								<img src="assets/img/doctors/03.jpg" alt="Image">
+
+								<ul class="doctors-link">
+									<li>
+										<a href="#">
+											<i class="bx bxl-facebook"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="bx bxl-twitter"></i>
+										</a>
+									</li>
+									
+									<li>
+										<a href="#">
+											<i class="bx bxl-instagram"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+
+							<div class="doctors-content">
+								<h6>Dr. Ujwal Rai </h6>
+								<span>Anesthesiology</span>
 							</div>
 						</div>
 					</div>
@@ -945,51 +941,10 @@
 						</div>
 					</div>	
 				</div>
-				<div class="row">
-					<div class="col-lg-4 col-md-4">
-						<div class="major__event text-center">
-							<img src="assets/img/ev3.png" alt="">
-							<h3>Event Three</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate temporibus obcaecati quidem
-								sunt! Animi ex, ab harum</p>
-						</div>
-					</div> 
-
-					<div class="view-more-btn mt-5">
-						<a href="#" class="default-btn">
-							View More
-						</a>
-					</div>
-				</div>
 			</div>
 		</section> -->
 		<!-- End How It Works Area -->
 
-		<!-- Start Subscribe Area -->
-		<!-- <section class="subscribe-area">
-			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-lg-6">
-						<h2>Subscribe Now</h2>
-						<p>Get our latest news & update regularly</p>
-					</div>
-
-					<div class="col-lg-6">
-						<form class="newsletter-form" data-toggle="validator">
-							<input type="email" class="form-control" placeholder="Enter Your Email" name="EMAIL" required
-								autocomplete="off">
-
-							<button class="default-btn" type="submit">
-								Subscribe
-							</button>
-
-							<div id="validator-newsletter" class="form-result"></div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</section> -->
-		<!-- End Subscribe Area -->
-
+		
 		<!-- include footer -->
 		<?php include 'includes/footer.php';?>

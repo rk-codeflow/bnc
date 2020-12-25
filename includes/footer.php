@@ -122,7 +122,7 @@
 									<a href="#">
 										<i class="bx bx-location-plus"></i>
 									<span>Address:</span> 
-									Birtamode-5, State No. 1, Nepal
+									Birtamode-5, Jhapa, State No. 1, Nepal
 									</a>
 								</li>
 							</ul>
@@ -159,6 +159,8 @@
         <script src="assets/js/bootstrap.min.js"></script>
         <!-- Meanmenu JS -->
 		<script src="assets/js/jquery.meanmenu.js"></script>
+		<!-- lightbox -->
+		<script src="assets/js/lightbox.min.js"></script>
         <!-- Wow JS -->
         <script src="assets/js/wow.min.js"></script>
         <!-- Owl Carousel JS -->

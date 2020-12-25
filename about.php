@@ -215,7 +215,7 @@
 		
 
 		<!-- Start Our Doctors Area -->
-		<section class="doctors-area pt-100 pb-70">
+		<!-- <section class="doctors-area pt-100 pb-70">
 			<div class="container">
 				<div class="section-title">
 					<span class="top-title">Our Doctors</span>
@@ -346,7 +346,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<!-- End Our Doctors Area -->
 
 		<!-- Start Our Mission Area -->
@@ -470,80 +470,10 @@
 				</div>
 			</div>
 		</section> -->
-		<section class="counter-area two pt-100 pb-70">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-3 col-sm-6">
-						<div class="single-counter">
-							<i class="fas fa-procedures"></i>
-							<h2>
-								<span class="odometer" data-count="200">00</span>
-								<span class="target">+</span>
-							</h2>
-							<p>Number of Beds</p>
-						</div>
-					</div>
-
-					<div class="col-lg-3 col-sm-6">
-						<div class="single-counter">
-							<i class="fas fa-hospital-user"></i>
-							<h2>
-								<span class="odometer" data-count="100990">00</span>
-								<span class="target">+</span>
-							</h2>
-							<p>Happy Patients</p>
-						</div>
-					</div>
-
-					<div class="col-lg-3 col-sm-6">
-						<div class="single-counter">
-							<i class="fas fa-user-nurse"></i>
-							<h2>
-								<span class="odometer" data-count="50">00</span>
-								<span class="traget">+</span>
-							</h2>
-							<p>Doctrs and Nurses</p>
-						</div>
-					</div>
-					<div class="col-lg-3 col-sm-6">
-						<div class="single-counter">
-							<i class="fas fa-award"></i>
-							<h2>
-								<span class="odometer" data-count="10">00</span>
-								<span class="traget">+</span>
-							</h2>
-							<p>Years of Experience</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+		
 		<!-- End Counter Area -->
 
-		<!-- Start Subscribe Area -->
-		<!-- <section class="subscribe-area">
-			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-lg-6">
-						<h2>Subscribe Now</h2>
-						<p>Get our latest news & update regularly</p>
-					</div>
-
-					<div class="col-lg-6">
-						<form class="newsletter-form" data-toggle="validator">
-							<input type="email" class="form-control" placeholder="Enter Your Email" name="EMAIL" required
-								autocomplete="off">
-
-							<button class="default-btn" type="submit">
-								Subscribe
-							</button>
-
-							<div id="validator-newsletter" class="form-result"></div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</section> -->
+		
 		<!-- End Subscribe Area -->
 
 

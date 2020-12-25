@@ -23,27 +23,24 @@
 <!-- End Page Title Area -->
 
 <!-- message -->
-<section class="chairman-msg">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="chairman-img">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section class="chairman-msg-box ptb-100">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <div class="msg-text">
-                    <h3>Message from Chairman</h3>
+            <div class="col-lg-4">
+                <div class="chairman-img">
+                    <img src="assets/img/bod/chairman.jpg"   alt="">
+                    <div class="chairman-text text-center mt-3">
+                        <h5>Ms. Indira Giri</h5>
+                        <span class="designation">Chairperson</span>
+                    </div>
                 </div>
             </div>
 
-            <div class="col-lg-12">
+            <div class="col-lg-8">
+                <div class="msg-text">
+                    <h3 class="designation">Message from Chairperson</h3>
+                </div>
                 <div class="msg-box">
                     <p>We know that it’s better to burn a single candle than stay cursing to darkness. I had a dream of prosperous society where could access of good health and education for everyone in our own land, in our own nation. I was always thinking of about those vast numbers of Nepali people who travelled abroad for better health service and better education because they believe that healthcare and education of that quality are not possible in the hospital and academic sector of Nepal. Despite of loophole and lacking of good governance in present situation, we started to work for the drastic change in the sector of health and education in Nepal. As a result, with the motto of “Health, Education and Employment” we established this B & C Medical College, Teaching Hospital & Research Centre.</p>
 
@@ -53,7 +50,6 @@
 
                     <p>Wish you all the very best for good health.</p>
 
-                    <p>Ms. Indira Giri</p>
                 </div>
             </div>
         </div>

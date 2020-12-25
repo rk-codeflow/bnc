@@ -943,7 +943,7 @@
   }
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (idth: 576px) and (max-width: 767px) {
   .header-area .top-header-area .header-content-right {
     float: right;
   }
@@ -2108,6 +2108,15 @@
   }
   .mobile-nav nav .navbar-nav {
     height: 325px;
+  }
+}
+
+/************* 
+    about-area 
+**************/
+@media (max-width: 500px) {
+  .about-area .two .about-content ul li {
+    flex-basis: 100% !important;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

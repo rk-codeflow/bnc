@@ -11,6 +11,8 @@
 		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
 		<!-- Owl Carousel CSS --> 
 		<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<!-- lightbox -->
+		<link rel="stylesheet" href="assets/css/lightbox.css">
 		<!-- Owl Magnific CSS --> 
 		<link rel="stylesheet" href="assets/css/magnific-popup.css">
 		<!-- Animate CSS --> 
@@ -40,11 +42,11 @@
 
     <body>
 		<!-- Start Preloader Area -->
-		<!-- <div class="loader-wrapper">
+		<div class="loader-wrapper">
 			<div class="loader"></div>
 			<div class="loader-section section-left"></div>
 			<div class="loader-section section-right"></div>
-		</div> -->
+		</div>
 		<!-- End Preloader Area -->
 
 		<!-- Start Heder Area --> 
@@ -163,96 +165,30 @@
 													<a href="management.php" class="nav-link">Management Team</a>
 												</li>
 
-												<li class="nav-item">
-													<a href="mission.php" class="nav-link">Mission & Vision</a>
-												</li>
+										
 
 												<li class="nav-item">
 													<a href="chairman-msg.php" class="nav-link">Message from Chairman</a>
 												</li>
 
-												<li class="nav-item">
-													<a href="terms-conditions.html" class="nav-link">Why BNC</a>
-												</li>
+												
 											</ul>
 										</li>
 
-										<!-- <li class="nav-item">
-											<a href="#" class="nav-link dropdown-toggle">
-												Pages
-												<i class="bx bx-plus"></i>
-											</a>
-
-											<ul class="dropdown-menu">
-												<li class="nav-item">
-													<a href="pricing.html" class="nav-link">Pricing</a>
-												</li>
-
-												<li class="nav-item">
-													<a href="testimonials.html" class="nav-link">Testimonials</a>
-												</li>
-
-												<li class="nav-item">
-													<a href="doctors.html" class="nav-link">Doctors</a>
-												</li>
-
-												<li class="nav-item">
-													<a href="appointment.html" class="nav-link">Appointment</a>
-												</li>
-
-												<li class="nav-item">
-													<a href="faq.html" class="nav-link">FAQ</a>
-												</li>
-
-												<li class="nav-item">
-													<a href="terms-conditions.html" class="nav-link">Terms & Conditions</a>
-												</li>
-
-												<li class="nav-item">
-													<a href="privacy-policy.html" class="nav-link">Privacy Policy</a>
-												</li>
-
-												<li class="nav-item">
-													<a href="#" class="nav-link dropdown-toggle">
-														User
-														<i class="bx bx-plus"></i>
-													</a>
-
-													<ul class="dropdown-menu">
-														<li class="nav-item">
-															<a href="log-in.html" class="nav-link">Log In</a>
-														</li>
-														<li class="nav-item">
-															<a href="sign-in.html" class="nav-link">Sign In</a>
-														</li>
-														<li class="nav-item">
-															<a href="recover-password.html" class="nav-link">Recover Password</a>
-														</li>
-													</ul>
-												</li>
-
-												<li class="nav-item">
-													<a href="coming-soon.html" class="nav-link">Coming Soon</a>
-												</li>
-
-												<li class="nav-item">
-													<a href="404.html" class="nav-link">404 Error Page</a>
-												</li>
-											</ul>
-										</li> -->
+									
 
 										<li class="nav-item">
-											<a href="#" class="nav-link dropdown-toggle">
+											<a href="services-1.php" class="nav-link dropdown-toggle">
 												Services
 												<i class="bx bx-plus"></i>
 											</a>
 
 											<ul class="dropdown-menu">
 												<li class="nav-item">
-													<a href="services-style-one.html" class="nav-link">Dialysis</a>
+													<a href="services-1.php" class="nav-link">Emergency</a>
 												</li>
 												<li class="nav-item">
-													<a href="services-style-two.html" class="nav-link">Emergency</a>
+													<a href="services-1.php" class="nav-link">Dialysis</a>
 												</li>
 												<li class="nav-item">
 													<a href="services-style-three.html" class="nav-link">SDU</a>
@@ -274,14 +210,14 @@
 										</li>
 
 										<li class="nav-item">
-											<a href="departments.php" class="nav-link dropdown-toggle">
+											<a href="dept-1.php" class="nav-link dropdown-toggle">
 												Departments
 												<i class="bx bx-plus"></i>
 											</a>
 
 											<ul class="dropdown-menu">
 												<li class="nav-item">
-													<a href="services-style-one.html" class="nav-link">Anesthesiology</a>
+													<a href="dept-1.php" class="nav-link">Anesthesiology</a>
 												</li>
 												<li class="nav-item">
 													<a href="services-style-two.html" class="nav-link">Emergency Medicine</a>
@@ -339,34 +275,31 @@
 										</li>
 
 										<li class="nav-item">
-											<a href="bnc-portals.php" class="nav-link dropdown-toggle">
+											<a href="latest-news.php" class="nav-link dropdown-toggle">
 												BNC Portals
 											<i class="bx bx-plus"></i>
 											</a>
 
 											<ul class="dropdown-menu">
 												<li class="nav-item">
-													<a href="services-style-one.html" class="nav-link">Latest News</a>
+													<a href="latest-news.php" class="nav-link">Latest News & Articles</a>
+												</li>
+												
+												<li class="nav-item">
+													<a href="gallery.php" class="nav-link">Gallery</a>
 												</li>
 												<li class="nav-item">
-													<a href="services-style-two.html" class="nav-link">Articles</a>
-												</li>
-												<li class="nav-item">
-													<a href="services-style-three.html" class="nav-link">Gallery</a>
-												</li>
-												<li class="nav-item">
-													<a href="services-details.html" class="nav-link">Major Events</a>
+													<a href="event.php" class="nav-link">Major Events</a>
 												</li>
 											</ul>
 										</li>
 
 										<li class="nav-item">
-											<a href="#" class="nav-link dropdown-toggle">
+											<a href="doctors.php" class="nav-link dropdown-toggle">
 												Doctors Profile
-												<i class="bx bx-plus"></i>
 											</a>
 
-											<ul class="dropdown-menu">
+											<!-- <ul class="dropdown-menu">
 												<li class="nav-item">
 													<a href="doctors-style-one.html" class="nav-link">Doctors Style One</a>
 												</li>
@@ -379,7 +312,7 @@
 												<li class="nav-item">
 													<a href="doctors-details.html" class="nav-link">Doctors Details</a>
 												</li>
-											</ul>
+											</ul> -->
 										</li>
 
 										<li class="nav-item">
@@ -388,28 +321,7 @@
 											</a>
 										</li>
 
-										<!-- <li class="nav-item">
-											<a href="#" class="nav-link dropdown-toggle">
-												Blog
-												<i class="bx bx-plus"></i>
-											</a>
-
-											<ul class="dropdown-menu">
-												<li class="nav-item">
-													<a href="blog-grid.html" class="nav-link">Blog Grid</a>
-												</li>
-												<li class="nav-item">
-													<a href="blog-left-sidebar.html" class="nav-link">Blog Left Sidebar</a>
-												</li>
-												<li class="nav-item">
-													<a href="blog-right-sidebar.html" class="nav-link">Blog Right Sidebar</a>
-												</li>
-												<li class="nav-item">
-													<a href="blog-details.html" class="nav-link">Blog Details</a>
-												</li>
-											</ul>
-										</li> -->
-
+										
 										<li class="nav-item">
 											<a href="contact.php" class="nav-link">Contact</a>
 										</li>

@@ -41,32 +41,16 @@
 					<div class="col-lg-3 p-0">
 						<div class="single-contact-info">
 							<i class="bx bx-location-plus"></i>
-							<h3>New York</h3>
-							<p>88 Flower Avenue. Kingdom St. New York</p>
-							<span>Email: hello@cavort</span>	
-							<span>Tel: +822456974</span>	
+							<h3>Birtamode-5, Jhapa</h3>
+							<p>State No. 01, Nepal</p>
+							<span>Email: info@bnchospital.edu.np</span>	
+							<span>+977-23-542242, +977-23-545566</span>	
 						</div>
 					</div>
 
-					<div class="col-lg-3 p-0">
+					<div class="col-lg-9 p-0">
 						<div class="single-contact-map">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.1583091352!2d-74.11976373946234!3d40.69766374859258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1588019781257!5m2!1sen!2sbd" style="border:0;"></iframe>
-						</div>
-					</div>
-
-					<div class="col-lg-3 p-0">
-						<div class="single-contact-info">
-							<i class="bx bx-location-plus"></i>
-							<h3>Australia</h3>
-							<p>123, Western Road, Melbourne Australia</p>
-							<span>Email: hello@cavort</span>	
-							<span>Tel: +822456975</span>	
-						</div>
-					</div>
-
-					<div class="col-lg-3 p-0">
-						<div class="single-contact-map">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29624007.58460168!2d115.2297986315677!3d-24.992915938390162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2b2bfd076787c5df%3A0x538267a1955b1352!2sAustralia!5e0!3m2!1sen!2sbd!4v1588020297752!5m2!1sen!2sbd" style="border:0;"></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3566.097810911671!2d87.99557661435962!3d26.64535057796462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e5ba63d06d84d1%3A0x124025f6af4c2b28!2sB%20%26%20C%20Medical%20College%20Teaching%20Hospital%20%26%20Research%20Centre%20Pvt.%20Ltd.!5e0!3m2!1sen!2snp!4v1608908377179!5m2!1sen!2snp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 						</div>
 					</div>
 				</div>
@@ -75,7 +59,7 @@
 		<!-- End Contact Info Area -->
 
 		<!-- Start Contact Area -->
-		<section class="main-contact-area contact ptb-100">
+		<section class="main-contact-area contact pt-100 pb-70">
 			<div class="container">
 				<div class="section-title">
 					<span class="top-title">Contact Us</span>
@@ -132,7 +116,7 @@
 										<div class="col-lg-6 col-sm-6">
 											<div class="contact-num">
 												<h3>For Emergency</h3>
-												<span><a href="tel:+442-456a-789">+442-456a-789</a></span>
+												<span><a href="tel:+442-456a-789">+977-23-542242</a></span>
 											</div>
 										</div>
 
@@ -154,7 +138,7 @@
 		<!-- End Contact Area -->
 
 		<!-- Start Subscribe Area -->
-		<section class="subscribe-area">
+		<!-- <section class="subscribe-area">
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-lg-6">
@@ -175,7 +159,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<!-- End Subscribe Area -->
 
 		<!-- include footer -->

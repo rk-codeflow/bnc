@@ -2576,7 +2576,7 @@ About Area Style
 			margin-top: 0;
 
 			ul {
-				display:flex;
+				display: flex;
 				flex-wrap: wrap;
 			}
 
@@ -2863,7 +2863,8 @@ Doctors Two Area Style
 
 		img {
 			border-radius: $border-radius;
-			border: 5px solid $main-color;
+			border: 1px solid $main-color;
+			width: 100%;
 		}
 
 		&::before {
@@ -2874,10 +2875,15 @@ Doctors Two Area Style
 			width: 100%;
 			height: 100%;
 			background-color: $main-color;
+			border-radius: 4px;
 			opacity: 0.5;
 			transform: scaleX(0);
 			transition: $transition;
-		}
+			-webkit-transform: scaleX(0);
+			-moz-transform: scaleX(0);
+			-ms-transform: scaleX(0);
+			-o-transform: scaleX(0);
+}
 
 		.doctors-link {
 			position: absolute;
@@ -2885,7 +2891,12 @@ Doctors Two Area Style
 			right: 0;
 			bottom: 5%;
 			transition: $transition;
-			transform: scaleX(0);
+			//transform: scaleX(0);
+			transform: scale(0);
+			-webkit-transform: scale(0);
+			-moz-transform: scale(0);
+			-ms-transform: scale(0);
+			-o-transform: scale(0);
 
 			li {
 				display: inline-block;
@@ -2901,7 +2912,7 @@ Doctors Two Area Style
 					margin: 0 5px;
 				}
 			}
-		}
+}
 	}
 
 	.doctors-content {
@@ -6749,6 +6760,8 @@ Doctors Area Seven Style
 				z-index: 1;
 				position: relative;
 
+				
+
 				span {
 					margin-bottom: 18px;
 					display: block;
@@ -7560,7 +7573,7 @@ Page-navigation Area Style*/
 .more-about-us {
 	.vision {
 		background: #ACF7FB;
-		display:flex;
+		display: flex;
 		padding: 20px 60px;
 		align-items: center;
 
@@ -7578,7 +7591,7 @@ Page-navigation Area Style*/
 			position: relative;
 			left: -28px;
 			/* top: 0; */
-		}	
+		}
 
 	}
 
@@ -7619,6 +7632,17 @@ Page-navigation Area Style*/
  management team
  css style
 **************/
+.bod {
+	
+
+	.designation {
+		color: $main-color;
+	}
+
+	.quote {
+		padding-top: 15px;
+	}
+}
 .bod-div {
 	.board-member {
 		margin: 5px;
@@ -7713,16 +7737,77 @@ Page-navigation Area Style*/
 	Chairman
 **************/
 .chairman-msg {
-	background: url(../img/bod/2.jpg) no-repeat center center / cover;
-	height: 700px;
+	// background: url(../img/bod/2.jpg) no-repeat center center / cover;
+	// height: 700px;
 	// background-attachment: fixed;
 }
 
 .chairman-msg-box {
+	.designation {
+		color: $main-color;
+	}
+
 	.msg-box {
 		p {
 			word-spacing: 2px;
 			line-height: 30px;
+		}
+	}
+}
+
+/*************
+	Services
+**************/
+.services {
+	h3 {
+		color: $main-color;
+		padding-top: 20px;
+		// padding-bottom: 5px;
+	}
+
+	p, li {
+		word-spacing: 2px;
+    	line-height: 30px;
+	}
+
+	.other-services {
+	    padding-left: 40px;
+	    margin-left: .5rem;
+	    float: right;
+	    box-shadow: inset 5px 0 5px -5px $main-color;
+	    color: $main-color;
+
+		h3 {
+			padding-bottom: 10px;
+			padding-top: 0 !important;
+		}
+		i {
+			
+		    position: absolute;
+		    top: -2px;
+		    left: 0;
+		    background-color: #dafafc;
+		    width: 30px;
+		    height: 30px;
+		    line-height: 30px;
+		    border-radius: 50%;
+		    text-align: center;
+		    color: #1de9f5;
+		    -webkit-transition: all .5s;
+		    transition: all .5s;
+		}
+	}
+}
+
+
+/*************
+	Services
+**************/
+
+.doctors-area-two {
+	.doctors-content {
+		.read-more {
+			margin-top: 10px;
 		}
 	}
 }

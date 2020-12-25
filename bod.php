@@ -23,147 +23,202 @@
 </div>
 <!-- End Page Title Area -->
 
-<section class="bod-div  pt-100 pb-70">
-    <div class="container">
-        <div class="row">
-            <!-- one -->
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="board-member">
-                    <img src="assets/img/bod/1.jpg" class="img-fluid img-thumbnail" alt="board member">
-                    <div class="board-member-overlay">
-                        <div class="board-member-info text-center">
-                            <h6>Ms. Indira Giri</h6>
-                            <p>Chairman</p>
 
-                            <ul class="social-list">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            </ul>
 
-                            <a href="#"><i class="fa fa-arrow-right link" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
+<!-- updated bod -->
 
-                <div class="team-abt text-center">
-                    <span>
-                        We know that it’s better to burn a single candle than stay cursing to darkness. 
-                    </span>
-                </div>
-            </div>
+<section class="bod doctors-area-two pt-100 pb-70">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-sm-6">
+						<div class="single-doctors-two">
+							<div class="doctor-img">
+								<img src="assets/img/bod/chairman.jpg" alt="Image">
 
-            <!-- two -->
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="board-member">
-                    <img src="assets/img/bod/1.jpg" class="img-fluid img-thumbnail" alt="board member">
-                    <div class="board-member-overlay">
-                        <div class="board-member-info text-center">
-                            <h6>Ms. Indira Giri</h6>
-                            <p>Chairman</p>
+								<ul class="doctors-link">
+									<li>
+										<a href="#">
+											<i class="bx bxl-facebook"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="bx bxl-twitter"></i>
+										</a>
+									</li>
+								
+									<li>
+										<a href="#">
+											<i class="bx bxl-instagram"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
 
-                            <ul class="social-list">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            </ul>
+							<div class="doctors-content">
+								<h6>Ms. Indira Giri</h6>
+								<span>Chairperson</span>
+                                 <p class="quote">We know that it’s better to burn a single candle than stay cursing to darkness.</p>
+                    <a href="chairman-msg.php" class="read-more">
+								Read More
+								<i class="bx bx-plus"></i>
+							</a>
+							</div>
+						</div>
+					</div>
 
-                            <a href="#"><i class="fa fa-arrow-right link" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="single-doctors-two">
+							<div class="doctor-img">
+								<img src="assets/img/bod/ed.jpg" alt="Image">
 
-                <div class="team-abt text-center">
-                    <span>
-                        We know that it’s better to burn a single candle than stay cursing to darkness. 
-                    </span>
-                </div>
-            </div>
+								<ul class="doctors-link">
+									<li>
+										<a href="#">
+											<i class="bx bxl-facebook"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="bx bxl-twitter"></i>
+										</a>
+									</li>
 
-            <!-- three -->
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="board-member">
-                    <img src="assets/img/bod/1.jpg" class="img-fluid img-thumbnail" alt="board member">
-                    <div class="board-member-overlay">
-                        <div class="board-member-info text-center">
-                            <h6>Ms. Indira Giri</h6>
-                            <p>Chairman</p>
+									<li>
+										<a href="#">
+											<i class="bx bxl-instagram"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
 
-                            <ul class="social-list">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            </ul>
+							<div class="doctors-content">
+								<h6>Mr. Durga Prasad Prasai</h6>
+								<span>Executive Director</span>
+                                 <p class="quote">B & C Teaching Hospital provides Multi disciplinary Healthcare</p>
+                    <a href="chairman-msg.php" class="read-more">
+								Read More
+								<i class="bx bx-plus"></i>
+							</a>
+							</div>
+						</div>
+					</div>
 
-                            <a href="#"><i class="fa fa-arrow-right link" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
+					<div class="col-lg-3 col-sm-6 offset-lg-0">
+						<div class="single-doctors-two">
+							<div class="doctor-img">
+								<img src="assets/img/bod/md.jpg" alt="Image">
 
-                <div class="team-abt text-center">
-                    <span>
-                        We know that it’s better to burn a single candle than stay cursing to darkness. 
-                    </span>
-                </div>
-            </div>
+								<ul class="doctors-link">
+									<li>
+										<a href="#">
+											<i class="bx bxl-facebook"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="bx bxl-twitter"></i>
+										</a>
+									</li>
+									
+									<li>
+										<a href="#">
+											<i class="bx bxl-instagram"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
 
-            <!-- four -->
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="board-member">
-                    <img src="assets/img/bod/1.jpg" class="img-fluid img-thumbnail" alt="board member">
-                    <div class="board-member-overlay">
-                        <div class="board-member-info text-center">
-                            <h6>Ms. Indira Giri</h6>
-                            <p>Chairman</p>
+							<div class="doctors-content">
+								<h6>Dr. Ram Babu Giri</h6>
+								<span>Managing Director</span>
+                                 <p class="quote">B & C Medical College, Teaching Hospital & Research Center P. Ltd.</p>
+                    <a href="chairman-msg.php" class="read-more">
+								Read More
+								<i class="bx bx-plus"></i>
+							</a>
+							</div>
+						</div>
+					</div>
 
-                            <ul class="social-list">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            </ul>
+					<div class="col-lg-3 col-sm-6 offset-lg-0">
+						<div class="single-doctors-two">
+							<div class="doctor-img">
+								<img src="assets/img/bod/dir.png" alt="Image">
 
-                            <a href="#"><i class="fa fa-arrow-right link" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
+								<ul class="doctors-link">
+									<li>
+										<a href="#">
+											<i class="bx bxl-facebook"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="bx bxl-twitter"></i>
+										</a>
+									</li>
 
-                <div class="team-abt text-center">
-                    <span>
-                        We know that it’s better to burn a single candle than stay cursing to darkness. 
-                    </span>
-                </div>
-            </div>
+									<li>
+										<a href="#">
+											<i class="bx bxl-instagram"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
 
-            <!-- five -->
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="board-member">
-                    <img src="assets/img/bod/1.jpg" class="img-fluid img-thumbnail" alt="board member">
-                    <div class="board-member-overlay">
-                        <div class="board-member-info text-center">
-                            <h6>Ms. Indira Giri</h6>
-                            <p>Chairman</p>
+							<div class="doctors-content">
+								<h6>Dr. Nirajan Prasai</h6>
+								<span>Director</span>
+                                 <p class="quote">Health and Education are the main basis for the entire development</p>
+                    <a href="chairman-msg.php" class="read-more">
+								Read More
+								<i class="bx bx-plus"></i>
+							</a>
+							</div>
+						</div>
+					</div>
 
-                            <ul class="social-list">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            </ul>
+					<div class="col-lg-3 col-sm-6 offset-lg-0">
+						<div class="single-doctors-two">
+							<div class="doctor-img">
+								<img src="assets/img/bod/hd.jpg" alt="Image">
 
-                            <a href="#"><i class="fa fa-arrow-right link" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
+								<ul class="doctors-link">
+									<li>
+										<a href="#">
+											<i class="bx bxl-facebook"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="bx bxl-twitter"></i>
+										</a>
+									</li>
+									
+									<li>
+										<a href="#">
+											<i class="bx bxl-instagram"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
 
-                <div class="team-abt text-center">
-                    <span>
-                        We know that it’s better to burn a single candle than stay cursing to darkness. 
-                    </span>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
+							<div class="doctors-content">
+								<h6>Dr. Nirajan Parajuli</h6>
+								<span>Hospital Director</span>
+                                 <p class="quote">We know that it’s better to burn a single candle than stay cursing to darkness</p>
+                    <a href="chairman-msg.php" class="read-more">
+								Read More
+								<i class="bx bx-plus"></i>
+							</a>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+<!-- updated bod ends -->
 
 <!-- include header -->
 <?php include 'includes/footer.php';?>
